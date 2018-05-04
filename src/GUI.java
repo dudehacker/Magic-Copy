@@ -35,7 +35,7 @@ public class GUI extends JFrame {
 	private String defaultPath = "C:/Program Files (x86)/osu!/Songs";
 	private String startPath = System.getProperty("user.dir");
 	private final String propertyName = "Magic Copy config.properties";
-	private final String version = "v20170924";
+	private final String version = "v2018-05-03";
 	// Variables
 	private File inputFile;
 	private File outputFile;

@@ -17,6 +17,13 @@ public class HitObject {
 	private int sampleSet=0; // 0 = auto 1 = normal 2 = soft 3 = drum
 	private int timingPointSampleSet = 2;
 	private int timingPointVolume = 70;
+	
+	// Constants
+	public final static int HITNORMAL = 0;
+	public final static int HITWHISTLE = 2;
+	public final static int HITFINISH = 4;
+	public final static int HITCLAP = 8;
+	
 	//64,192,708,  1,    2,      3        :2       :0    :0: 
 	//x, y  ,t,  type,whistle,   sampleset:addition:setID:volume: 
 	//                drum-softwhistle.wav          auto :auto:

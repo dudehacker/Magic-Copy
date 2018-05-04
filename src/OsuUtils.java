@@ -712,42 +712,47 @@ public class OsuUtils {
 						}
 						volume = getVolumeFromFullHitSoundString(part5);
 						wav = getWavNameFromFullHitSoundString(part5);
-						ho  = new HitObject(x, t,WFC, volume, wav);
-						int sampleSet = Integer.parseInt(part5.substring(0, 1));
-						ho.setSampleSet(sampleSet);
-						int addition = Integer.parseInt(part5.substring(2,3));
-						ho.setAddition(addition);
-						switch(WFC) {
-						case 6:
-							HitObject ho2 = ho.clone();
-							ho.setWhislteFinishClap(2);
-							ho2.setWhislteFinishClap(4);
-							output.add(ho2);
-							break;
-						case 10:
-							HitObject ho3 = ho.clone();
-							ho.setWhislteFinishClap(2);
-							ho3.setWhislteFinishClap(8);
-							output.add(ho3);
-							break;
-						case 12:
-							HitObject ho4 = ho.clone();
-							ho.setWhislteFinishClap(4);
-							ho4.setWhislteFinishClap(8);
-							output.add(ho4);
-							break;
-						case 14:
-							HitObject ho5 = ho.clone();
-							HitObject ho6 = ho.clone();
-							ho.setWhislteFinishClap(2);
-							ho5.setWhislteFinishClap(4);
-							output.add(ho5);
-							ho6.setWhislteFinishClap(8);
-							output.add(ho6);
-							break;
+						// ignore filler hitsounds
+						if (!wav.equals("") || WFC != HitObject.HITNORMAL) {
+							ho  = new HitObject(x, t,WFC, volume, wav);
+							int sampleSet = Integer.parseInt(part5.substring(0, 1));
+							ho.setSampleSet(sampleSet);
+							int addition = Integer.parseInt(part5.substring(2,3));
+							ho.setAddition(addition);
+							switch(WFC) {
+							case 6:
+								HitObject ho2 = ho.clone();
+								ho.setWhislteFinishClap(2);
+								ho2.setWhislteFinishClap(4);
+								output.add(ho2);
+								break;
+							case 10:
+								HitObject ho3 = ho.clone();
+								ho.setWhislteFinishClap(2);
+								ho3.setWhislteFinishClap(8);
+								output.add(ho3);
+								break;
+							case 12:
+								HitObject ho4 = ho.clone();
+								ho.setWhislteFinishClap(4);
+								ho4.setWhislteFinishClap(8);
+								output.add(ho4);
+								break;
+							case 14:
+								HitObject ho5 = ho.clone();
+								HitObject ho6 = ho.clone();
+								ho.setWhislteFinishClap(2);
+								ho5.setWhislteFinishClap(4);
+								output.add(ho5);
+								ho6.setWhislteFinishClap(8);
+								output.add(ho6);
+								break;
+							}
+							
+							output.add(ho);
 						}
 						
-						output.add(ho);
+
 					} 
 					break;
 					
