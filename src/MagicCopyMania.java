@@ -48,6 +48,7 @@ public class MagicCopyMania implements Runnable{
 	private String copyHS(){
 		Collections.sort(List_Samples,Sample.StartTimeComparator);
 		String output = "";
+		ArrayList<HitObject> outputHOs = new ArrayList<HitObject>();
 		ArrayList<Long> list_time = OsuUtils.getDistinctStartTime(List_SourceHS,List_TargetHS);
 		for (Long t : list_time){
 			
@@ -61,7 +62,7 @@ public class MagicCopyMania implements Runnable{
 					HitObject source_ho = sourceChord.get(i);
 					HitObject target_ho = targetChord.get(i);
 					target_ho.copyHS(source_ho);
-					output += target_ho.toString() + nl;
+					outputHOs.add(target_ho);
 				}
 			} else if (sourceSize> targetSize){
 				// CASE 2
@@ -86,7 +87,7 @@ public class MagicCopyMania implements Runnable{
 							HitObject source_ho = sourceChord.get(i);
 							HitObject target_ho = targetChord.get(i);
 							target_ho.copyHS(source_ho);
-							output += target_ho.toString() + nl;
+							outputHOs.add(target_ho);
 						}
 						for (int j = targetSize; j < sourceSize; j++){
 							HitObject source_ho = sourceChord.get(j);
@@ -98,14 +99,14 @@ public class MagicCopyMania implements Runnable{
 					
 						
 					case 2: // Combine both default hitsounds into 1 HitObject
-						output = combineDefaultHS(sourceChord, targetChord, output,2);
+						outputHOs.addAll(combineDefaultHS(sourceChord,targetChord,2));
 						break;
 						
 					case 3:
 						if (targetSize > 2){
-							output = combineDefaultHS(sourceChord, targetChord, output,2);
+							outputHOs.addAll(combineDefaultHS(sourceChord,targetChord,2));
 						} else {
-							output = combineDefaultHS(sourceChord, targetChord, output,3);
+							outputHOs.addAll(combineDefaultHS(sourceChord,targetChord,3));
 						}
 						break;
 					}
@@ -117,13 +118,17 @@ public class MagicCopyMania implements Runnable{
 					HitObject source_ho = sourceChord.get(i);
 					HitObject target_ho = targetChord.get(i);
 					target_ho.copyHS(source_ho);
-					output += target_ho.toString() + nl;
+					outputHOs.add(target_ho);
 				}
 				for (int j = sourceSize; j<targetSize;j++){
 					HitObject target_ho = targetChord.get(j);
-					output += target_ho.toString() + nl;
+					outputHOs.add(target_ho);
 				}
 			}
+		}
+		Collections.sort(outputHOs, HitObject.StartTimeComparator);
+		for (HitObject ho : outputHOs) {
+			output += ho.toString() + nl;
 		}
 		return output;
 	}
@@ -134,7 +139,9 @@ public class MagicCopyMania implements Runnable{
 	}
 	
 	
-	private String combineDefaultHS(ArrayList<HitObject> sourceChord, ArrayList<HitObject> targetChord, String output, int n){
+	private ArrayList<HitObject> combineDefaultHS(ArrayList<HitObject> sourceChord, ArrayList<HitObject> targetChord, int n){
+		
+		ArrayList<HitObject> output = new ArrayList<>();
 		int sourceSize = sourceChord.size();
 		int targetSize = targetChord.size();
 		HitObject source_ho1 = sourceChord.get(0);
@@ -150,7 +157,7 @@ public class MagicCopyMania implements Runnable{
 		}
 		HitObject target_ho1 = targetChord.get(0);
 		target_ho1 = OsuUtils.copyHS(newHO, target_ho1);
-		output += target_ho1.toString() + nl;
+		output.add( target_ho1);
 		for (int x = 0; x < n ; x++){
 			sourceChord.remove(0);
 		}
@@ -162,7 +169,7 @@ public class MagicCopyMania implements Runnable{
 				HitObject source_ho = sourceChord.get(i);
 				HitObject target_ho = targetChord.get(i);
 				target_ho.copyHS(source_ho);
-				output += target_ho.toString() + nl;
+				output.add(target_ho);
 			}
 			for (int j = targetChord.size(); j < sourceChord.size(); j++){
 				HitObject source_ho = sourceChord.get(j);
@@ -179,6 +186,7 @@ public class MagicCopyMania implements Runnable{
 		}
 		return output;
 	}
+
 	
 	@SuppressWarnings("unchecked")
 	private void exportBeatmap() throws Exception{

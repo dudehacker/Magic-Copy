@@ -24,6 +24,8 @@ public class HitObject {
 	public final static int HITFINISH = 4;
 	public final static int HITCLAP = 8;
 	
+	public final static int AdditionDefault = 0;
+	
 	//64,192,708,  1,    2,      3        :2       :0    :0: 
 	//x, y  ,t,  type,whistle,   sampleset:addition:setID:volume: 
 	//                drum-softwhistle.wav          auto :auto:

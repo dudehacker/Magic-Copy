@@ -562,7 +562,7 @@ public class OsuUtils {
 	public static int getDefaultHSChordSizeForTime(ArrayList<HitObject> hitObjects, long startTime){
 		int size = 0;
 		for (HitObject ho : hitObjects){
-			if (ho.getStartTime()==startTime && ho.getWhistleFinishClap()!= 0 && !ho.isWAV_HS()){
+			if (ho.getStartTime()==startTime && ho.getWhistleFinishClap()!= 0 && !ho.isWAV_HS() && ho.getAddition() != HitObject.AdditionDefault){
 				size++;
 			}
 		}
