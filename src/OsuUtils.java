@@ -715,6 +715,8 @@ public class OsuUtils {
 						ho  = new HitObject(x, t,WFC, volume, wav);
 						int sampleSet = Integer.parseInt(part5.substring(0, 1));
 						ho.setSampleSet(sampleSet);
+						int addition = Integer.parseInt(part5.substring(2,3));
+						ho.setAddition(addition);
 						switch(WFC) {
 						case 6:
 							HitObject ho2 = ho.clone();
