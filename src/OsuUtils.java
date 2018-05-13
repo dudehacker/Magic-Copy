@@ -562,7 +562,7 @@ public class OsuUtils {
 	public static int getDefaultHSChordSizeForTime(ArrayList<HitObject> hitObjects, long startTime){
 		int size = 0;
 		for (HitObject ho : hitObjects){
-			if (ho.getStartTime()==startTime && ho.getWhistleFinishClap()!= 0 && !ho.isWAV_HS() && ho.getAddition() != HitObject.AdditionDefault){
+			if (ho.getStartTime()==startTime && ho.getWhistleFinishClap()!= 0 && !ho.isWAV_HS()){
 				size++;
 			}
 		}
@@ -599,19 +599,7 @@ public class OsuUtils {
 		
 	}
 	
-	
-	
-	public static HitObject copyHS(HitObject input, HitObject output){
-		HitObject ho = output.clone();
-		ho.setHitSound(input.getHitSound());
-		ho.setVolume(input.getVolume());
-		ho.setWhislteFinishClap(input.getWhistleFinishClap());
-		ho.setSetID(input.getSetID());
-		ho.setSampleSet(input.getSampleSet());
-		ho.setAddition(input.getAddition());
-		ho.setTPSampleSet(input.getTPSampleSet());
-		return ho;
-	}
+
 	
 	// only for default HS
 	private static HitObject setTimingForHitObject(Timing tp, HitObject input){

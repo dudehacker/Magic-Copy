@@ -161,6 +161,7 @@ public class HitObject {
 		ho.setAddition(addition);
 		ho.setSampleSet(sampleSet);
 		ho.setTPSampleSet(timingPointSampleSet);
+		ho.setTimingPointVolume(timingPointVolume);
 		return ho;
 	}
 	
@@ -181,7 +182,11 @@ public class HitObject {
 	}
 	
 	public Sample toSample(){
+		Sample s;
 			if (!hitSound.contains(".wav")){
+				
+
+				
 				switch(timingPointSampleSet){
 				
 				case 1:
@@ -194,35 +199,37 @@ public class HitObject {
 					
 				case 3:
 					hitSound = "drum-";
-					
 					break;
 				}
 				
+				if (whistle_finish_clap != HITNORMAL)
 				switch(addition){
-				case 0:
 				case 1:
-					hitSound+="hit";
+					hitSound = "normal-";
 					break;
+					
 				case 2:
-					hitSound+="soft";
+					hitSound = "soft-";
 					break;
+					
 				case 3:
-					hitSound+="drum";
+					hitSound = "drum-";
 					break;
 				}
+		
 				
 				switch(whistle_finish_clap){
-				case 0:
-					hitSound+="normal";
+				case HITNORMAL:
+					hitSound+="hitnormal";
 					break;
-				case 2:
-					hitSound+="whistle";
+				case HITWHISTLE:
+					hitSound+="hitwhistle";
 					break;
-				case 4:
-					hitSound+="finish";
+				case HITFINISH:
+					hitSound+="hitfinish";
 					break;
-				case 8:
-					hitSound+="clap";
+				case HITCLAP:
+					hitSound+="hitclap";
 				}
 				
 				String id = "";
@@ -230,9 +237,19 @@ public class HitObject {
 					id+=setID;
 				}
 				hitSound+=id+".wav";
+				s = new Sample(startTime,hitSound,timingPointVolume);
+				System.out.println(timingPointVolume);
+			} else {
+				s = new Sample(startTime,hitSound,volume);
 			}
-			Sample s = new Sample(startTime,hitSound,volume);
+			
 			s.addQuotesToHS();
+			if (!s.toString().contains(".wav")){
+				System.err.println("Failed to convert HitObject to Sample");
+				System.err.println(toString());
+				System.err.println(s.toString());
+				System.exit(-1);
+			}
 			return s;
 	}
 	
@@ -257,6 +274,16 @@ public class HitObject {
 			long t2 = ho2.startTime;
 			/* For ascending order */
 			return (int) (t1 - t2);
+		}
+	};
+
+	public static Comparator<HitObject> AdditionComparator = new Comparator<HitObject>() {
+		@Override
+		public int compare(HitObject ho1, HitObject ho2) {
+			long a1 = ho1.addition;
+			long a2 = ho2.addition;
+			/* For ascending order */
+			return (int) (a1 - a2);
 		}
 	};
 
@@ -327,6 +354,8 @@ public class HitObject {
 		setAddition(input.getAddition());
 		setTPSampleSet(input.getTPSampleSet());
 	}
+	
+	
 
 	public static Comparator<HitObject> ColumnComparator = new Comparator<HitObject>() {
 		@Override
