@@ -1,3 +1,4 @@
+package osu;
 import java.util.Comparator;
 
 public class Sample {

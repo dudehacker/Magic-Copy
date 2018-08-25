@@ -1,3 +1,4 @@
+package util;
 
 import java.awt.Dimension;
 import java.io.BufferedReader;
@@ -18,9 +19,13 @@ import java.util.regex.Pattern;
 import javax.swing.Action;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
-import javax.swing.JTable;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
+
+import osu.HitObject;
+import osu.Sample;
+import osu.Timing;
+
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
 import javax.imageio.stream.FileImageInputStream;
@@ -317,10 +322,6 @@ public class OsuUtils {
         // Open details
         Action details = jFileChooser1.getActionMap().get("viewTypeDetails");
         details.actionPerformed(null);
-        // Sort by date modified
-        JTable table = SwingUtils.getDescendantsOfType(JTable.class, jFileChooser1).get(0);
-        table.getRowSorter().toggleSortOrder(3);
-        table.getRowSorter().toggleSortOrder(3);
         int returnVal = jFileChooser1.showOpenDialog(null);
         if (returnVal == JFileChooser.APPROVE_OPTION){
      	   f = jFileChooser1.getSelectedFile();

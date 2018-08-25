@@ -1,3 +1,4 @@
+package main;
 import java.awt.EventQueue;
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,12 +14,13 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.Action;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
-import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
+
+import util.OsuUtils;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -158,10 +160,7 @@ public class GUI extends JFrame {
 			if (mode == 3){
 				MagicCopyMania mc = new MagicCopyMania(inputFile,outputFile,keysound,clear);
 				mc.run();
-			} else if (mode == 0){
-				MagicCopySTD mc = new MagicCopySTD(inputFile,outputFile);
-				mc.run();
-			}
+			} 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -233,10 +232,6 @@ public class GUI extends JFrame {
         // Open details
         Action details = jFileChooser1.getActionMap().get("viewTypeDetails");
         details.actionPerformed(null);
-        // Sort by date modified
-        JTable table = SwingUtils.getDescendantsOfType(JTable.class, jFileChooser1).get(0);
-        table.getRowSorter().toggleSortOrder(3);
-        table.getRowSorter().toggleSortOrder(3);
         int returnVal = jFileChooser1.showOpenDialog(null);
         if (returnVal == JFileChooser.APPROVE_OPTION){
      	   f = jFileChooser1.getSelectedFile();
