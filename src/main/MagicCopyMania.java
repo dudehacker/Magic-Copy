@@ -114,7 +114,8 @@ public class MagicCopyMania implements Runnable{
 						
 					case 3:
 						System.out.println("source size 3 at " +t);
-						if (targetSize > 2){
+//						System.out.println("target size " + targetSize);
+						if (targetSize >= 2){
 							outputHOs.addAll(combineDefaultHS(sourceChord,targetChord,2));
 						} else {
 							outputHOs.addAll(combineDefaultHS(sourceChord,targetChord,3));
