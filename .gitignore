@@ -1,1 +1,4 @@
 /bin/
+*.properties
+.settings
+.classpath

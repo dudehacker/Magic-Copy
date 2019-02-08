@@ -20,8 +20,6 @@ import javax.swing.JButton;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import util.OsuUtils;
-
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.Font;
@@ -155,12 +153,9 @@ public class GUI extends JFrame {
 	
 	private void copyHS(){
 		try {
-			int mode = OsuUtils.getMode(inputFile);
 			writeToProperty(startPath);
-			if (mode == 3){
-				MagicCopyMania mc = new MagicCopyMania(inputFile,outputFile,keysound,clear);
-				mc.run();
-			} 
+			MagicCopyMania mc = new MagicCopyMania(inputFile,outputFile,keysound,clear);
+			mc.run();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

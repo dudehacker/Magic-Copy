@@ -1,46 +1,52 @@
 package main;
 import java.io.File;
-
+import java.io.IOException;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
 import javax.swing.JOptionPane;
 
-import osu.HitObject;
-import osu.Sample;
-import osu.Timing;
-import util.OsuUtils;
+import osu.beatmap.Beatmap;
+import osu.beatmap.BeatmapUtils;
+import osu.beatmap.Chord;
+import osu.beatmap.event.Sample;
+import osu.beatmap.hitobject.HitObject;
+import osu.beatmap.timing.Timing;
 
 public class MagicCopyMania implements Runnable{
 	
 	//Variables
-	private File hitsoundFile;
 	private File targetFile;
+	private Beatmap sourceBeatmap;
+	private Beatmap targetBeatmap;
 	private boolean isKeysound;
-	private boolean clear;
-	private ArrayList<HitObject> List_SourceHS = new ArrayList<>();
-	private ArrayList<HitObject> List_TargetHS = new ArrayList<>();
-	private ArrayList<Sample> List_Samples = new ArrayList<>();
-	private ArrayList<Timing> sourceTimingTotal;
-	private ArrayList<Timing> targetTiming;
-	private String nl = OsuUtils.nl;
+	private boolean clearHS;
+	private List<HitObject> List_SourceHS = new ArrayList<>();
+	private List<HitObject> List_TargetHS = new ArrayList<>();
+	private List<Sample> List_Samples = new ArrayList<>();
+	private List<Timing> sourceTimingTotal;
+	private List<Timing> targetTiming;
+	private String nl = BeatmapUtils.nl;
 	
 	// Constructor
-	public MagicCopyMania(File input, File output, boolean keysound, boolean clear){
-		hitsoundFile = input;
+	public MagicCopyMania(File input, File output, boolean keysound, boolean clear) throws ParseException, IOException{
+		sourceBeatmap = new Beatmap(input);
 		targetFile = output;
+		targetBeatmap = new Beatmap(output);
 		isKeysound = keysound;
-		this.clear = clear;
+		this.clearHS = clear;
 	}
 
 	@Override
 	public void run() {
 		try {
-			if (clear){
-				// Clear all hitsounds except SB
-				OsuUtils.clearHitsounds(targetFile);
+			if (clearHS){
+				sourceBeatmap.clearHitsounds();
 			}
-			//System.exit(0);
 			parseSource();
 			parseTarget();
 			exportBeatmap();
@@ -51,17 +57,58 @@ public class MagicCopyMania implements Runnable{
 		
 	}
 	
-	private String copyHS(){
-		Collections.sort(List_Samples,Sample.StartTimeComparator);
-		String output = "";
-		ArrayList<HitObject> outputHOs = new ArrayList<HitObject>();
-		ArrayList<Long> list_time = OsuUtils.getDistinctStartTime(List_SourceHS,List_TargetHS);
+	private void parseSource() throws Exception{
+		List_SourceHS = sourceBeatmap.getHitObjectSection().getHitObjects();
+		System.out.println("Hitsound total size = "+List_SourceHS.size());
+		sourceTimingTotal = sourceBeatmap.getTimingSection().getTimingPoints();
+		List_Samples = sourceBeatmap.getEventSection().getSamples();
+
+	}
+	
+	private void parseTarget() throws Exception{
+		List_TargetHS = targetBeatmap.getHitObjectSection().getHitObjects();
+		targetTiming = targetBeatmap.getTimingSection().getTimingPoints();
+	}
+	
+	
+	private void copyHS() {
+		Set<Chord> sourceChords = sourceBeatmap.getChords();
+		Set<Chord> targetChords = targetBeatmap.getChords();
+		
+		if (isKeysound) {
+			targetChords.removeIf(entry -> {
+				for (Chord chord : sourceChords) {
+					if (chord.getStartTime() == entry.getStartTime()) {
+						return true;
+					}
+					
+				}
+				return false;
+			});
+			targetBeatmap.copyHS(targetChords);
+		}
+		
+		List<Long> list_time = BeatmapUtils.getDistinctStartTime(List_SourceHS,List_TargetHS);
+		for (Long t : list_time){
+			List<HitObject> sourceChord = BeatmapUtils.getChordByTime(List_SourceHS, t);
+			List<HitObject> targetChord = BeatmapUtils.getChordByTime(List_TargetHS, t);
+		}
+	}
+	
+	
+	/*
+	private void copyHS(){
+		
+		
+		List<Long> list_time = BeatmapUtils.getDistinctStartTime(List_SourceHS,List_TargetHS);
 		for (Long t : list_time){
 			
-			ArrayList<HitObject> sourceChord = OsuUtils.getChordByTime(List_SourceHS, t);
-			ArrayList<HitObject> targetChord = OsuUtils.getChordByTime(List_TargetHS, t);
+			List<HitObject> sourceChord = BeatmapUtils.getChordByTime(List_SourceHS, t);
+			List<HitObject> targetChord = BeatmapUtils.getChordByTime(List_TargetHS, t);
+			
 			int sourceSize = sourceChord.size();
 			int targetSize = targetChord.size();
+			
 			if (sourceSize == targetSize){
 				// CASE 1
 				//System.out.println("same size at " +t);
@@ -69,25 +116,24 @@ public class MagicCopyMania implements Runnable{
 					HitObject source_ho = sourceChord.get(i);
 					HitObject target_ho = targetChord.get(i);
 					target_ho.copyHS(source_ho);
-					outputHOs.add(target_ho);
 				}
 			} else if (sourceSize> targetSize){
 				// CASE 2
-				System.out.println("sourceSize> targetSize at " +t);
+				System.out.println("sourceSize > targetSize at " +t);
 				if (targetSize ==0 ){
 					if (isKeysound){
 						// keysound = true then copy to SB, else do nothing
 						for (int j = 0; j<sourceSize;j++){
 							HitObject source_ho = sourceChord.get(j);
 							if (source_ho.toSample().toString().contains(".wav")){
-								List_Samples.add(source_ho.toSample());
+								List_Samples.addAll(source_ho.toSample());
 							}
 						}
 						
 					}
 
 				}  else{
-					int defaultHitSoundSize = OsuUtils.getDefaultHSChordSizeForTime(sourceChord, t);
+					int defaultHitSoundSize = BeatmapUtils.getDefaultHSChordSizeForTime(sourceChord, t);
 					switch (defaultHitSoundSize){
 					case 0:
 					case 1:
@@ -96,12 +142,11 @@ public class MagicCopyMania implements Runnable{
 							HitObject source_ho = sourceChord.get(i);
 							HitObject target_ho = targetChord.get(i);
 							target_ho.copyHS(source_ho);
-							outputHOs.add(target_ho);
 						}
 						for (int j = targetSize; j < sourceSize; j++){
 							HitObject source_ho = sourceChord.get(j);
 							if (source_ho.toSample().toString().contains(".wav")){
-								List_Samples.add(source_ho.toSample());
+								List_Samples.addAll(source_ho.toSample());
 							}
 						}
 						break;
@@ -143,14 +188,9 @@ public class MagicCopyMania implements Runnable{
 		for (HitObject ho : outputHOs) {
 			output += ho.toString() + nl;
 		}
-		return output;
 	}
 	
-	private void parseTarget() throws Exception{
-		List_TargetHS = OsuUtils.getListOfHitObjects(targetFile);
-		targetTiming = OsuUtils.getTimingPoints(targetFile);
-	}
-	
+
 	
 	private ArrayList<HitObject> combineDefaultHS(ArrayList<HitObject> sourceChord, ArrayList<HitObject> targetChord, int n){
 		
@@ -237,19 +277,11 @@ public class MagicCopyMania implements Runnable{
 		}
 		return output;
 	}
-
+*/
 	
 	@SuppressWarnings("unchecked")
 	private void exportBeatmap() throws Exception{
-		String[] beatmap = OsuUtils.getAllInfo(targetFile);
-		Collections.sort(List_Samples,Sample.StartTimeComparator);
-		String generalInfo = beatmap[0];
-		String hitObjectsInfo = "[HitObjects]" + nl;
-		hitObjectsInfo += copyHS();
-
-		String sampleInfo = OsuUtils.convertALtoString(List_Samples);
-		//String[] beatmapSource = OsuUtils.getAllInfo(hitsoundFile);
-		
+		copyHS();
 		// only copy useful timing for default hitsounds to target difficulty
 
 		Timing t1, t2;
@@ -288,13 +320,7 @@ public class MagicCopyMania implements Runnable{
 			System.out.println(t.toString());
 		}*/
 		targetTiming.sort(Timing.StartTimeComparator);
-		String timingInfo = "[TimingPoints]" + nl + OsuUtils.convertALtoString(targetTiming);
-		String outputText = 
-				generalInfo + nl + 
-				sampleInfo+ nl+ 
-		        timingInfo + nl +
-		        hitObjectsInfo;
-		OsuUtils.exportBeatmap(targetFile, outputText);
+		BeatmapUtils.exportBeatmap(targetFile, targetBeatmap.toString());
 	}
 	
 	private Timing getTimingFromOffset(long offset){
@@ -316,13 +342,6 @@ public class MagicCopyMania implements Runnable{
 		target.setSampleSet(source.getSampleSet());
 	}
 	
-	private void parseSource() throws Exception{
-		List_SourceHS = OsuUtils.getListOfHSHitObjects(hitsoundFile);
-		System.out.println("Hitsound total size = "+List_SourceHS.size());
-		sourceTimingTotal = OsuUtils.getTimingPoints(hitsoundFile);
-		//List_SourceHS = OsuUtils.setTimingForHitObjects(sourceTimingTotal, List_SourceHS);
-		List_Samples = OsuUtils.getSamples(hitsoundFile);
 
-	}
 
 }
