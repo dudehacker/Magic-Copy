@@ -230,8 +230,8 @@ public class GUI extends JFrame {
         jFileChooser1.addChoosableFileFilter(filter);
         jFileChooser1.setFileFilter(filter);
         // Open details
-//        Action details = jFileChooser1.getActionMap().get("viewTypeDetails");
-//        details.actionPerformed(null);
+        Action details = jFileChooser1.getActionMap().get("viewTypeDetails");
+        details.actionPerformed(null);
         int returnVal = jFileChooser1.showOpenDialog(null);
         if (returnVal == JFileChooser.APPROVE_OPTION){
      	   f = jFileChooser1.getSelectedFile();
