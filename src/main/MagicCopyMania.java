@@ -42,9 +42,15 @@ public class MagicCopyMania implements Runnable {
 				Timing t1 = sourceT.get(i);
 				Timing t2 = targetT.get(i);
 				if (t1.getOffset() != t2.getOffset()) {
+					System.out.println("wrong offset");
+					System.out.println(t1);
+					System.out.println(t2);
 					return false;
 				} else {
 					if (t1.getMspb() != t2.getMspb()) {
+						System.out.println("wrong bpm");
+						System.out.println(t1);
+						System.out.println(t2);
 						return false;
 					}
 				}
@@ -56,7 +62,7 @@ public class MagicCopyMania implements Runnable {
 	@Override
 	public void run() {
 		try {
-			if (checkOffsetOutdated()) {
+			if (!checkOffsetOutdated()) {
 				JOptionPane.showMessageDialog(null,
 						"Aborted: Please check the offset of red timing on your source difficulty");
 			} else {
