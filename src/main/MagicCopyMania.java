@@ -55,6 +55,8 @@ public class MagicCopyMania implements Runnable {
 					}
 				}
 			}
+		} else {
+			return false;
 		}
 		return true;
 	}
