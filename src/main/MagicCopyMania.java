@@ -125,7 +125,7 @@ public class MagicCopyMania implements Runnable {
 					switch (defaultHitSoundSize) {
 					case 0:
 					case 1:
-						System.out.println("source size 0|1 at " + t);
+						System.out.println("source WFC size 0|1 at " + t);
 						for (int i = 0; i < targetSize; i++) {
 							HitObject source_ho = sourceChord.get(i);
 							HitObject target_ho = targetChord.get(i);
@@ -141,15 +141,19 @@ public class MagicCopyMania implements Runnable {
 						break;
 
 					case 2: // Combine both default hitsounds into 1 HitObject
-						System.out.println("source size 2 at " + t);
+						System.out.println("source WFC size 2 at " + t);
 						outputHOs.addAll(combineDefaultHS(sourceChord, targetChord, 2));
 						break;
 
 					case 3:
-						System.out.println("source size 3 at " + t);
+						System.out.println("source WFC size 3 at " + t);
 						// System.out.println("target size " + targetSize);
-						if (targetSize > 2) {
-							outputHOs.addAll(combineDefaultHS(sourceChord, targetChord, 2));
+						if (targetSize >= 2) {
+							if (sourceSize > defaultHitSoundSize) {
+								outputHOs.addAll(combineDefaultHS(sourceChord, targetChord, 3));
+							} else {
+								outputHOs.addAll(combineDefaultHS(sourceChord, targetChord, 2));
+							}
 						} else {
 							outputHOs.addAll(combineDefaultHS(sourceChord, targetChord, 3));
 						}
