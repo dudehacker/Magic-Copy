@@ -29,8 +29,8 @@ public class Timing {
 		setSampleSet(1);
 		setSetID(1);	
 		setVolume(100);
-		inherited = 1;
-		kiai = 0;
+		setInherited(1);
+		setKiai(0);
 		setOffset(time);
 		setMspb(tempo);
 	}
@@ -42,8 +42,8 @@ public class Timing {
 		this.setSampleSet(sampleSet);
 		this.setSetID(setID);
 		this.setVolume(volume);
-		this.inherited = isInherited;
-		this.kiai = isKiai;
+		this.setInherited(isInherited);
+		this.setKiai(isKiai);
 	}
 	
 	public Timing(Timing t){
@@ -53,8 +53,8 @@ public class Timing {
 		this.setSampleSet(t.getSampleSet());
 		this.setSetID(t.getSetID());
 		this.setVolume(t.getVolume());
-		this.inherited = t.inherited;
-		this.kiai = t.kiai;
+		this.setInherited(t.getInherited());
+		this.setKiai(t.getKiai());
 	}
 	// default instructor
 	public Timing(){
@@ -62,8 +62,8 @@ public class Timing {
 		setSampleSet(1);
 		setSetID(1);	
 		setVolume(100);
-		inherited = 1;
-		kiai = 0;
+		setInherited(false);
+		setKiai(false);
 	}
 	
 	public static Comparator<Timing> StartTimeComparator = new Comparator<Timing>() {
@@ -83,7 +83,7 @@ public class Timing {
 	}
 	
 	public String toString(){
-		return "" + offset + "," + mspb + "," + meter + "," + getSampleSet() +"," + getSetID() + "," + getVolume() + "," + inherited + "," + kiai;
+		return "" + offset + "," + mspb + "," + meter + "," + getSampleSet() +"," + getSetID() + "," + getVolume() + "," + getInherited() + "," + getKiai();
 	}
 
 	public long getOffset() {
@@ -110,7 +110,7 @@ public class Timing {
 		return mspb;
 	}
 
-	public void setMspb(float mspb) {
+	public void setMspb(double mspb) {
 		this.mspb = mspb;
 	}
 
@@ -124,6 +124,42 @@ public class Timing {
 
 	public void setSampleSet(int sampleSet) {
 		this.sampleSet = sampleSet;
+	}
+
+	public int getKiai() {
+		return kiai;
+	}
+
+	public void setKiai(boolean kiai) {
+		this.kiai = kiai ? 1 : 0;
+	}
+	
+	public void setKiai(int kiai) {
+		this.kiai = kiai;
+	}
+
+	public int getInherited() {
+		return inherited;
+	}
+	
+	public boolean isInherited() {
+		return inherited==0;
+	}
+
+
+	public void setInherited(int inherited) {
+		this.inherited = inherited;
+	}
+	
+	public void setInherited(boolean inherited) {
+		this.inherited = inherited ? 0 : 1;
+	}
+	
+	public boolean isSameHS(Timing t) {
+		if (this.sampleSet!=t.sampleSet) return false;
+		if (this.setID!=t.setID) return false;
+		if (this.volume!=t.volume) return false;
+		return true;
 	}
 	
 }

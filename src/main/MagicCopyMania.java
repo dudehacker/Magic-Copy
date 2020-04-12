@@ -4,6 +4,7 @@ import java.io.File;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 import javax.swing.JOptionPane;
 
@@ -305,6 +306,9 @@ public class MagicCopyMania implements Runnable {
 				}
 			}
 		}
+		 System.out.println("Size of target Timings = " +targetTiming.size()); for
+		 (Timing t : targetTiming) { System.out.println(t.toString()); }
+		
 		// add timings that exist in HS but not in target
 		ArrayList<Timing> targetTimingCopy = (ArrayList<Timing>) targetTiming.clone();
 		ArrayList<Long> offsets = new ArrayList<>();
@@ -314,20 +318,44 @@ public class MagicCopyMania implements Runnable {
 				offsets.add(t_target.getOffset());
 			}
 		}
+
 		for (Timing t_source : sourceTimingTotal) {
 			if (!offsets.contains(t_source.getOffset())) {
 				Timing t = getTimingFromOffset(t_source.getOffset());
-				targetTiming.add(t);
+				Timing previous = getPreviousTimingFromOffset(targetTiming,t.getOffset());
+				if (!t.isSameHS(previous) ) {
+					if (previous.isInherited()) {
+						t.setInherited(previous.getInherited());
+						t.setKiai(previous.getKiai());
+						t.setMspb(previous.getMspb());
+					} else {
+						t.setInherited(true);
+						t.setKiai(false);
+						t.setMspb(-100);
+					}
+					targetTiming.add(t);
+				}
 			}
 		}
-		/*
-		 * System.out.println("Size of target Timings = " +targetTiming.size()); for
-		 * (Timing t : targetTiming) { System.out.println(t.toString()); }
-		 */
+		
+		
+		 
 		targetTiming.sort(Timing.StartTimeComparator);
 		String timingInfo = "[TimingPoints]" + nl + OsuUtils.convertALtoString(targetTiming);
 		String outputText = generalInfo + nl + sampleInfo + nl + timingInfo + nl + hitObjectsInfo;
 		OsuUtils.exportBeatmap(targetFile, outputText);
+	}
+	
+	private Timing getPreviousTimingFromOffset(List<Timing> list, long offset) {
+		for (int i = list.size()-1; i >= 0 ; i--) {
+			Timing t = list.get(i);
+			if (t.getOffset() <= offset) {
+				return t;
+			}
+		}
+		System.err.println(offset);
+		System.err.println(list);
+		return null;
 	}
 
 	private Timing getTimingFromOffset(long offset) {
