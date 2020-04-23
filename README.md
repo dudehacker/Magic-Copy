@@ -7,3 +7,10 @@ Copy hitsound for Osu!Mania
 1. Always copy from HS difficulty as source.
 2. Do not use Storyboard samples in HS difficulty, make it as 9 keys if you need a lot of different HS at same time
 3. Only put HS related things in HS difficulty.
+
+__Guidelines__
+
+1. It's okay to leave a lane empty in HS difficulty
+2. Do not stack CFW in HS diff, its not good for reading.
+3. Try to copy paste as much as you can if the sounds are same and repeated.
+4. Use 1 sound for 1 column, you can use 1 sound in 2 columns if it's different volume. 
