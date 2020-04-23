@@ -15,5 +15,5 @@ __Guidelines__
 3. Try to copy paste as much as you can if the sounds are same and repeated.
 4. Use 1 sound for 1 column, you can use 1 sound in 2 columns if it's different volume. 
 5. Use only 1 sampleset, use rest as custom named hitsound.
-6. Use an audible hitnormal sample
+6. Use an audible hitnormal sample thats not blended with the song
 7. W = kick, C = snare, F = hihat or cymbal, hitnormal = closed hat or soft bell, rest are named ones
