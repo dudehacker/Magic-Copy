@@ -12,18 +12,24 @@ public class HitObject {
 	private int volume;
 	private int column;
 	private boolean isDefaultHS;
-	private int whistle_finish_clap=0; 	// 2 = whistle, 4 = finish, 8 = clap
-	private int setID=0;	//X in hit-hitnormalX.wav
-	private int addition=0; //  1 = hit, 2= soft, 3=drum
-	private int sampleSet=0; // 0 = auto 1 = normal 2 = soft 3 = drum
+	private int additionFlags=0;
+	private int setID=0;	// X in hit-hitnormalX.wav
+	private int additionSampleSet=0;
+	private int sampleSet=0;
 	private int timingPointSampleSet = 2;
 	private int timingPointVolume = 70;
 	
-	// Constants
+	// addition flags
 	public final static int HITNORMAL = 0;
 	public final static int HITWHISTLE = 2;
 	public final static int HITFINISH = 4;
 	public final static int HITCLAP = 8;
+
+	// sampleset IDs
+	public final static int SAMPLESET_AUTO = 0;
+	public final static int SAMPLESET_NORMAL = 1;
+	public final static int SAMPLESET_SOFT = 2;
+	public final static int SAMPLESET_DRUM = 3;
 	
 	public final static int AdditionDefault = 0;
 	
@@ -62,7 +68,7 @@ public class HitObject {
 		setStartTime(t);
 		type = 1;
 		endLN = 0;
-		this.whistle_finish_clap=whistle_finish_clap;
+		this.additionFlags=whistle_finish_clap;
 		setVolume(vol);
 		this.setHitSound(hitSound);
 	}
@@ -94,7 +100,7 @@ public class HitObject {
 		type = 128;
 		xposition = xpos;
 		setStartTime(t);
-		whistle_finish_clap = WFC;
+		additionFlags = WFC;
 		endLN = end;
 		this.setVolume(volume);
 		this.setHitSound(hitSound);
@@ -113,7 +119,7 @@ public class HitObject {
 	}
 	
 	public int getWhistleFinishClap (){
-		return whistle_finish_clap;
+		return additionFlags;
 	}
 	
 
@@ -129,16 +135,22 @@ public class HitObject {
 		setVolume(0);
 		return this;
 	}
-	
-	public boolean isWAV_HS(){
-		if (hitSound.contains("wav")){
-			return true;
-		}
-		return false;
+
+	/**
+	 * Check if a custom sample file is in use.
+	 */
+	public boolean usesCustomSampleFile(){
+		/*
+		We cannot expect what names the user would use; while it might
+		look simple to add a ".ogg" check, in the future someone would come
+		with hitsounds in ".oga" or even ".flac" (when lazer replaces stable).
+		If the field is empty there is definitely no custom samples, however.
+		*/
+		return !hitSound.isEmpty();
 	}
 	
 	public void setWhislteFinishClap(int type){
-		whistle_finish_clap = type;
+		additionFlags = type;
 	}
 	
 	public int getSetID(){
@@ -153,13 +165,13 @@ public class HitObject {
 		HitObject ho = null;
 		if (endLN!=0  && endLN>startTime){
 			// LN
-			ho = new HitObject(xposition,startTime,whistle_finish_clap,volume,endLN,hitSound);
+			ho = new HitObject(xposition,startTime,additionFlags,volume,endLN,hitSound);
 		} else {
 			// Short note
-			ho =  new HitObject(xposition,startTime,whistle_finish_clap,volume,hitSound);
+			ho =  new HitObject(xposition,startTime,additionFlags,volume,hitSound);
 		}
 		ho.setSetID(setID);
-		ho.setAddition(addition);
+		ho.setAddition(additionSampleSet);
 		ho.setSampleSet(sampleSet);
 		ho.setTPSampleSet(timingPointSampleSet);
 		ho.setTimingPointVolume(timingPointVolume);
@@ -167,105 +179,96 @@ public class HitObject {
 	}
 	
 	public int getAddition(){
-		return addition;
+		return additionSampleSet;
 	}
 	
 	public void addWhistleFinishClap(int value){
-			setWhislteFinishClap(whistle_finish_clap+value);
+			setWhislteFinishClap(additionFlags+value);
 	}
 	
 	public void addWhistleFinishClap(int value1, int value2){
-		setWhislteFinishClap(whistle_finish_clap+value1+value2);
+		setWhislteFinishClap(additionFlags+value1+value2);
 	}
 	
 	public void setAddition(int v){
-		addition=v;
+		additionSampleSet=v;
 	}
 	
 	public Sample toSample(){
 		Sample s;
-			if (!hitSound.contains(".wav")){
-				
+		if (!usesCustomSampleFile()) {
+			String sampleSound = hitSound;
+			int effectiveSampleSet;
 
+			if (additionFlags == SAMPLESET_AUTO)
+				effectiveSampleSet = timingPointSampleSet;
+			else
+				effectiveSampleSet = additionSampleSet;
+
+			switch (effectiveSampleSet){
+				case SAMPLESET_NORMAL:
+					sampleSound = "normal-";
+					break;
 				
-				switch(timingPointSampleSet){
+				case SAMPLESET_SOFT:
+					sampleSound = "soft-";
+					break;
 				
-				case 1:
-					hitSound = "normal-";
+				case SAMPLESET_DRUM:
+					sampleSound = "drum-";
 					break;
-					
-				case 2:
-					hitSound = "soft-";
-					break;
-					
-				case 3:
-					hitSound = "drum-";
-					break;
-				}
-				
-				if (whistle_finish_clap != HITNORMAL)
-				switch(addition){
-				case 1:
-					hitSound = "normal-";
-					break;
-					
-				case 2:
-					hitSound = "soft-";
-					break;
-					
-				case 3:
-					hitSound = "drum-";
-					break;
-				}
-		
-				
-				switch(whistle_finish_clap){
+			}
+
+			switch (additionFlags){
 				case HITNORMAL:
-					hitSound+="hitnormal";
+					sampleSound+="hitnormal";
 					break;
 				case HITWHISTLE:
-					hitSound+="hitwhistle";
+					sampleSound+="hitwhistle";
 					break;
 				case HITFINISH:
-					hitSound+="hitfinish";
+					sampleSound+="hitfinish";
 					break;
 				case HITCLAP:
-					hitSound+="hitclap";
-				}
-				
-				String id = "";
-				if (setID>1){
-					id+=setID;
-				}
-				hitSound+=id+".wav";
-				s = new Sample(startTime,hitSound,timingPointVolume);
-				System.out.println(timingPointVolume);
-			} else {
-				s = new Sample(startTime,hitSound,volume);
+					sampleSound+="hitclap";
+					break;
 			}
-			
-			s.addQuotesToHS();
-			if (!s.toString().contains(".wav")){
-				System.err.println("Failed to convert HitObject to Sample");
-				System.err.println(toString());
-				System.err.println(s.toString());
-				System.exit(-1);
+
+			String id = "";
+
+			if (setID > 1) {
+				id += setID;
 			}
-			return s;
+
+			// Assume the normal hitsounds are wav files. This is
+			// the format in which DH & Co. provide their hitsounds.
+			sampleSound += id + ".wav";
+			s = new Sample(startTime,sampleSound,timingPointVolume);
+			System.out.println(timingPointVolume);
+		} else {
+			s = new Sample(startTime,hitSound,volume);
+		}
+
+		s.addQuotesToHS();
+		if (s.gethitSound().isEmpty()){
+			System.err.println("Failed to convert HitObject to Sample");
+			System.err.println(toString());
+			System.err.println(s.toString());
+			System.exit(-1);
+		}
+		return s;
 	}
-	
-	
-	
+
 	@Override
 	public String toString() {
 		if (type==1) {
 			// for a single note
 			return "" + xposition + "," + ypos + "," + getStartTime() + "," + 1
-					+ "," + whistle_finish_clap + "," +sampleSet +":" +addition+ ":0:" + getVolume() + ":" + getHitSound();
+					+ "," + additionFlags + "," +sampleSet +":" +additionSampleSet+ ":0:" + getVolume() + ":" + getHitSound();
 		}
 		// for a LN
 		return "" + xposition + "," + ypos + "," + getStartTime() + "," + 128 + ","
-				+ whistle_finish_clap + "," + endLN + ":" +sampleSet +":" +addition+ ":0:" + getVolume() + ":" + getHitSound();
+				+ additionFlags + "," + endLN + ":" +sampleSet +":" +additionSampleSet+ ":0:" + getVolume() + ":" + getHitSound();
 	}
 	
 	public static Comparator<HitObject> StartTimeComparator = new Comparator<HitObject>() {
@@ -281,8 +284,8 @@ public class HitObject {
 	public static Comparator<HitObject> AdditionComparator = new Comparator<HitObject>() {
 		@Override
 		public int compare(HitObject ho1, HitObject ho2) {
-			long a1 = ho1.addition;
-			long a2 = ho2.addition;
+			long a1 = ho1.additionSampleSet;
+			long a2 = ho2.additionSampleSet;
 			/* For ascending order */
 			return (int) (a1 - a2);
 		}

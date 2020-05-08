@@ -98,7 +98,6 @@ public class MagicCopyMania implements Runnable {
 			int sourceSize = sourceChord.size();
 			int targetSize = targetChord.size();
 			if (sourceSize == targetSize) {
-				// CASE 1
 				// System.out.println("same size at " +t);
 				for (int i = 0; i < targetSize; i++) {
 					HitObject source_ho = sourceChord.get(i);
@@ -107,18 +106,14 @@ public class MagicCopyMania implements Runnable {
 					outputHOs.add(target_ho);
 				}
 			} else if (sourceSize > targetSize) {
-				// CASE 2
 				System.out.println("sourceSize> targetSize at " + t);
 				if (targetSize == 0) {
 					if (isKeysound) {
-						// keysound = true then copy to SB, else do nothing
+						// copy to SB
 						for (int j = 0; j < sourceSize; j++) {
 							HitObject source_ho = sourceChord.get(j);
-							if (source_ho.toSample().toString().contains(".wav")) {
-								List_Samples.add(source_ho.toSample());
-							}
+							List_Samples.add(source_ho.toSample());
 						}
-
 					}
 
 				} else {
@@ -135,7 +130,7 @@ public class MagicCopyMania implements Runnable {
 						}
 						for (int j = targetSize; j < sourceSize; j++) {
 							HitObject source_ho = sourceChord.get(j);
-							if (source_ho.toSample().toString().contains(".wav")) {
+							if (!source_ho.toSample().gethitSound().IsEmpty()) {
 								List_Samples.add(source_ho.toSample());
 							}
 						}
