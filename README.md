@@ -9,7 +9,7 @@ Copy hitsound for Osu!Mania
 3. Only put HS related things in HS difficulty.
 
 __Guidelines__
-
+0. install Java SE Runtime Environment 8u231 from https://www.oracle.com/ca-en/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox
 1. It's okay to leave a lane empty in HS difficulty
 2. Do not stack CFW in HS diff, its not good for reading.
 3. Try to copy paste as much as you can if the sounds are same and repeated.
