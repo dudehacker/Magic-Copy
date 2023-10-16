@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = 'main.GUI'
+
+// tag::repositories[]
+repositories {
+    mavenCentral()
+}
+// end::repositories[]
+
+// tag::jar[]
+jar {
+    archiveBaseName = 'gs-gradle'
+    archiveVersion =  '0.1.0'
+}
+// end::jar[]
+
+// tag::dependencies[]
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    testImplementation "junit:junit:4.12"
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.30'
+}

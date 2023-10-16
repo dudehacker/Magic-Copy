@@ -1,1 +1,5 @@
 /bin/
+*.iml
+*.idea
+/target
+.gradle
