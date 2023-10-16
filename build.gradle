@@ -1,27 +1,25 @@
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'application'
+plugins {
+    id 'application'
+}
 
-mainClassName = 'main.GUI'
+sourceSets.main.java.srcDirs = ['src']
 
-// tag::repositories[]
 repositories {
     mavenCentral()
 }
-// end::repositories[]
-
-// tag::jar[]
-jar {
-    archiveBaseName = 'gs-gradle'
-    archiveVersion =  '0.1.0'
-}
-// end::jar[]
-
-// tag::dependencies[]
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
 
 dependencies {
-    testImplementation "junit:junit:4.12"
-    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.30'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.13.0'
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.30'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.30'
+}
+
+application {
+    mainClass = 'main.GUI'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
 }

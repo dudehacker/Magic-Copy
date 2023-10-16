@@ -34,7 +34,7 @@ import javax.imageio.stream.ImageInputStream;
 public class OsuUtils {
 	
 	//Constants
-	public final static String nl = System.getProperty("line.separator");
+	public final static String nl = System.lineSeparator();
 	public final static String format = "%.4f";
 	//private static int SUPPORTED_OSU_FILE_VERSION=14;
 	private static int SUPPORTED_PLAY_MODE = 3; // Osu!mania only
@@ -530,7 +530,7 @@ public class OsuUtils {
 			if (ho.isWAV_HS()){
 				wavHS.add(ho.clone());
 			} else{
-				if (ho.getWhistleFinishClap()!=0){
+				if (ho.getWhistle_finish_clap()!=0){
 					output.add(ho.clone());
 				}else{
 					defaultHS.add(ho);
@@ -563,7 +563,7 @@ public class OsuUtils {
 	public static int getDefaultHSChordSizeForTime(ArrayList<HitObject> hitObjects, long startTime){
 		int size = 0;
 		for (HitObject ho : hitObjects){
-			if (ho.getStartTime()==startTime && ho.getWhistleFinishClap()!= 0 && !ho.isWAV_HS()){
+			if (ho.getStartTime()==startTime && ho.getWhistle_finish_clap()!= 0 && !ho.isWAV_HS()){
 				size++;
 			}
 		}
@@ -607,12 +607,12 @@ public class OsuUtils {
 		HitObject output = input.clone();
 		if (output.getVolume()==0){
 			output.setTimingPointVolume(tp.getVolume());
-			output.setIsDefaultHS(true);
+			output.setDefaultHS(true);
 		} else{
-			output.setIsDefaultHS(false);
+			output.setDefaultHS(false);
 		}
 		if (output.getSampleSet()==0){
-			output.setTPSampleSet(tp.getSampleSet());
+			output.setTimingPointSampleSet(tp.getSampleSet());
 		}
 		if (output.getSetID() == 0){
 			output.setSetID(tp.getSetID());
@@ -800,7 +800,7 @@ public class OsuUtils {
 							long endLN = Long.parseLong(parts[5].substring(0, firstColonIndex));
 							volume = getVolumeFromFullHitSoundString(part5);
 							wav = getWavNameFromFullHitSoundString(part5);
-							ho  = new HitObject(x, t,WFC, volume,endLN, wav);
+							ho  = new HitObject(x, t, WFC, volume,endLN, wav);
 						} else{
 							// short note
 							part5 = parts[5];
