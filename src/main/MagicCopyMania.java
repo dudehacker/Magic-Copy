@@ -1,5 +1,6 @@
 package main;
 
+import lombok.extern.slf4j.Slf4j;
 import osu.HitObject;
 import osu.Sample;
 import osu.Timing;
@@ -8,9 +9,10 @@ import util.OsuUtils;
 import javax.swing.*;
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.Set;
 
+@Slf4j
 public class MagicCopyMania implements Runnable {
 
     // Variables
@@ -85,14 +87,17 @@ public class MagicCopyMania implements Runnable {
     }
 
     private String copyHS() {
-        Collections.sort(List_Samples, Sample.StartTimeComparator);
+        List_Samples.sort(Sample.StartTimeComparator);
         StringBuilder output = new StringBuilder();
-        ArrayList<HitObject> outputHOs = new ArrayList<HitObject>();
-        ArrayList<Long> list_time = OsuUtils.getDistinctStartTime(List_SourceHS, List_TargetHS);
+        ArrayList<HitObject> outputHOs = new ArrayList<>();
+        Set<Long> list_time = OsuUtils.getDistinctStartTime(List_SourceHS, List_TargetHS);
+        log.debug("full target HitObjects {}", List_TargetHS);
         for (Long t : list_time) {
 
             ArrayList<HitObject> sourceChord = OsuUtils.getChordByTime(List_SourceHS, t);
+            log.debug("source chord: {}", sourceChord);
             ArrayList<HitObject> targetChord = OsuUtils.getChordByTime(List_TargetHS, t);
+            log.debug("target chord: {}", targetChord);
             int sourceSize = sourceChord.size();
             int targetSize = targetChord.size();
             if (sourceSize == targetSize) {
@@ -106,7 +111,7 @@ public class MagicCopyMania implements Runnable {
                 }
             } else if (sourceSize > targetSize) {
                 // CASE 2
-                System.out.println("sourceSize> targetSize at " + t);
+                log.debug("sourceSize > targetSize at {}", t);
                 if (targetSize == 0) {
                     if (isKeysound) {
                         // keysound = true then copy to SB, else do nothing
@@ -119,10 +124,11 @@ public class MagicCopyMania implements Runnable {
 
                 } else {
                     int defaultHitSoundSize = OsuUtils.getDefaultHSChordSizeForTime(sourceChord, t);
+                    log.debug("default HS size at {} is {}", t, defaultHitSoundSize);
                     switch (defaultHitSoundSize) {
                         case 0:
                         case 1:
-                            System.out.println("source WFC size 0|1 at " + t);
+                            log.debug("source WFC size 0|1 at {}", t);
                             for (int i = 0; i < targetSize; i++) {
                                 HitObject source_ho = sourceChord.get(i);
                                 HitObject target_ho = targetChord.get(i);
@@ -136,13 +142,12 @@ public class MagicCopyMania implements Runnable {
                             break;
 
                         case 2: // Combine both default hitsounds into 1 HitObject
-                            System.out.println("source WFC size 2 at " + t);
+                            log.debug("source WFC size 2 at {}", t);
                             outputHOs.addAll(combineDefaultHS(sourceChord, targetChord, 2));
                             break;
 
                         case 3:
-                            System.out.println("source WFC size 3 at " + t);
-                            // System.out.println("target size " + targetSize);
+                            log.debug("source WFC size 3 at {}", t);
                             if (targetSize >= 2) {
                                 if (sourceSize > defaultHitSoundSize) {
                                     outputHOs.addAll(combineDefaultHS(sourceChord, targetChord, 3));

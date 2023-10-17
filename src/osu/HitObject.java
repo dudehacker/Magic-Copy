@@ -12,6 +12,8 @@ public class HitObject {
     public final static int HITFINISH = 4;
     public final static int HITCLAP = 8;
     public final static int AdditionDefault = 0;
+    public final static int TIMING_UNCERTAINTY_MS = 1;
+
     public static Comparator<HitObject> StartTimeComparator = (ho1, ho2) -> {
         long t1 = ho1.startTime;
         long t2 = ho2.startTime;
@@ -144,6 +146,10 @@ public class HitObject {
 
     public void addWhistleFinishClap(int value1, int value2) {
         setWhislteFinishClap(whistle_finish_clap + value1 + value2);
+    }
+
+    public boolean isStartTimeAboutEquals(long time) {
+        return startTime - TIMING_UNCERTAINTY_MS <= time && startTime + TIMING_UNCERTAINTY_MS >= time;
     }
 
     public Sample toSample() {

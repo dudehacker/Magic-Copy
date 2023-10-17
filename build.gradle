@@ -8,7 +8,13 @@ repositories {
     mavenCentral()
 }
 
+apply plugin: 'idea'
+apply plugin: 'java'
+
 dependencies {
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'ch.qos.logback:logback-core:1.2.3'
+    implementation 'org.slf4j:slf4j-api:1.7.25'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.13.0'
     implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.30'
