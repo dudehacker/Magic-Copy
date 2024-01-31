@@ -10,7 +10,7 @@ Copy hitsound for Osu!Mania
 
 __Guidelines__
 
-0. install Java SE Runtime Environment 8u231 from https://www.oracle.com/ca-en/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox
+0. install Java SDK 21 for latest version of magic copy, previous use java 8
 1. It's okay to leave a lane empty in HS difficulty
 2. Do not stack CFW in HS diff, its not good for reading.
 3. Try to copy paste as much as you can if the sounds are same and repeated.
