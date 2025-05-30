@@ -17,7 +17,7 @@ import java.util.Properties;
 public class GUI extends JFrame {
 
     private final String propertyName = "Magic Copy config.properties";
-    private final String version = "v2023-10-16";
+    private final String version = "v2025-05-29";
     private final JTextField textField_Source;
     private final JTextField textField_Target;
     private final String startPath = System.getProperty("user.dir");
