@@ -81,7 +81,7 @@ public class MagicCopyMania implements Runnable {
             }
 
         } catch (Exception e) {
-            e.printStackTrace();
+            log.error("unexpected ex {}", e.getMessage(), e);
         }
 
     }

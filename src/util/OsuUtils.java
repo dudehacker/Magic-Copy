@@ -216,21 +216,24 @@ public class OsuUtils {
         return output;
     }
 
-    public static int getMode(File f) throws Exception {
-        int mode = -1;
-        System.out.println(f.getAbsolutePath());
+    private static int parsMode(String line) {
+        return Integer.parseInt(line.replace("Mode:", "").trim());
+    }
+
+    public static int getMode(File f) {
+        log.info("getting mode from file: {}", f.getAbsolutePath());
         try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(f), "UTF-8"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 // read line by line
-                if (line.contains("Mode: ")) {
-                    mode = Integer.parseInt(line.substring(6));
+                if (line.contains("Mode:")) {
+                    return parsMode(line);
                 }
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            log.error("failed to get the mode with error {}", e.getMessage(), e);
         }
-        return mode;
+        throw new RuntimeException("mode not found in file");
     }
 
     public static String[] getAllInfo(File f) throws Exception {
@@ -254,8 +257,8 @@ public class OsuUtils {
                         if (line.contains("Storyboard Sound Samples")) {
                             sectionID = 1;
                             sampleInfo += line + nl;
-                        } else if (line.contains("Mode :")) {
-                            int mode = Integer.parseInt(line.substring(6));
+                        } else if (line.contains("Mode:")) {
+                            int mode = parsMode(line);
                             if (mode != SUPPORTED_PLAY_MODE) {
                                 String errMsg = "The currently supported mode is mania";
                                 JOptionPane.showMessageDialog(null, errMsg);
@@ -312,31 +315,6 @@ public class OsuUtils {
             f = jFileChooser1.getSelectedFile();
         }
         return f;
-    }
-
-    /**
-     * @param a
-     * @param b
-     * @param c
-     * @return the 2 roots, 0 = small root, 1 = big root
-     */
-    public static double[] quadraticFormula(double a, double b, double c) {
-        double d = b * b - 4 * a * c;
-        if (d < 0) {
-            System.out.println("Discriminant < 0, no real solutions");
-            System.out.println("b^2 = " + Math.pow(b, 2));
-            System.out.println("4ac = " + 4 * a * c);
-        }
-        double[] output = new double[2];
-        output[1] = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
-        output[0] = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
-        return output;
-    }
-
-    public static double getImageToSBSize(String fullBGPath) {
-        double safetyRange = 1.1;
-        double verticalScale = 480.0 / OsuUtils.getImageDim(fullBGPath).getHeight() * safetyRange;
-        return verticalScale;
     }
 
     public static long[] getLastNoteTimingOfEachSection(File f) throws Exception {
