@@ -472,7 +472,7 @@ public class OsuUtils {
     public static ArrayList<HitObject> getChordByTime(ArrayList<HitObject> hitObjects, long startTime) {
         ArrayList<HitObject> output = new ArrayList<>();
         for (HitObject ho : hitObjects) {
-            if (ho.isStartTimeAboutEquals(startTime)) {
+            if (ho.getStartTime() == startTime) {
                 output.add(ho.clone());
             }
         }
@@ -517,7 +517,7 @@ public class OsuUtils {
     public static int getDefaultHSChordSizeForTime(ArrayList<HitObject> hitObjects, long startTime) {
         int size = 0;
         for (HitObject ho : hitObjects) {
-            if (ho.isStartTimeAboutEquals(startTime) && ho.getWhistle_finish_clap() != 0 && !ho.isWAV_HS()) {
+            if (ho.getStartTime() == startTime && ho.getWhistle_finish_clap() != 0 && !ho.isWAV_HS()) {
                 size++;
             }
         }

@@ -1,0 +1,3883 @@
+osu file format v14
+
+[General]
+AudioFilename: audio.ogg
+AudioLeadIn: 0
+PreviewTime: 93347
+Countdown: 0
+SampleSet: Soft
+StackLeniency: 0.7
+Mode: 3
+LetterboxInBreaks: 0
+SpecialStyle: 0
+WidescreenStoryboard: 1
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 32
+TimelineZoom: 2.599999
+
+[Metadata]
+Title:Hanatachi ni Kibou o (2020 Remaster)
+TitleUnicode:花たちに希望を (2020 Remaster)
+Artist:Sound piercer feat. DAZBEE
+ArtistUnicode:Sound piercer feat. DAZBEE
+Creator:-[ Peachy ]-
+Version:Lightbearer
+Source:BOFXV -THE BMS OF FIGHTERS eXtreme Violence-
+Tags:オンゲキ ダズビー summer plus o.n.g.e.k.i. sega ongeki muse dash peroperogames チュウニズム chunithm wacca musynx i-inferno lanota noxygames platina :: lab high-end games nelime fxxh espitz ruby.g groundbreaking gdbg beauty & shiny finale japanese jpop j-pop electronic instrumental pop true colours bms bof bof2019 fa featured artist mpg mg mappers' guild
+BeatmapID:0
+BeatmapSetID:-1
+
+[Difficulty]
+HPDrainRate:8
+CircleSize:4
+OverallDifficulty:8
+ApproachRate:5
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+0,0,"skyandsea.jpg",0,0
+//Break Periods
+//Storyboard Layer 0 (Background)
+//Storyboard Layer 1 (Fail)
+//Storyboard Layer 2 (Pass)
+//Storyboard Layer 3 (Foreground)
+//Storyboard Layer 4 (Overlay)
+//Storyboard Sound Samples
+Sample,300,0,"Piano_Intro - Marker #6.ogg",100
+Sample,300,0,"Piano_Intro - Marker #26.ogg",100
+Sample,300,0,"FX_Sleigh_TypeB.ogg",100
+Sample,300,0,"Piano_Intro - Marker #40.ogg",100
+Sample,1583,0,"FX_Sleigh_TypeB.ogg",100
+Sample,1583,0,"Piano_Intro - Marker #27.ogg",100
+Sample,1583,0,"Piano_Intro - Marker #7.ogg",100
+Sample,1904,0,"FX_Sleigh_TypeB.ogg",100
+Sample,2866,0,"Glock - Marker #1.ogg",100
+Sample,2866,0,"FX_Sleigh_TypeB.ogg",100
+Sample,2866,0,"Piano_Intro - Marker #4.ogg",100
+Sample,3829,0,"Piano_Intro - Marker #36.ogg",100
+Sample,3829,0,"FX_Sleigh_TypeB.ogg",100
+Sample,4150,0,"Glock - Marker #2.ogg",100
+Sample,4150,0,"Piano_Intro - Marker #30.ogg",100
+Sample,4150,0,"FX_Sleigh_TypeB.ogg",100
+Sample,4150,0,"Piano_Intro - Marker #5.ogg",100
+Sample,4150,0,"Piano_Intro - Marker #39.ogg",100
+Sample,4471,0,"Piano_Intro - Marker #9.ogg",100
+Sample,5112,0,"FX_Sleigh_TypeB.ogg",100
+Sample,5433,0,"Piano_Intro - Marker #3.ogg",100
+Sample,5433,0,"HarpKit - Marker #1.ogg",100
+Sample,5433,0,"Piano_Intro - Marker #12.ogg",100
+Sample,5433,0,"Drum_Ride_Cluster.ogg",100
+Sample,5433,0,"Drum_Kick_P.ogg",100
+Sample,5433,0,"FX_VEC4.ogg",100
+Sample,5433,0,"Drum_Crash - Marker #2.ogg",100
+Sample,5433,0,"Piano_Intro - Marker #18.ogg",100
+Sample,5433,0,"Piano_Intro - Marker #37.ogg",100
+Sample,5433,0,"Piano_Intro - Marker #1.ogg",100
+Sample,5433,0,"Glock - Marker #3.ogg",100
+Sample,5754,0,"HarpKit - Marker #2.ogg",100
+Sample,6075,0,"HarpKit - Marker #3.ogg",100
+Sample,6396,0,"HarpKit - Marker #4.ogg",100
+Sample,7679,0,"HarpKit - Marker #8.ogg",100
+Sample,7893,0,"Colossus_Bells - Marker #6.ogg",100
+Sample,8040,0,"Piano_Intro - Marker #8.ogg",100
+Sample,8120,0,"Piano_Intro - Marker #38.ogg",100
+Sample,9604,0,"Colossus_Bells - Marker #34.ogg",100
+Sample,9604,0,"Glock - Marker #5.ogg",100
+Sample,9624,0,"Piano_Intro - Marker #42.ogg",100
+Sample,9644,0,"Piano_Intro - Marker #50.ogg",100
+Sample,11850,0,"Hihat Closed_P.ogg",100
+Sample,11850,0,"Drum_Rim_1.ogg",100
+Sample,12170,0,"Hihat Closed_PP.ogg",100
+Sample,12972,0,"Piano_Small - Marker #161.ogg",100
+Sample,12972,0,"Piano_Small - Marker #172.ogg",100
+Sample,13454,0,"Hihat Closed_PP.ogg",100
+Sample,13775,0,"Piano_Small - Marker #165.ogg",100
+Sample,13775,0,"Drum_Rim_1.ogg",100
+Sample,13775,0,"Piano_Small - Marker #123.ogg",100
+Sample,13775,0,"Piano_Small - Marker #174.ogg",100
+Sample,14095,0,"Hihat Closed_PP.ogg",100
+Sample,14416,0,"Drum_Rim_1.ogg",100
+Sample,14737,0,"Hihat Closed_PP.ogg",100
+Sample,15539,0,"Piano_Small - Marker #153.ogg",100
+Sample,15539,0,"Piano_Small - Marker #172.ogg",100
+Sample,16021,0,"Hihat Closed_PP.ogg",100
+Sample,16341,0,"Drum_Rim_1.ogg",100
+Sample,16341,0,"Piano_Small - Marker #123.ogg",100
+Sample,16341,0,"Hihat Closed_P.ogg",100
+Sample,16341,0,"Piano_Small - Marker #168.ogg",100
+Sample,16341,0,"Piano_Small - Marker #148.ogg",100
+Sample,16662,0,"Hihat Closed_PP.ogg",100
+Sample,16983,0,"Drum_Rim_1.ogg",100
+Sample,16983,0,"Hihat Closed_P.ogg",100
+Sample,16983,0,"Piano_Small - Marker #50.ogg",100
+Sample,17304,0,"Hihat Closed_PP.ogg",100
+Sample,18106,0,"Piano_Small - Marker #145.ogg",100
+Sample,18267,0,"Hihat Closed_P.ogg",100
+Sample,18267,0,"Drum_Rim_1.ogg",100
+Sample,18267,0,"Piano_Small - Marker #184.ogg",100
+Sample,18267,0,"Piano_Small - Marker #90.ogg",100
+Sample,18587,0,"Drum_Rim_2.ogg",100
+Sample,18908,0,"Drum_Rim_1.ogg",100
+Sample,19229,0,"Hihat Closed_PP.ogg",100
+Sample,19550,0,"Hihat Closed_P.ogg",100
+Sample,19550,0,"Piano_Small - Marker #39.ogg",100
+Sample,19550,0,"Drum_Rim_1.ogg",100
+Sample,19550,0,"Piano_Small - Marker #141.ogg",100
+Sample,19871,0,"Drum_Rim_2.ogg",100
+Sample,20673,0,"Piano_Small - Marker #152.ogg",100
+Sample,21154,0,"Hihat Closed_PP.ogg",100
+Sample,21475,0,"Drum_Rim_1.ogg",100
+Sample,21475,0,"Hihat Closed_P.ogg",100
+Sample,21796,0,"Drum_Rim_2.ogg",100
+Sample,22117,0,"Drum_Rim_1.ogg",100
+Sample,22117,0,"Hihat Closed_P.ogg",100
+Sample,22438,0,"Hihat Closed_PP.ogg",100
+Sample,23240,0,"Piano_Small - Marker #161.ogg",100
+Sample,23240,0,"Piano_Small - Marker #194.ogg",100
+Sample,23721,0,"Drum_Rim_2.ogg",100
+Sample,24042,0,"Piano_Small - Marker #165.ogg",100
+Sample,24042,0,"Hihat Closed_P.ogg",100
+Sample,24042,0,"Piano_Small - Marker #174.ogg",100
+Sample,24042,0,"Drum_Rim_1.ogg",100
+Sample,24363,0,"Hihat Closed_PP.ogg",100
+Sample,24684,0,"Drum_Rim_1.ogg",100
+Sample,24684,0,"Hihat Closed_P.ogg",100
+Sample,25005,0,"Hihat Closed_PP.ogg",100
+Sample,25807,0,"Piano_Small - Marker #153.ogg",100
+Sample,25807,0,"Piano_Small - Marker #194.ogg",100
+Sample,26288,0,"Hihat Closed_PP.ogg",100
+Sample,26609,0,"Piano_Small - Marker #123.ogg",100
+Sample,26609,0,"Drum_Rim_1.ogg",100
+Sample,26609,0,"Hihat Closed_P.ogg",100
+Sample,26609,0,"Piano_Small - Marker #56.ogg",100
+Sample,26609,0,"Piano_Small - Marker #168.ogg",100
+Sample,26930,0,"Hihat Closed_PP.ogg",100
+Sample,27251,0,"Drum_Rim_1.ogg",100
+Sample,27251,0,"Hihat Closed_P.ogg",100
+Sample,27571,0,"Hihat Closed_PP.ogg",100
+Sample,28374,0,"Piano_Small - Marker #201.ogg",100
+Sample,28534,0,"Piano_Small - Marker #198.ogg",100
+Sample,28534,0,"Drum_Rim_1.ogg",100
+Sample,28534,0,"Hihat Closed_P.ogg",100
+Sample,28534,0,"Piano_Small - Marker #184.ogg",100
+Sample,28855,0,"Hihat Closed_PP.ogg",100
+Sample,29176,0,"Drum_Rim_1.ogg",100
+Sample,29497,0,"Hihat Closed_PP.ogg",100
+Sample,29817,0,"Hihat Closed_P.ogg",100
+Sample,29817,0,"Colossus_Bells - Marker #23.ogg",100
+Sample,29817,0,"Drum_Rim_1.ogg",100
+Sample,29817,0,"Piano_Small - Marker #192.ogg",100
+Sample,29978,0,"Piano_Small - Marker #102.ogg",100
+Sample,30138,0,"Drum_Rim_2.ogg",100
+Sample,30780,0,"Hihat Closed_PP.ogg",100
+Sample,30940,0,"Piano_Small - Marker #151.ogg",100
+Sample,30940,0,"Piano_Small - Marker #171.ogg",100
+Sample,31101,0,"Drum_Rim_1.ogg",100
+Sample,31422,0,"Hihat Closed_PP.ogg",100
+Sample,31743,0,"FX_water_droplet_mom.ogg",100
+Sample,31743,0,"FX_Trilian_TypeB.ogg",100
+Sample,32384,0,"Crash_Vengeance_M.ogg",100
+Sample,32384,0,"Drum_Crash - Marker #4.ogg",100
+Sample,32384,0,"FX_Starflyer.ogg",100
+Sample,32384,0,"Piano_VerseB - Marker #11.ogg",100
+Sample,32384,0,"Colossus_Bells - Marker #23.ogg",100
+Sample,32384,0,"Piano_VerseB - Marker #39.ogg",100
+Sample,32866,0,"Piano_VerseB - Marker #51.ogg",100
+Sample,32866,0,"Piano_VerseB - Marker #11.ogg",100
+Sample,32866,0,"Hihat Pedaled_2.ogg",100
+Sample,33186,0,"Hihat Closed_F.ogg",100
+Sample,33347,0,"Piano_VerseB - Marker #9.ogg",100
+Sample,33347,0,"Hihat Pedaled_1.ogg",100
+Sample,33347,0,"Piano_VerseB - Marker #53.ogg",100
+Sample,33668,0,"Piano_VerseB - Marker #36.ogg",100
+Sample,33668,0,"Hihat Closed_F.ogg",100
+Sample,33668,0,"Piano_VerseB - Marker #14.ogg",100
+Sample,33668,0,"Drum_Kick_MF.ogg",100
+Sample,34149,0,"Hihat Pedaled_2.ogg",100
+Sample,34309,0,"Hihat Closed_F.ogg",100
+Sample,34309,0,"Piano_VerseB - Marker #37.ogg",100
+Sample,34951,0,"Piano_VerseB - Marker #49.ogg",100
+Sample,34951,0,"Piano_VerseB - Marker #6.ogg",100
+Sample,34951,0,"Drum_Kick_MF.ogg",100
+Sample,34951,0,"Hihat Closed_F.ogg",100
+Sample,35432,0,"Hihat Pedaled_2.ogg",100
+Sample,35432,0,"Piano_VerseB - Marker #31.ogg",100
+Sample,35593,0,"Hihat Closed_F.ogg",100
+Sample,35593,0,"Piano_VerseB - Marker #47.ogg",100
+Sample,35753,0,"Hihat Closed_F.ogg",100
+Sample,36235,0,"Hihat Closed_F.ogg",100
+Sample,36235,0,"Piano_VerseB - Marker #47.ogg",100
+Sample,36876,0,"Piano_VerseB - Marker #30.ogg",100
+Sample,36876,0,"Piano_VerseB - Marker #8.ogg",100
+Sample,36876,0,"Hihat Closed_F.ogg",100
+Sample,36876,0,"Piano_VerseB - Marker #54.ogg",100
+Sample,37197,0,"Hihat Pedaled_1.ogg",100
+Sample,37197,0,"Piano_VerseB - Marker #5.ogg",100
+Sample,37518,0,"Piano_VerseB - Marker #19.ogg",100
+Sample,37518,0,"Hihat Closed_F.ogg",100
+Sample,37518,0,"Piano_VerseB - Marker #124.ogg",100
+Sample,37518,0,"Piano_VerseB - Marker #34.ogg",100
+Sample,37839,0,"Piano_VerseB - Marker #123.ogg",100
+Sample,37839,0,"Piano_VerseB - Marker #20.ogg",100
+Sample,37839,0,"Drum_Snare_Basic.ogg",100
+Sample,37999,0,"Hihat Pedaled_2.ogg",100
+Sample,37999,0,"Piano_VerseB - Marker #4.ogg",100
+Sample,37999,0,"Piano_VerseB - Marker #124.ogg",100
+Sample,38160,0,"Hihat Closed_F.ogg",100
+Sample,38160,0,"Drum_Kick_MF.ogg",100
+Sample,38320,0,"Hihat Closed_F.ogg",100
+Sample,38320,0,"Piano_VerseB - Marker #131.ogg",100
+Sample,38320,0,"Drum_Kick_MF.ogg",100
+Sample,38481,0,"Piano_VerseB - Marker #41.ogg",100
+Sample,38801,0,"Piano_VerseB - Marker #45.ogg",100
+Sample,38801,0,"Hihat Closed_F.ogg",100
+Sample,38801,0,"Piano_VerseB - Marker #33.ogg",100
+Sample,38801,0,"Drum_Kick_MF.ogg",100
+Sample,39122,0,"Piano_VerseB - Marker #120.ogg",100
+Sample,39122,0,"Drum_Snare_Basic.ogg",100
+Sample,39283,0,"Hihat Pedaled_2.ogg",100
+Sample,39283,0,"Drum_Kick_MF.ogg",100
+Sample,39604,0,"Piano_VerseB - Marker #127.ogg",100
+Sample,39604,0,"Hihat Closed_F.ogg",100
+Sample,39604,0,"Piano_VerseB - Marker #42.ogg",100
+Sample,39604,0,"Drum_Kick_MF.ogg",100
+Sample,40085,0,"Hihat Closed_F.ogg",100
+Sample,40085,0,"Piano_VerseB - Marker #58.ogg",100
+Sample,40085,0,"Piano_VerseB - Marker #36.ogg",100
+Sample,40085,0,"Drum_Kick_MF.ogg",100
+Sample,40406,0,"Piano_VerseB - Marker #130.ogg",100
+Sample,40406,0,"Piano_VerseB - Marker #65.ogg",100
+Sample,40566,0,"Hihat Pedaled_2.ogg",100
+Sample,40566,0,"Piano_VerseB - Marker #126.ogg",100
+Sample,40586,0,"Piano_VerseB - Marker #52.ogg",100
+Sample,40887,0,"Piano_VerseB - Marker #66.ogg",100
+Sample,40887,0,"Hihat Closed_F.ogg",100
+Sample,40887,0,"Drum_Kick_MF.ogg",100
+Sample,41047,0,"Hihat Pedaled_1.ogg",100
+Sample,41047,0,"Drum_Snare_Basic.ogg",100
+Sample,41208,0,"Piano_VerseB - Marker #125.ogg",100
+Sample,41208,0,"Drum_Kick_MF.ogg",100
+Sample,41208,0,"Piano_VerseB - Marker #81.ogg",100
+Sample,41208,0,"Hihat Pedaled_2.ogg",100
+Sample,41208,0,"Piano_VerseB - Marker #98.ogg",100
+Sample,41529,0,"Drum_Kick_MF.ogg",100
+Sample,42010,0,"Drum_Tom_Low.ogg",100
+Sample,42010,0,"Drum_Tom_High.ogg",100
+Sample,42010,0,"Piano_VerseB - Marker #27.ogg",100
+Sample,42010,0,"Piano_VerseB - Marker #62.ogg",100
+Sample,42010,0,"Piano_VerseB - Marker #7.ogg",100
+Sample,42010,0,"Piano_VerseB - Marker #49.ogg",100
+Sample,42010,0,"Hihat Closed_F.ogg",100
+Sample,42331,0,"Drum_Tom_Floor.ogg",100
+Sample,42652,0,"Piano_VerseB - Marker #32.ogg",100
+Sample,42652,0,"Piano_VerseB - Marker #113.ogg",100
+Sample,42652,0,"Drum_Kick_MF.ogg",100
+Sample,42652,0,"Nexpiano - Marker #2.ogg",100
+Sample,42652,0,"FX_Starflyer.ogg",100
+Sample,42652,0,"Hihat Closed_F.ogg",100
+Sample,42652,0,"Piano_VerseB - Marker #44.ogg",100
+Sample,42652,0,"NexTranceGuitar_TypeA - Marker #5.ogg",100
+Sample,42812,0,"Hihat Closed_F.ogg",100
+Sample,43133,0,"Hihat Pedaled_2.ogg",100
+Sample,43454,0,"Hihat Closed_F.ogg",100
+Sample,43775,0,"Piano_VerseB - Marker #114.ogg",100
+Sample,43775,0,"Piano_VerseB - Marker #97.ogg",100
+Sample,43775,0,"Hihat Pedaled_2.ogg",100
+Sample,44577,0,"Hihat Closed_F.ogg",100
+Sample,44577,0,"Piano_VerseB - Marker #95.ogg",100
+Sample,44577,0,"Piano_VerseB - Marker #101.ogg",100
+Sample,44898,0,"Hihat Pedaled_1.ogg",100
+Sample,45218,0,"Piano_VerseB - Marker #44.ogg",100
+Sample,45218,0,"Hihat Closed_F.ogg",100
+Sample,45218,0,"Piano_VerseB - Marker #23.ogg",100
+Sample,45218,0,"Drum_Kick_MF.ogg",100
+Sample,45379,0,"Hihat Closed_F.ogg",100
+Sample,45539,0,"Hihat Pedaled_1.ogg",100
+Sample,45700,0,"Hihat Pedaled_2.ogg",100
+Sample,46021,0,"Hihat Closed_F.ogg",100
+Sample,46341,0,"Piano_VerseB - Marker #85.ogg",100
+Sample,46341,0,"Hihat Pedaled_2.ogg",100
+Sample,46341,0,"Piano_VerseB - Marker #46.ogg",100
+Sample,46341,0,"Piano_VerseB - Marker #99.ogg",100
+Sample,46341,0,"Drum_Kick_MF.ogg",100
+Sample,46662,0,"Hihat Closed_F.ogg",100
+Sample,47144,0,"Drum_Kick_MF.ogg",100
+Sample,47144,0,"Piano_VerseB - Marker #73.ogg",100
+Sample,47144,0,"Hihat Closed_F.ogg",100
+Sample,47144,0,"Piano_VerseB - Marker #84.ogg",100
+Sample,47144,0,"Piano_VerseB - Marker #100.ogg",100
+Sample,47785,0,"Hihat Closed_F.ogg",100
+Sample,47785,0,"Drum_Crash - Marker #4.ogg",100
+Sample,47785,0,"Piano_VerseB - Marker #38.ogg",100
+Sample,47785,0,"Drum_Kick_MF.ogg",100
+Sample,47785,0,"Piano_VerseB - Marker #3.ogg",100
+Sample,48267,0,"Piano_VerseB - Marker #72.ogg",100
+Sample,48267,0,"Hihat Pedaled_2.ogg",100
+Sample,48267,0,"Piano_VerseB - Marker #35.ogg",100
+Sample,48267,0,"Piano_VerseB - Marker #89.ogg",100
+Sample,48748,0,"Hihat Pedaled_1.ogg",100
+Sample,49069,0,"Drum_Kick_MF.ogg",100
+Sample,49069,0,"Hihat Closed_F.ogg",100
+Sample,49069,0,"Drum_Crash - Marker #4.ogg",100
+Sample,49229,0,"Piano_VerseB - Marker #108.ogg",100
+Sample,49229,0,"Piano_VerseB - Marker #39.ogg",100
+Sample,49229,0,"Hihat Closed_F.ogg",100
+Sample,49229,0,"Piano_VerseB - Marker #60.ogg",100
+Sample,49550,0,"Hihat Pedaled_2.ogg",100
+Sample,49550,0,"Drum_Kick_MF.ogg",100
+Sample,49710,0,"Hihat Closed_F.ogg",100
+Sample,49710,0,"Piano_VerseB - Marker #39.ogg",100
+Sample,49710,0,"Piano_VerseB - Marker #110.ogg",100
+Sample,50031,0,"Hihat Pedaled_1.ogg",100
+Sample,50352,0,"Drum_Crash - Marker #5.ogg",100
+Sample,50352,0,"Piano_VerseB - Marker #24.ogg",100
+Sample,50352,0,"Piano_VerseB - Marker #80.ogg",100
+Sample,50352,0,"Hihat Closed_F.ogg",100
+Sample,50352,0,"Drum_Kick_MF.ogg",100
+Sample,50352,0,"FX_Tokay_TypeB_L.ogg",100
+Sample,50513,0,"Hihat Closed_F.ogg",100
+Sample,51475,0,"Piano_VerseB - Marker #114.ogg",100
+Sample,51475,0,"Drum_Crash - Marker #4.ogg",100
+Sample,51636,0,"FX_Tokay_TypeB_R.ogg",100
+Sample,51636,0,"Hihat Closed_F.ogg",100
+Sample,51796,0,"Drum_Kick_MF.ogg",100
+Sample,51796,0,"Hihat Closed_F.ogg",100
+Sample,51796,0,"Piano_VerseB - Marker #28.ogg",100
+Sample,51796,0,"Piano_VerseB - Marker #7.ogg",100
+Sample,52277,0,"Piano_VerseB - Marker #56.ogg",100
+Sample,52277,0,"Piano_VerseB - Marker #82.ogg",100
+Sample,52277,0,"FX_Trilian_TypeA.ogg",100
+Sample,52277,0,"Drum_Crash - Marker #6.ogg",100
+Sample,52277,0,"Hihat Closed_F.ogg",100
+Sample,52919,0,"Piano_VerseC - Marker #119.ogg",100
+Sample,52919,0,"FX_Starflyer.ogg",100
+Sample,52919,0,"Piano_VerseC - Marker #101.ogg",100
+Sample,52919,0,"FX_Tokay_TypeB_L.ogg",100
+Sample,52919,0,"Drum_Crash - Marker #4.ogg",100
+Sample,52919,0,"Hihat Closed_F.ogg",100
+Sample,53079,0,"Piano_VerseC - Marker #14.ogg",100
+Sample,53400,0,"Piano_VerseC - Marker #39.ogg",100
+Sample,53561,0,"Piano_VerseC - Marker #49.ogg",100
+Sample,53561,0,"Hihat Closed_F.ogg",100
+Sample,53721,0,"Piano_VerseC - Marker #59.ogg",100
+Sample,53882,0,"Piano_VerseC - Marker #121.ogg",100
+Sample,54202,0,"Hihat Closed_F.ogg",100
+Sample,54202,0,"Piano_VerseC - Marker #28.ogg",100
+Sample,54202,0,"FX_Tokay_TypeB_R.ogg",100
+Sample,54202,0,"Piano_VerseC - Marker #131.ogg",100
+Sample,54363,0,"Drum_Kick_MF.ogg",100
+Sample,54523,0,"Piano_VerseC - Marker #16.ogg",100
+Sample,54684,0,"Piano_VerseC - Marker #40.ogg",100
+Sample,54844,0,"Hihat Closed_F.ogg",100
+Sample,55325,0,"Piano_VerseC - Marker #137.ogg",100
+Sample,55486,0,"FX_Tokay_TypeB_L.ogg",100
+Sample,55486,0,"Piano_VerseC - Marker #26.ogg",100
+Sample,55486,0,"Piano_VerseC - Marker #132.ogg",100
+Sample,55486,0,"Piano_VerseC - Marker #87.ogg",100
+Sample,55486,0,"Hihat Closed_F.ogg",100
+Sample,55646,0,"Piano_VerseC - Marker #14.ogg",100
+Sample,55807,0,"Piano_VerseC - Marker #23.ogg",100
+Sample,55967,0,"Piano_VerseC - Marker #39.ogg",100
+Sample,56128,0,"Piano_VerseC - Marker #84.ogg",100
+Sample,56128,0,"Drum_Kick_MF.ogg",100
+Sample,56128,0,"Hihat Closed_F.ogg",100
+Sample,56769,0,"FX_Tokay_TypeB_R.ogg",100
+Sample,56769,0,"Hihat Closed_F.ogg",100
+Sample,56769,0,"Piano_VerseC - Marker #113.ogg",100
+Sample,56769,0,"Piano_VerseC - Marker #19.ogg",100
+Sample,56930,0,"Piano_VerseC - Marker #6.ogg",100
+Sample,57090,0,"Hihat Closed_F.ogg",100
+Sample,57090,0,"Piano_VerseC - Marker #16.ogg",100
+Sample,57251,0,"Drum_Kick_MF.ogg",100
+Sample,57411,0,"Hihat Closed_F.ogg",100
+Sample,58053,0,"Colossus_Bells - Marker #12.ogg",100
+Sample,58053,0,"Piano_VerseC - Marker #72.ogg",100
+Sample,58053,0,"Drum_Kick_MF.ogg",100
+Sample,58053,0,"Drum_Crash - Marker #2.ogg",100
+Sample,58053,0,"FX_Tokay_TypeB_L.ogg",100
+Sample,58053,0,"Hihat Closed_F.ogg",100
+Sample,58213,0,"Piano_VerseC - Marker #6.ogg",100
+Sample,58374,0,"Piano_VerseC - Marker #16.ogg",100
+Sample,58534,0,"Piano_VerseC - Marker #32.ogg",100
+Sample,59015,0,"Hihat Closed_F.ogg",100
+Sample,59015,0,"Piano_VerseC - Marker #125.ogg",100
+Sample,59015,0,"Piano_VerseC - Marker #90.ogg",100
+Sample,59336,0,"Hihat Closed_F.ogg",100
+Sample,59336,0,"Piano_VerseC - Marker #115.ogg",100
+Sample,59336,0,"Colossus_Bells - Marker #9.ogg",100
+Sample,59336,0,"Piano_VerseC - Marker #123.ogg",100
+Sample,59336,0,"FX_Tokay_TypeB_R.ogg",100
+Sample,59497,0,"Piano_VerseC - Marker #5.ogg",100
+Sample,59657,0,"Hihat Closed_F.ogg",100
+Sample,59817,0,"Piano_VerseC - Marker #21.ogg",100
+Sample,59978,0,"Piano_VerseC - Marker #84.ogg",100
+Sample,60620,0,"Colossus_Bells - Marker #24.ogg",100
+Sample,60620,0,"FX_Tokay_TypeB_L.ogg",100
+Sample,60620,0,"Drum_Kick_MF.ogg",100
+Sample,60620,0,"Hihat Closed_F.ogg",100
+Sample,60620,0,"Piano_VerseC - Marker #78.ogg",100
+Sample,61101,0,"Piano_VerseC - Marker #18.ogg",100
+Sample,61101,0,"Piano_VerseC - Marker #97.ogg",100
+Sample,61903,0,"Colossus_Bells - Marker #24.ogg",100
+Sample,61903,0,"Piano_VerseC - Marker #57.ogg",100
+Sample,61903,0,"Cluster_Harp.ogg",100
+Sample,61903,0,"Hihat Closed_F.ogg",100
+Sample,61903,0,"Drum_Crash - Marker #2.ogg",100
+Sample,61903,0,"FX_Tokay_TypeB_R.ogg",100
+Sample,61903,0,"Piano_VerseC - Marker #77.ogg",100
+Sample,62545,0,"Piano_VerseC - Marker #72.ogg",100
+Sample,62545,0,"Colossus_Bells - Marker #27.ogg",100
+Sample,62545,0,"Piano_VerseC - Marker #58.ogg",100
+Sample,62545,0,"FX_Trilian_TypeA.ogg",100
+Sample,62545,0,"Piano_VerseC - Marker #105.ogg",100
+Sample,62545,0,"Drum_Crash - Marker #5.ogg",100
+Sample,62866,0,"Drum_Crash - Marker #4.ogg",100
+Sample,62866,0,"Hihat Closed_F.ogg",100
+Sample,62866,0,"Cluster_Spicatto_2.ogg",100
+Sample,63186,0,"Drum_Kick_F.ogg",100
+Sample,63186,0,"FX_Starflyer.ogg",100
+Sample,63186,0,"Piano_VerseC - Marker #61.ogg",100
+Sample,63186,0,"Piano_VerseC - Marker #26.ogg",100
+Sample,63186,0,"FX_Tokay_TypeA_L.ogg",100
+Sample,63186,0,"Crash_Vengeance_M.ogg",100
+Sample,63186,0,"FX_Sleigh_TypeA.ogg",100
+Sample,63186,0,"Piano_VerseC - Marker #34.ogg",100
+Sample,63507,0,"Drum_Snare_Basic.ogg",100
+Sample,63507,0,"FX_Sleigh_TypeB.ogg",100
+Sample,63507,0,"Hihat Open_TypeA.ogg",100
+Sample,63828,0,"Hihat Open_TypeA.ogg",100
+Sample,63828,0,"FX_Sleigh_TypeA.ogg",100
+Sample,64149,0,"FX_Sleigh_TypeB.ogg",100
+Sample,64470,0,"Hihat Open_TypeA.ogg",100
+Sample,64470,0,"Piano_VerseC - Marker #61.ogg",100
+Sample,64470,0,"FX_Tokay_TypeA_R.ogg",100
+Sample,64470,0,"Drum_Kick_F.ogg",100
+Sample,64470,0,"FX_Sleigh_TypeA.ogg",100
+Sample,64470,0,"Piano_VerseC - Marker #2.ogg",100
+Sample,64470,0,"Piano_VerseC - Marker #29.ogg",100
+Sample,64791,0,"Hihat Open_TypeA.ogg",100
+Sample,64791,0,"FX_Sleigh_TypeB.ogg",100
+Sample,64791,0,"Piano_VerseC - Marker #13.ogg",100
+Sample,64951,0,"Drum_Kick_F.ogg",100
+Sample,65112,0,"FX_Sleigh_TypeA.ogg",100
+Sample,65432,0,"Hihat Open_TypeA.ogg",100
+Sample,65753,0,"Piano_VerseC - Marker #1.ogg",100
+Sample,65753,0,"Piano_VerseC - Marker #41.ogg",100
+Sample,65753,0,"Drum_Kick_F.ogg",100
+Sample,65753,0,"FX_Sleigh_TypeA.ogg",100
+Sample,65753,0,"FX_Tokay_TypeA_L.ogg",100
+Sample,65753,0,"Piano_VerseC - Marker #25.ogg",100
+Sample,65753,0,"Hihat Open_TypeA.ogg",100
+Sample,66074,0,"Piano_VerseC - Marker #12.ogg",100
+Sample,66074,0,"Hihat Open_TypeA.ogg",100
+Sample,66074,0,"FX_Sleigh_TypeB.ogg",100
+Sample,66395,0,"Hihat Open_TypeA.ogg",100
+Sample,66395,0,"FX_Sleigh_TypeA.ogg",100
+Sample,66395,0,"Piano_VerseC - Marker #41.ogg",100
+Sample,66395,0,"Piano_VerseC - Marker #69.ogg",100
+Sample,66716,0,"FX_Sleigh_TypeB.ogg",100
+Sample,66716,0,"Hihat Open_TypeA.ogg",100
+Sample,67037,0,"Colossus_Bells - Marker #31.ogg",100
+Sample,67037,0,"FX_Tokay_TypeA_R.ogg",100
+Sample,67037,0,"Piano_VerseC - Marker #60.ogg",100
+Sample,67037,0,"Drum_Crash - Marker #6.ogg",100
+Sample,67358,0,"Drum_Crash - Marker #4.ogg",100
+Sample,67678,0,"Drum_Crash - Marker #4.ogg",100
+Sample,67999,0,"Drum_Crash - Marker #4.ogg",100
+Sample,68293,0,"Piano_VerseC - Marker #85.ogg",100
+Sample,68300,0,"Piano_VerseC - Marker #114.ogg",100
+Sample,68320,0,"FX_Tokay_TypeB_L.ogg",100
+Sample,68320,0,"Piano_VerseC - Marker #98.ogg",100
+Sample,68801,0,"NexTranceGuitar_TypeD - Marker #2.ogg",100
+Sample,68962,0,"NexTranceGuitar_TypeD - Marker #3.ogg",100
+Sample,69122,0,"Piano_VerseC - Marker #108.ogg",100
+Sample,69283,0,"Piano_VerseC - Marker #120.ogg",100
+Sample,69443,0,"Piano_VerseC - Marker #136.ogg",100
+Sample,69604,0,"FX_Tokay_TypeB_R.ogg",100
+Sample,69604,0,"Piano_VerseC - Marker #93.ogg",100
+Sample,69604,0,"Piano_VerseC - Marker #106.ogg",100
+Sample,69630,0,"Piano_VerseC - Marker #128.ogg",100
+Sample,69764,0,"Piano_VerseC - Marker #37.ogg",100
+Sample,69924,0,"Piano_VerseC - Marker #56.ogg",100
+Sample,69924,0,"Piano_VerseC - Marker #79.ogg",100
+Sample,70085,0,"Piano_VerseC - Marker #75.ogg",100
+Sample,70245,0,"Piano_VerseC - Marker #124.ogg",100
+Sample,70245,0,"Piano_VerseC - Marker #107.ogg",100
+Sample,70566,0,"Piano_VerseC - Marker #121.ogg",100
+Sample,70566,0,"Piano_VerseC - Marker #101.ogg",100
+Sample,70887,0,"Piano_VerseC - Marker #82.ogg",100
+Sample,70887,0,"Piano_VerseC - Marker #70.ogg",100
+Sample,70887,0,"FX_Tokay_TypeB_L.ogg",100
+Sample,71529,0,"Piano_VerseC - Marker #82.ogg",100
+Sample,71850,0,"Piano_VerseC - Marker #146.ogg",100
+Sample,72170,0,"FX_Tokay_TypeB_R.ogg",100
+Sample,72170,0,"Piano_VerseC - Marker #30.ogg",100
+Sample,72491,0,"Piano_VerseC - Marker #135.ogg",100
+Sample,72812,0,"FX_water_droplet_timetravel.ogg",100
+Sample,72812,0,"FX_water_droplet_mom.ogg",100
+Sample,72812,0,"FX_Trilian_TypeA.ogg",100
+Sample,73454,0,"FX_VEC4.ogg",100
+Sample,73454,0,"Drum_Crash - Marker #2.ogg",100
+Sample,73454,0,"FX_Tokay_TypeA_R.ogg",100
+Sample,73454,0,"Colossus_Bells - Marker #7.ogg",100
+Sample,73454,0,"Piano_March - Marker #11.ogg",100
+Sample,73454,0,"Drum_Crash - Marker #3.ogg",100
+Sample,73454,0,"Crash_Vengeance_M.ogg",100
+Sample,73775,0,"Piano_March - Marker #13.ogg",100
+Sample,73775,0,"Piano_March - Marker #7.ogg",100
+Sample,73775,0,"Drum_Snare_P.ogg",100
+Sample,73882,0,"Drum_Snare_P.ogg",100
+Sample,73882,0,"Piano_March - Marker #7.ogg",100
+Sample,73882,0,"Piano_March - Marker #13.ogg",100
+Sample,73989,0,"Piano_March - Marker #7.ogg",100
+Sample,73989,0,"Piano_March - Marker #13.ogg",100
+Sample,73989,0,"Drum_Snare_P.ogg",100
+Sample,74095,0,"Piano_March - Marker #5.ogg",100
+Sample,74095,0,"Piano_March - Marker #11.ogg",100
+Sample,74416,0,"Drum_Snare_P.ogg",100
+Sample,74416,0,"Piano_March - Marker #26.ogg",100
+Sample,74416,0,"Piano_March - Marker #7.ogg",100
+Sample,74523,0,"Piano_March - Marker #26.ogg",100
+Sample,74523,0,"Piano_March - Marker #7.ogg",100
+Sample,74523,0,"Drum_Snare_P.ogg",100
+Sample,74630,0,"Drum_Snare_P.ogg",100
+Sample,74630,0,"Piano_March - Marker #26.ogg",100
+Sample,74630,0,"Piano_March - Marker #7.ogg",100
+Sample,74737,0,"Piano_March - Marker #5.ogg",100
+Sample,74737,0,"Drum_Kick_FF.ogg",100
+Sample,75058,0,"Piano_March - Marker #7.ogg",100
+Sample,75058,0,"Piano_March - Marker #21.ogg",100
+Sample,75058,0,"Drum_Snare_P.ogg",100
+Sample,75165,0,"Drum_Snare_P.ogg",100
+Sample,75165,0,"Piano_March - Marker #7.ogg",100
+Sample,75165,0,"Piano_March - Marker #19.ogg",100
+Sample,75272,0,"Piano_March - Marker #7.ogg",100
+Sample,75272,0,"Drum_Snare_P.ogg",100
+Sample,75379,0,"Piano_March - Marker #46.ogg",100
+Sample,75379,0,"Piano_March - Marker #21.ogg",100
+Sample,75486,0,"Piano_March - Marker #7.ogg",100
+Sample,75486,0,"Piano_March - Marker #46.ogg",100
+Sample,75486,0,"Piano_March - Marker #19.ogg",100
+Sample,75593,0,"Piano_March - Marker #46.ogg",100
+Sample,75593,0,"Piano_March - Marker #7.ogg",100
+Sample,75700,0,"Piano_March - Marker #52.ogg",100
+Sample,75700,0,"Piano_March - Marker #21.ogg",100
+Sample,75700,0,"Piano_March - Marker #7.ogg",100
+Sample,75807,0,"Piano_March - Marker #21.ogg",100
+Sample,75807,0,"Piano_March - Marker #52.ogg",100
+Sample,75807,0,"Piano_March - Marker #7.ogg",100
+Sample,75914,0,"Piano_March - Marker #52.ogg",100
+Sample,75914,0,"Piano_March - Marker #21.ogg",100
+Sample,76021,0,"Piano_March - Marker #43.ogg",100
+Sample,76021,0,"Colossus_Bells - Marker #7.ogg",100
+Sample,76021,0,"FX_VEC4.ogg",100
+Sample,76021,0,"Crash_Vengeance_M.ogg",100
+Sample,76021,0,"FX_Tokay_TypeA_R.ogg",100
+Sample,76341,0,"Piano_March - Marker #3.ogg",100
+Sample,76341,0,"Piano_March - Marker #35.ogg",100
+Sample,76341,0,"Drum_Snare_P.ogg",100
+Sample,76448,0,"Drum_Snare_P.ogg",100
+Sample,76448,0,"Piano_March - Marker #35.ogg",100
+Sample,76448,0,"Piano_March - Marker #3.ogg",100
+Sample,76555,0,"Piano_March - Marker #3.ogg",100
+Sample,76555,0,"Piano_March - Marker #35.ogg",100
+Sample,76555,0,"Drum_Snare_P.ogg",100
+Sample,76662,0,"Piano_March - Marker #1.ogg",100
+Sample,76662,0,"Drum_Kick_FF.ogg",100
+Sample,76983,0,"Piano_March - Marker #46.ogg",100
+Sample,76983,0,"Piano_March - Marker #35.ogg",100
+Sample,76983,0,"Piano_March - Marker #3.ogg",100
+Sample,77090,0,"Piano_March - Marker #35.ogg",100
+Sample,77090,0,"Piano_March - Marker #3.ogg",100
+Sample,77090,0,"Piano_March - Marker #46.ogg",100
+Sample,77197,0,"Piano_March - Marker #46.ogg",100
+Sample,77197,0,"Piano_March - Marker #3.ogg",100
+Sample,77197,0,"Piano_March - Marker #35.ogg",100
+Sample,77304,0,"Piano_March - Marker #29.ogg",100
+Sample,77304,0,"Piano_March - Marker #37.ogg",100
+Sample,77304,0,"Cluster_Harp.ogg",100
+Sample,77625,0,"Piano_March - Marker #32.ogg",100
+Sample,77625,0,"Drum_Snare_P.ogg",100
+Sample,77625,0,"Piano_March - Marker #52.ogg",100
+Sample,77732,0,"Piano_March - Marker #52.ogg",100
+Sample,77732,0,"Drum_Snare_P.ogg",100
+Sample,77732,0,"Piano_March - Marker #32.ogg",100
+Sample,77839,0,"Piano_March - Marker #32.ogg",100
+Sample,77839,0,"Drum_Snare_P.ogg",100
+Sample,77839,0,"Piano_March - Marker #52.ogg",100
+Sample,77946,0,"Piano_March - Marker #52.ogg",100
+Sample,77946,0,"Drum_Snare_P.ogg",100
+Sample,77946,0,"Piano_March - Marker #32.ogg",100
+Sample,77946,0,"Piano_March - Marker #55.ogg",100
+Sample,78053,0,"Drum_Snare_P.ogg",100
+Sample,78053,0,"Piano_March - Marker #55.ogg",100
+Sample,78053,0,"Piano_March - Marker #49.ogg",100
+Sample,78160,0,"Drum_Snare_P.ogg",100
+Sample,78160,0,"Piano_March - Marker #55.ogg",100
+Sample,78267,0,"Piano_March - Marker #52.ogg",100
+Sample,78267,0,"Piano_March - Marker #55.ogg",100
+Sample,78267,0,"Piano_March - Marker #32.ogg",100
+Sample,78374,0,"Piano_March - Marker #32.ogg",100
+Sample,78481,0,"Piano_March - Marker #32.ogg",100
+Sample,78481,0,"Piano_March - Marker #55.ogg",100
+Sample,78587,0,"Piano_March - Marker #39.ogg",100
+Sample,78587,0,"Piano_March - Marker #23.ogg",100
+Sample,78587,0,"FX_VEC4.ogg",100
+Sample,78587,0,"Colossus_Bells - Marker #7.ogg",100
+Sample,78587,0,"FX_Tokay_TypeA_R.ogg",100
+Sample,78587,0,"Piano_March - Marker #29.ogg",100
+Sample,78908,0,"Piano_March - Marker #32.ogg",100
+Sample,78908,0,"Piano_March - Marker #16.ogg",100
+Sample,79015,0,"Piano_March - Marker #32.ogg",100
+Sample,79015,0,"Piano_March - Marker #16.ogg",100
+Sample,79122,0,"Piano_March - Marker #16.ogg",100
+Sample,79122,0,"Piano_March - Marker #32.ogg",100
+Sample,79229,0,"Piano_March - Marker #29.ogg",100
+Sample,79550,0,"Piano_March - Marker #16.ogg",100
+Sample,79550,0,"Piano_March - Marker #32.ogg",100
+Sample,79657,0,"Piano_March - Marker #16.ogg",100
+Sample,79657,0,"Piano_March - Marker #32.ogg",100
+Sample,79764,0,"Drum_Snare_P.ogg",100
+Sample,79764,0,"Piano_March - Marker #32.ogg",100
+Sample,79871,0,"Colossus_Bells - Marker #7.ogg",100
+Sample,79871,0,"Piano_March - Marker #23.ogg",100
+Sample,80192,0,"Piano_March - Marker #32.ogg",100
+Sample,80192,0,"Piano_March - Marker #26.ogg",100
+Sample,80299,0,"Piano_March - Marker #26.ogg",100
+Sample,80299,0,"Piano_March - Marker #32.ogg",100
+Sample,80406,0,"Piano_March - Marker #32.ogg",100
+Sample,80406,0,"Piano_March - Marker #26.ogg",100
+Sample,80513,0,"Drum_Kick_FF.ogg",100
+Sample,80513,0,"Piano_March - Marker #32.ogg",100
+Sample,80513,0,"Piano_March - Marker #35.ogg",100
+Sample,80620,0,"Piano_March - Marker #35.ogg",100
+Sample,80620,0,"Piano_March - Marker #26.ogg",100
+Sample,80620,0,"Piano_March - Marker #32.ogg",100
+Sample,80727,0,"Piano_March - Marker #26.ogg",100
+Sample,80727,0,"Piano_March - Marker #35.ogg",100
+Sample,80727,0,"Piano_March - Marker #32.ogg",100
+Sample,80833,0,"Drum_Kick_FF.ogg",100
+Sample,80833,0,"Piano_March - Marker #35.ogg",100
+Sample,80940,0,"Piano_March - Marker #35.ogg",100
+Sample,80940,0,"Piano_March - Marker #26.ogg",100
+Sample,81047,0,"Piano_March - Marker #26.ogg",100
+Sample,81047,0,"Piano_March - Marker #35.ogg",100
+Sample,81154,0,"Piano_March - Marker #43.ogg",100
+Sample,81154,0,"Piano_March - Marker #33.ogg",100
+Sample,81154,0,"FX_Tokay_TypeA_R.ogg",100
+Sample,81154,0,"Piano_March - Marker #53.ogg",100
+Sample,81154,0,"FX_VEC4.ogg",100
+Sample,81154,0,"Colossus_Bells - Marker #35.ogg",100
+Sample,81475,0,"Piano_March - Marker #46.ogg",100
+Sample,81475,0,"Piano_March - Marker #35.ogg",100
+Sample,81475,0,"Piano_March - Marker #14.ogg",100
+Sample,81582,0,"Piano_March - Marker #14.ogg",100
+Sample,81582,0,"Piano_March - Marker #35.ogg",100
+Sample,81582,0,"Piano_March - Marker #46.ogg",100
+Sample,81689,0,"Piano_March - Marker #14.ogg",100
+Sample,81689,0,"Piano_March - Marker #35.ogg",100
+Sample,81689,0,"Piano_March - Marker #46.ogg",100
+Sample,81796,0,"Piano_March - Marker #43.ogg",100
+Sample,81796,0,"Piano_March - Marker #12.ogg",100
+Sample,82117,0,"Piano_March - Marker #46.ogg",100
+Sample,82117,0,"Piano_March - Marker #14.ogg",100
+Sample,82117,0,"Piano_March - Marker #35.ogg",100
+Sample,82224,0,"Piano_March - Marker #35.ogg",100
+Sample,82224,0,"Piano_March - Marker #46.ogg",100
+Sample,82224,0,"Piano_March - Marker #14.ogg",100
+Sample,82331,0,"Piano_March - Marker #46.ogg",100
+Sample,82331,0,"Piano_March - Marker #35.ogg",100
+Sample,82331,0,"Piano_March - Marker #14.ogg",100
+Sample,82438,0,"Piano_March - Marker #53.ogg",100
+Sample,82438,0,"Piano_March - Marker #39.ogg",100
+Sample,82438,0,"Colossus_Bells - Marker #7.ogg",100
+Sample,82438,0,"Piano_March - Marker #9.ogg",100
+Sample,82759,0,"Piano_March - Marker #55.ogg",100
+Sample,82759,0,"Piano_March - Marker #10.ogg",100
+Sample,82759,0,"Piano_March - Marker #52.ogg",100
+Sample,82866,0,"Piano_March - Marker #10.ogg",100
+Sample,82866,0,"Piano_March - Marker #52.ogg",100
+Sample,82866,0,"Piano_March - Marker #55.ogg",100
+Sample,82972,0,"Piano_March - Marker #55.ogg",100
+Sample,82972,0,"Piano_March - Marker #10.ogg",100
+Sample,82972,0,"Piano_March - Marker #52.ogg",100
+Sample,83079,0,"Piano_March - Marker #60.ogg",100
+Sample,83079,0,"Drum_Snare_FF.ogg",100
+Sample,83079,0,"FX_Trilian_TypeC.ogg",100
+Sample,83079,0,"Drum_Kick_FF.ogg",100
+Sample,83160,0,"Piano_March - Marker #60.ogg",100
+Sample,83160,0,"Piano_March - Marker #10.ogg",100
+Sample,83160,0,"Piano_March - Marker #52.ogg",100
+Sample,83160,0,"Piano_March - Marker #55.ogg",100
+Sample,83320,0,"Piano_March - Marker #52.ogg",100
+Sample,83320,0,"Drum_Snare_FF.ogg",100
+Sample,83320,0,"Piano_March - Marker #60.ogg",100
+Sample,83400,0,"Cluster_Glissando_TypeB.ogg",100
+Sample,83641,0,"SawLead_March - Marker #4.ogg",100
+Sample,83721,0,"Colossus_Bells - Marker #7.ogg",100
+Sample,83721,0,"Crash_Vengeance_L.ogg",100
+Sample,83721,0,"Piano_March - Marker #18.ogg",100
+Sample,83721,0,"Piano_March - Marker #12.ogg",100
+Sample,83721,0,"FX_VEC4.ogg",100
+Sample,83721,0,"Drum_Crash - Marker #4.ogg",100
+Sample,83721,0,"SawLead_March - Marker #5.ogg",100
+Sample,83721,0,"FX_Tokay_TypeA_R.ogg",100
+Sample,83721,0,"Crash_Vengeance_M.ogg",100
+Sample,83721,0,"Crash_Vengeance_R.ogg",100
+Sample,83721,0,"Piano_March - Marker #6.ogg",100
+Sample,83721,0,"FX_Sleigh_TypeA.ogg",100
+Sample,84042,0,"Drum_Snare_Basic.ogg",100
+Sample,84042,0,"FX_Sleigh_TypeB.ogg",100
+Sample,84042,0,"Piano_March - Marker #27.ogg",100
+Sample,84042,0,"Piano_March - Marker #14.ogg",100
+Sample,84042,0,"Piano_March - Marker #22.ogg",100
+Sample,84042,0,"Piano_March - Marker #8.ogg",100
+Sample,84122,0,"Piano_March - Marker #22.ogg",100
+Sample,84122,0,"Piano_March - Marker #27.ogg",100
+Sample,84122,0,"Piano_March - Marker #14.ogg",100
+Sample,84122,0,"Piano_March - Marker #8.ogg",100
+Sample,84202,0,"Drum_Kick_F.ogg",100
+Sample,84283,0,"Piano_March - Marker #27.ogg",100
+Sample,84283,0,"Piano_March - Marker #8.ogg",100
+Sample,84283,0,"Piano_March - Marker #14.ogg",100
+Sample,84283,0,"Piano_March - Marker #22.ogg",100
+Sample,84363,0,"Piano_March - Marker #12.ogg",100
+Sample,84363,0,"Piano_March - Marker #18.ogg",100
+Sample,84363,0,"Piano_March - Marker #25.ogg",100
+Sample,84363,0,"Piano_March - Marker #6.ogg",100
+Sample,84363,0,"Drum_Kick_F.ogg",100
+Sample,84363,0,"FX_Sleigh_TypeA.ogg",100
+Sample,84684,0,"Piano_March - Marker #42.ogg",100
+Sample,84684,0,"FX_Sleigh_TypeB.ogg",100
+Sample,84684,0,"Piano_March - Marker #22.ogg",100
+Sample,84684,0,"Piano_March - Marker #27.ogg",100
+Sample,84684,0,"Piano_March - Marker #8.ogg",100
+Sample,84684,0,"Drum_Snare_Basic.ogg",100
+Sample,84764,0,"Piano_March - Marker #8.ogg",100
+Sample,84764,0,"Piano_March - Marker #42.ogg",100
+Sample,84764,0,"Piano_March - Marker #27.ogg",100
+Sample,84764,0,"Piano_March - Marker #22.ogg",100
+Sample,84844,0,"Drum_Kick_F.ogg",100
+Sample,84924,0,"Piano_March - Marker #22.ogg",100
+Sample,84924,0,"Piano_March - Marker #42.ogg",100
+Sample,84924,0,"Piano_March - Marker #27.ogg",100
+Sample,84924,0,"Piano_March - Marker #8.ogg",100
+Sample,85005,0,"Piano_March - Marker #25.ogg",100
+Sample,85005,0,"Drum_Kick_F.ogg",100
+Sample,85005,0,"Piano_March - Marker #6.ogg",100
+Sample,85005,0,"FX_Sleigh_TypeA.ogg",100
+Sample,85005,0,"Piano_March - Marker #40.ogg",100
+Sample,85005,0,"FX_Tokay_TypeA_L.ogg",100
+Sample,85005,0,"Piano_March - Marker #18.ogg",100
+Sample,85325,0,"Piano_March - Marker #27.ogg",100
+Sample,85325,0,"Piano_March - Marker #42.ogg",100
+Sample,85325,0,"Hihat Open_TypeA.ogg",100
+Sample,85325,0,"Piano_March - Marker #22.ogg",100
+Sample,85325,0,"Piano_March - Marker #8.ogg",100
+Sample,85325,0,"FX_Sleigh_TypeB.ogg",100
+Sample,85406,0,"Piano_March - Marker #27.ogg",100
+Sample,85406,0,"Piano_March - Marker #42.ogg",100
+Sample,85406,0,"Piano_March - Marker #20.ogg",100
+Sample,85406,0,"Piano_March - Marker #8.ogg",100
+Sample,85486,0,"Drum_Kick_F.ogg",100
+Sample,85566,0,"Piano_March - Marker #27.ogg",100
+Sample,85566,0,"Piano_March - Marker #42.ogg",100
+Sample,85566,0,"Piano_March - Marker #8.ogg",100
+Sample,85646,0,"Piano_March - Marker #45.ogg",100
+Sample,85646,0,"Piano_March - Marker #27.ogg",100
+Sample,85646,0,"FX_Sleigh_TypeA.ogg",100
+Sample,85646,0,"Piano_March - Marker #22.ogg",100
+Sample,85646,0,"Drum_Kick_F.ogg",100
+Sample,85753,0,"Piano_March - Marker #8.ogg",100
+Sample,85753,0,"Piano_March - Marker #27.ogg",100
+Sample,85753,0,"Piano_March - Marker #20.ogg",100
+Sample,85753,0,"Piano_March - Marker #45.ogg",100
+Sample,85860,0,"Piano_March - Marker #8.ogg",100
+Sample,85860,0,"Piano_March - Marker #27.ogg",100
+Sample,85860,0,"Piano_March - Marker #45.ogg",100
+Sample,85967,0,"FX_Sleigh_TypeB.ogg",100
+Sample,85967,0,"Piano_March - Marker #27.ogg",100
+Sample,85967,0,"Drum_Snare_Basic.ogg",100
+Sample,85967,0,"Piano_March - Marker #8.ogg",100
+Sample,85967,0,"Hihat Open_TypeA.ogg",100
+Sample,85967,0,"Piano_March - Marker #51.ogg",100
+Sample,85967,0,"Piano_Sub - Marker #38.ogg",100
+Sample,86047,0,"Piano_March - Marker #22.ogg",100
+Sample,86047,0,"Piano_March - Marker #27.ogg",100
+Sample,86047,0,"Piano_March - Marker #51.ogg",100
+Sample,86047,0,"SawLead_March - Marker #7.ogg",100
+Sample,86047,0,"Piano_March - Marker #8.ogg",100
+Sample,86128,0,"Drum_Kick_F.ogg",100
+Sample,86208,0,"SawLead_March - Marker #9.ogg",100
+Sample,86208,0,"Piano_March - Marker #27.ogg",100
+Sample,86208,0,"Piano_March - Marker #51.ogg",100
+Sample,86208,0,"Piano_March - Marker #22.ogg",100
+Sample,86288,0,"Hihat Open_TypeA.ogg",100
+Sample,86288,0,"Piano_March - Marker #54.ogg",100
+Sample,86288,0,"FX_Sleigh_TypeA.ogg",100
+Sample,86288,0,"Piano_March - Marker #2.ogg",100
+Sample,86288,0,"Piano_March - Marker #44.ogg",100
+Sample,86288,0,"Piano_March - Marker #34.ogg",100
+Sample,86288,0,"Drum_Crash - Marker #2.ogg",100
+Sample,86288,0,"FX_Tokay_TypeA_R.ogg",100
+Sample,86288,0,"Crash_Vengeance_M.ogg",100
+Sample,86288,0,"Colossus_Bells - Marker #7.ogg",100
+Sample,86609,0,"Piano_March - Marker #56.ogg",100
+Sample,86609,0,"Piano_March - Marker #4.ogg",100
+Sample,86609,0,"Piano_March - Marker #36.ogg",100
+Sample,86609,0,"Hihat Open_TypeA.ogg",100
+Sample,86609,0,"FX_Sleigh_TypeB.ogg",100
+Sample,86609,0,"Piano_March - Marker #45.ogg",100
+Sample,86689,0,"Piano_March - Marker #36.ogg",100
+Sample,86689,0,"Piano_March - Marker #4.ogg",100
+Sample,86689,0,"Piano_March - Marker #45.ogg",100
+Sample,86689,0,"Piano_March - Marker #56.ogg",100
+Sample,86769,0,"Piano_Sub - Marker #54.ogg",100
+Sample,86849,0,"Piano_March - Marker #4.ogg",100
+Sample,86849,0,"Piano_March - Marker #56.ogg",100
+Sample,86849,0,"Piano_March - Marker #36.ogg",100
+Sample,86849,0,"Piano_March - Marker #45.ogg",100
+Sample,86930,0,"FX_Sleigh_TypeA.ogg",100
+Sample,86930,0,"Piano_March - Marker #44.ogg",100
+Sample,86930,0,"Piano_March - Marker #2.ogg",100
+Sample,86930,0,"Piano_March - Marker #54.ogg",100
+Sample,86930,0,"Drum_Kick_F.ogg",100
+Sample,86930,0,"Piano_March - Marker #34.ogg",100
+Sample,87251,0,"Piano_March - Marker #4.ogg",100
+Sample,87251,0,"Piano_March - Marker #45.ogg",100
+Sample,87251,0,"Piano_March - Marker #36.ogg",100
+Sample,87251,0,"Piano_March - Marker #56.ogg",100
+Sample,87251,0,"Drum_Kick_F.ogg",100
+Sample,87251,0,"FX_Sleigh_TypeB.ogg",100
+Sample,87331,0,"Piano_March - Marker #36.ogg",100
+Sample,87331,0,"Piano_March - Marker #56.ogg",100
+Sample,87331,0,"Piano_March - Marker #4.ogg",100
+Sample,87331,0,"Piano_March - Marker #45.ogg",100
+Sample,87491,0,"Piano_March - Marker #56.ogg",100
+Sample,87491,0,"Piano_March - Marker #36.ogg",100
+Sample,87491,0,"Piano_March - Marker #4.ogg",100
+Sample,87491,0,"Piano_March - Marker #45.ogg",100
+Sample,87571,0,"FX_Sleigh_TypeA.ogg",100
+Sample,87571,0,"FX_Tokay_TypeA_L.ogg",100
+Sample,87571,0,"Drum_Kick_F.ogg",100
+Sample,87571,0,"Piano_March - Marker #38.ogg",100
+Sample,87571,0,"Drum_Crash - Marker #4.ogg",100
+Sample,87571,0,"Piano_March - Marker #54.ogg",100
+Sample,87571,0,"Piano_March - Marker #48.ogg",100
+Sample,87571,0,"Piano_March - Marker #30.ogg",100
+Sample,87892,0,"FX_Sleigh_TypeB.ogg",100
+Sample,87892,0,"Piano_March - Marker #51.ogg",100
+Sample,87892,0,"SawLead_March - Marker #11.ogg",100
+Sample,87892,0,"Piano_March - Marker #31.ogg",100
+Sample,87892,0,"Piano_March - Marker #58.ogg",100
+Sample,87892,0,"Piano_Sub - Marker #60.ogg",100
+Sample,87892,0,"Piano_March - Marker #56.ogg",100
+Sample,87972,0,"Piano_March - Marker #31.ogg",100
+Sample,87972,0,"Piano_March - Marker #58.ogg",100
+Sample,87972,0,"Piano_March - Marker #51.ogg",100
+Sample,87972,0,"Piano_Sub - Marker #61.ogg",100
+Sample,87972,0,"Piano_March - Marker #56.ogg",100
+Sample,88133,0,"Piano_March - Marker #58.ogg",100
+Sample,88133,0,"Piano_March - Marker #51.ogg",100
+Sample,88133,0,"Piano_March - Marker #31.ogg",100
+Sample,88133,0,"Piano_March - Marker #56.ogg",100
+Sample,88133,0,"Drum_Kick_F.ogg",100
+Sample,88213,0,"Piano_March - Marker #31.ogg",100
+Sample,88213,0,"Drum_Snare_FF.ogg",100
+Sample,88213,0,"FX_Sleigh_TypeA.ogg",100
+Sample,88213,0,"SawLead_March - Marker #12.ogg",100
+Sample,88213,0,"Piano_March - Marker #56.ogg",100
+Sample,88213,0,"Piano_March - Marker #59.ogg",100
+Sample,88213,0,"Piano_March - Marker #51.ogg",100
+Sample,88293,0,"Piano_March - Marker #59.ogg",100
+Sample,88293,0,"Piano_March - Marker #56.ogg",100
+Sample,88293,0,"Piano_March - Marker #31.ogg",100
+Sample,88293,0,"Piano_March - Marker #50.ogg",100
+Sample,88454,0,"Piano_March - Marker #56.ogg",100
+Sample,88454,0,"Piano_March - Marker #31.ogg",100
+Sample,88454,0,"Piano_March - Marker #59.ogg",100
+Sample,88534,0,"SawLead_March - Marker #13.ogg",100
+Sample,88534,0,"Piano_March - Marker #56.ogg",100
+Sample,88534,0,"Piano_March - Marker #31.ogg",100
+Sample,88534,0,"Drum_Snare_FF.ogg",100
+Sample,88534,0,"Piano_March - Marker #63.ogg",100
+Sample,88534,0,"Piano_March - Marker #51.ogg",100
+Sample,88614,0,"Piano_March - Marker #63.ogg",100
+Sample,88614,0,"Piano_March - Marker #31.ogg",100
+Sample,88775,0,"Piano_March - Marker #63.ogg",100
+Sample,88775,0,"Piano_March - Marker #31.ogg",100
+Sample,88775,0,"Piano_March - Marker #56.ogg",100
+Sample,88895,0,"Piano_March - Marker #61.ogg",100
+Sample,88935,0,"Piano_March - Marker #64.ogg",100
+Sample,88935,0,"Piano_March - Marker #65.ogg",100
+Sample,89015,0,"Piano_March - Marker #66.ogg",100
+Sample,91422,0,"Sine_Up - Marker #1.ogg",100
+Sample,91422,0,"Drum_Snare_Cluster_A.ogg",100
+Sample,91422,0,"Crash_Vengeance_M.ogg",100
+Sample,92063,0,"Sine_Up - Marker #2.ogg",100
+Sample,92705,0,"Sine_Up - Marker #3.ogg",100
+Sample,92705,0,"Crash_Vengeance_R.ogg",100
+Sample,92705,0,"Colossus_Bells - Marker #23.ogg",100
+Sample,92705,0,"Drum_Crash - Marker #5.ogg",100
+Sample,93347,0,"Piano_Small - Marker #166.ogg",100
+Sample,93347,0,"FX_Trilian_TypeA.ogg",100
+Sample,93347,0,"Piano_Small - Marker #196.ogg",100
+Sample,93347,0,"Drum_Kick_FF.ogg",100
+Sample,93347,0,"Crash_Vengeance_L.ogg",100
+Sample,93347,0,"Piano_Small - Marker #180.ogg",100
+Sample,93989,0,"Piano_HOOK - Marker #45.ogg",100
+Sample,93989,0,"Drum_Crash - Marker #5.ogg",50
+Sample,93989,0,"Drum_Kick_F.ogg",100
+Sample,94309,0,"Drum_Snare_Basic.ogg",100
+Sample,94309,0,"Piano_HOOK - Marker #45.ogg",100
+Sample,94309,0,"Hihat Open_TypeA.ogg",100
+Sample,94630,0,"Piano_HOOK - Marker #58.ogg",100
+Sample,94630,0,"Piano_HOOK - Marker #41.ogg",100
+Sample,94630,0,"Drum_Kick_F.ogg",100
+Sample,94951,0,"Hihat Open_TypeA.ogg",100
+Sample,94951,0,"Piano_HOOK - Marker #35.ogg",100
+Sample,95112,0,"Piano_HOOK - Marker #62.ogg",100
+Sample,95112,0,"Piano_HOOK - Marker #46.ogg",100
+Sample,95112,0,"Piano_HOOK - Marker #75.ogg",100
+Sample,95432,0,"Piano_HOOK - Marker #55.ogg",100
+Sample,95432,0,"Piano_HOOK - Marker #71.ogg",100
+Sample,95593,0,"Hihat Open_TypeA.ogg",100
+Sample,95914,0,"Piano_HOOK - Marker #65.ogg",100
+Sample,95914,0,"Piano_HOOK - Marker #32.ogg",100
+Sample,95914,0,"Drum_Kick_F.ogg",100
+Sample,96235,0,"Drum_Snare_Basic.ogg",100
+Sample,96555,0,"Piano_HOOK - Marker #2.ogg",100
+Sample,96555,0,"Piano_HOOK - Marker #75.ogg",100
+Sample,96555,0,"Hihat Open_TypeA.ogg",100
+Sample,96876,0,"Hihat Open_TypeA.ogg",100
+Sample,96876,0,"Piano_HOOK - Marker #75.ogg",100
+Sample,96876,0,"Piano_HOOK - Marker #14.ogg",100
+Sample,97197,0,"Piano_HOOK - Marker #41.ogg",100
+Sample,97197,0,"Hihat Open_TypeA.ogg",100
+Sample,97358,0,"Drum_Kick_F.ogg",100
+Sample,97518,0,"Hihat Open_TypeA.ogg",100
+Sample,97678,0,"Piano_HOOK - Marker #44.ogg",100
+Sample,97678,0,"Piano_HOOK - Marker #28.ogg",100
+Sample,97678,0,"Piano_HOOK - Marker #75.ogg",100
+Sample,97999,0,"Piano_HOOK - Marker #79.ogg",100
+Sample,97999,0,"Piano_HOOK - Marker #49.ogg",100
+Sample,98481,0,"Piano_HOOK - Marker #18.ogg",100
+Sample,98481,0,"Piano_HOOK - Marker #29.ogg",100
+Sample,98481,0,"Drum_Kick_F.ogg",100
+Sample,98801,0,"Piano_HOOK - Marker #37.ogg",100
+Sample,98801,0,"Piano_HOOK - Marker #24.ogg",100
+Sample,98801,0,"Hihat Open_TypeA.ogg",100
+Sample,99122,0,"Drum_Crash - Marker #5.ogg",50
+Sample,99122,0,"Piano_HOOK - Marker #16.ogg",100
+Sample,99122,0,"Piano_HOOK - Marker #1.ogg",100
+Sample,99122,0,"Piano_HOOK - Marker #34.ogg",100
+Sample,99122,0,"Drum_Kick_F.ogg",100
+Sample,99443,0,"Hihat Open_TypeA.ogg",100
+Sample,99764,0,"Piano_HOOK - Marker #9.ogg",100
+Sample,99764,0,"Piano_HOOK - Marker #33.ogg",100
+Sample,99764,0,"Piano_HOOK - Marker #17.ogg",100
+Sample,100245,0,"Drum_Kick_F.ogg",100
+Sample,100245,0,"Piano_HOOK - Marker #3.ogg",100
+Sample,100245,0,"Drum_Crash - Marker #5.ogg",50
+Sample,100245,0,"Piano_HOOK - Marker #39.ogg",100
+Sample,100566,0,"Drum_Tom_Mid.ogg",100
+Sample,100887,0,"Piano_HOOK - Marker #27.ogg",100
+Sample,100887,0,"Drum_Kick_F.ogg",100
+Sample,100887,0,"Piano_HOOK - Marker #51.ogg",100
+Sample,100887,0,"Crash_Vengeance_R.ogg",100
+Sample,101047,0,"Drum_Tom_Floor.ogg",100
+Sample,101368,0,"Hihat Pedaled_1.ogg",100
+Sample,101529,0,"Hihat Pedaled_2.ogg",100
+Sample,101689,0,"Drum_Crash - Marker #5.ogg",50
+Sample,101689,0,"Piano_HOOK - Marker #86.ogg",100
+Sample,101689,0,"Piano_HOOK - Marker #73.ogg",100
+Sample,102010,0,"Drum_Snare_Basic.ogg",100
+Sample,102331,0,"Drum_Kick_F.ogg",100
+Sample,102331,0,"Piano_HOOK - Marker #87.ogg",100
+Sample,102331,0,"Hihat Open_TypeB.ogg",100
+Sample,102331,0,"Piano_HOOK - Marker #59.ogg",100
+Sample,102652,0,"Hihat Open_TypeB.ogg",100
+Sample,102812,0,"Piano_HOOK - Marker #5.ogg",100
+Sample,102812,0,"Drum_Kick_F.ogg",100
+Sample,102812,0,"Piano_HOOK - Marker #21.ogg",100
+Sample,102812,0,"Piano_HOOK - Marker #45.ogg",100
+Sample,102812,0,"Piano_HOOK - Marker #65.ogg",100
+Sample,102972,0,"Hihat Open_TypeB.ogg",100
+Sample,103293,0,"Drum_Snare_Basic.ogg",100
+Sample,103293,0,"Hihat Open_TypeB.ogg",100
+Sample,103293,0,"Piano_HOOK - Marker #50.ogg",100
+Sample,103454,0,"Piano_HOOK - Marker #36.ogg",100
+Sample,103454,0,"Drum_Kick_F.ogg",100
+Sample,103454,0,"Piano_HOOK - Marker #57.ogg",100
+Sample,103454,0,"Drum_Tom_Mid.ogg",100
+Sample,103454,0,"Piano_HOOK - Marker #15.ogg",100
+Sample,104256,0,"FX_Sleigh_TypeA.ogg",100
+Sample,104256,0,"Piano_HOOK - Marker #75.ogg",100
+Sample,104256,0,"Piano_HOOK - Marker #26.ogg",100
+Sample,104256,0,"FX_VEC4.ogg",100
+Sample,104256,0,"Crash_Vengeance_M.ogg",100
+Sample,104256,0,"Drum_Crash - Marker #5.ogg",50
+Sample,104256,0,"Colossus_Bells - Marker #29.ogg",100
+Sample,104577,0,"Drum_Snare_Basic.ogg",100
+Sample,104577,0,"FX_Sleigh_TypeB.ogg",100
+Sample,104577,0,"Hihat Open_TypeB.ogg",100
+Sample,104898,0,"FX_Sleigh_TypeA.ogg",100
+Sample,104898,0,"Hihat Open_TypeB.ogg",100
+Sample,104898,0,"Drum_Kick_F.ogg",100
+Sample,105218,0,"Drum_Snare_Basic.ogg",100
+Sample,105218,0,"Hihat Open_TypeB.ogg",100
+Sample,105218,0,"FX_Sleigh_TypeB.ogg",100
+Sample,105218,0,"Piano_HOOK - Marker #78.ogg",100
+Sample,105539,0,"Colossus_Bells - Marker #29.ogg",100
+Sample,105539,0,"Drum_Kick_F.ogg",100
+Sample,105539,0,"Piano_HOOK - Marker #87.ogg",100
+Sample,105539,0,"Piano_HOOK - Marker #52.ogg",100
+Sample,105539,0,"FX_Sleigh_TypeA.ogg",100
+Sample,105539,0,"Piano_HOOK - Marker #20.ogg",100
+Sample,105860,0,"Hihat Open_TypeB.ogg",100
+Sample,105860,0,"FX_Sleigh_TypeB.ogg",100
+Sample,106021,0,"Drum_Kick_F.ogg",100
+Sample,106181,0,"FX_Sleigh_TypeA.ogg",100
+Sample,106502,0,"FX_Sleigh_TypeB.ogg",100
+Sample,106502,0,"Hihat Open_TypeB.ogg",100
+Sample,106823,0,"Piano_HOOK - Marker #10.ogg",100
+Sample,106823,0,"Drum_Crash - Marker #5.ogg",50
+Sample,106823,0,"FX_Sleigh_TypeA.ogg",100
+Sample,106823,0,"Hihat Open_TypeB.ogg",100
+Sample,106823,0,"Crash_Vengeance_M.ogg",100
+Sample,106823,0,"Piano_HOOK - Marker #44.ogg",100
+Sample,106823,0,"Colossus_Bells - Marker #16.ogg",100
+Sample,107144,0,"FX_Sleigh_TypeB.ogg",100
+Sample,107144,0,"Hihat Open_TypeB.ogg",100
+Sample,107144,0,"Drum_Snare_Basic.ogg",100
+Sample,107464,0,"Drum_Kick_F.ogg",100
+Sample,107464,0,"Hihat Open_TypeB.ogg",100
+Sample,107464,0,"FX_Sleigh_TypeA.ogg",100
+Sample,107785,0,"FX_Sleigh_TypeB.ogg",100
+Sample,107785,0,"Hihat Open_TypeB.ogg",100
+Sample,107785,0,"Drum_Snare_Basic.ogg",100
+Sample,108106,0,"Piano_HOOK - Marker #42.ogg",100
+Sample,108106,0,"Hihat Open_TypeB.ogg",100
+Sample,108106,0,"FX_Sleigh_TypeA.ogg",100
+Sample,108106,0,"Colossus_Bells - Marker #22.ogg",100
+Sample,108106,0,"Piano_HOOK - Marker #6.ogg",100
+Sample,108106,0,"Drum_Crash - Marker #4.ogg",100
+Sample,108106,0,"Crash_Vengeance_R.ogg",100
+Sample,108106,0,"Piano_HOOK - Marker #25.ogg",100
+Sample,108427,0,"FX_Sleigh_TypeB.ogg",100
+Sample,108587,0,"Drum_Kick_F.ogg",100
+Sample,108748,0,"FX_Sleigh_TypeA.ogg",100
+Sample,108748,0,"Hihat Open_TypeB.ogg",100
+Sample,109069,0,"Piano_HOOK - Marker #83.ogg",100
+Sample,109069,0,"Piano_HOOK - Marker #67.ogg",100
+Sample,109069,0,"FX_Sleigh_TypeB.ogg",100
+Sample,109069,0,"Hihat Open_TypeB.ogg",100
+Sample,109309,0,"Piano_HOOK - Marker #89.ogg",100
+Sample,109390,0,"Crash_Vengeance_M.ogg",100
+Sample,109390,0,"Piano_HOOK - Marker #56.ogg",100
+Sample,109390,0,"Colossus_Bells - Marker #7.ogg",100
+Sample,109390,0,"Piano_HOOK - Marker #70.ogg",100
+Sample,109390,0,"Drum_Crash - Marker #5.ogg",50
+Sample,109390,0,"FX_Sleigh_TypeA.ogg",100
+Sample,109710,0,"FX_Sleigh_TypeB.ogg",100
+Sample,109710,0,"NexTranceGuitar_TypeC - Marker #1.ogg",100
+Sample,109710,0,"Hihat Open_TypeB.ogg",100
+Sample,110031,0,"FX_Sleigh_TypeA.ogg",100
+Sample,110031,0,"FX_water_droplet_mom.ogg",100
+Sample,110031,0,"Hihat Open_TypeB.ogg",100
+Sample,110192,0,"NexTranceGuitar_TypeC - Marker #2.ogg",100
+Sample,110352,0,"Drum_Snare_Basic.ogg",100
+Sample,110352,0,"FX_Sleigh_TypeB.ogg",100
+Sample,110513,0,"Drum_Crash - Marker #5.ogg",50
+Sample,110593,0,"Piano_HOOK_Sub - Marker #21.ogg",100
+Sample,110673,0,"FX_Sleigh_TypeA.ogg",100
+Sample,110673,0,"NexTranceGuitar_TypeC - Marker #3.ogg",100
+Sample,110994,0,"FX_Sleigh_TypeB.ogg",100
+Sample,110994,0,"Drum_Snare_Basic.ogg",100
+Sample,111154,0,"Drum_Crash - Marker #4.ogg",100
+Sample,111154,0,"NexTranceGuitar_TypeC - Marker #4.ogg",100
+Sample,111154,0,"Piano_HOOK_Sub - Marker #17.ogg",100
+Sample,111315,0,"FX_Sleigh_TypeA.ogg",100
+Sample,111315,0,"Hihat Open_TypeB.ogg",100
+Sample,111475,0,"Drum_Crash - Marker #5.ogg",50
+Sample,111636,0,"NexTranceGuitar_TypeC - Marker #5.ogg",100
+Sample,111636,0,"Hihat Open_TypeB.ogg",100
+Sample,111716,0,"Piano_HOOK_Sub - Marker #3.ogg",100
+Sample,111796,0,"Piano_HOOK_Sub - Marker #2.ogg",100
+Sample,111876,0,"Piano_HOOK_Sub - Marker #1.ogg",100
+Sample,111956,0,"Colossus_Bells - Marker #36.ogg",100
+Sample,111956,0,"Piano_Small - Marker #4.ogg",100
+Sample,111956,0,"Crash_Vengeance_M.ogg",100
+Sample,111956,0,"Sine_Up - Marker #1.ogg",100
+Sample,111956,0,"Drum_Kick_F.ogg",100
+Sample,111956,0,"Cluster_Harp.ogg",100
+Sample,111956,0,"NexTranceGuitar_TypeC - Marker #6.ogg",100
+Sample,111956,0,"Drum_Snare_Cluster_B.ogg",100
+Sample,112598,0,"Sine_Up - Marker #2.ogg",100
+Sample,113240,0,"Drum_Kick_F.ogg",100
+Sample,113240,0,"Drum_Crash - Marker #5.ogg",50
+Sample,113882,0,"FX_Trilian_TypeC.ogg",100
+Sample,113882,0,"Piano_Small - Marker #176.ogg",100
+Sample,113882,0,"Colossus_Bells - Marker #16.ogg",100
+Sample,113882,0,"Piano_Small - Marker #93.ogg",100
+Sample,113882,0,"Piano_Small - Marker #29.ogg",100
+Sample,114523,0,"FX_VEC4.ogg",100
+Sample,114523,0,"AddonSplit - Marker #1.ogg",100
+Sample,114523,0,"Piano_Small - Marker #110.ogg",100
+Sample,114523,0,"Piano_Small - Marker #73.ogg",100
+Sample,114523,0,"Drum_Crash - Marker #5.ogg",50
+Sample,114523,0,"Crash_Vengeance_M.ogg",100
+Sample,114844,0,"Piano_Small - Marker #110.ogg",100
+Sample,114844,0,"Hihat Open_TypeA.ogg",100
+Sample,115165,0,"Piano_Small - Marker #108.ogg",100
+Sample,115165,0,"Hihat Open_TypeA.ogg",100
+Sample,115165,0,"Piano_Small - Marker #18.ogg",100
+Sample,115165,0,"Drum_Kick_F.ogg",100
+Sample,115646,0,"AddonSplit - Marker #4.ogg",100
+Sample,115646,0,"Drum_Kick_F.ogg",100
+Sample,115646,0,"Piano_Small - Marker #110.ogg",100
+Sample,115967,0,"Piano_Small - Marker #109.ogg",100
+Sample,115967,0,"Piano_Small - Marker #125.ogg",100
+Sample,116128,0,"Hihat Open_TypeA.ogg",100
+Sample,116448,0,"AddonSplit - Marker #6.ogg",100
+Sample,116448,0,"Piano_Small - Marker #73.ogg",100
+Sample,116448,0,"Hihat Open_TypeA.ogg",100
+Sample,116448,0,"Piano_Small - Marker #93.ogg",100
+Sample,116448,0,"Drum_Kick_F.ogg",100
+Sample,116769,0,"AddonSplit - Marker #7.ogg",100
+Sample,117090,0,"Colossus_Bells - Marker #16.ogg",100
+Sample,117090,0,"Piano_Small - Marker #17.ogg",100
+Sample,117090,0,"AddonSplit - Marker #8.ogg",100
+Sample,117090,0,"Piano_Small - Marker #73.ogg",100
+Sample,117090,0,"Piano_Small - Marker #115.ogg",100
+Sample,117090,0,"Piano_Small - Marker #143.ogg",100
+Sample,117411,0,"Piano_Small - Marker #143.ogg",100
+Sample,117411,0,"Piano_Small - Marker #73.ogg",100
+Sample,117732,0,"Piano_Small - Marker #142.ogg",100
+Sample,117732,0,"Piano_Small - Marker #72.ogg",100
+Sample,117732,0,"Hihat Open_TypeA.ogg",100
+Sample,118213,0,"Piano_Small - Marker #143.ogg",100
+Sample,118213,0,"AddonSplit - Marker #11.ogg",100
+Sample,118213,0,"Piano_Small - Marker #19.ogg",100
+Sample,118213,0,"Piano_Small - Marker #115.ogg",100
+Sample,118534,0,"Piano_Small - Marker #71.ogg",100
+Sample,118534,0,"Drum_Kick_F.ogg",100
+Sample,119015,0,"Piano_Small - Marker #79.ogg",100
+Sample,119015,0,"Hihat Open_TypeA.ogg",100
+Sample,119015,0,"Piano_Small - Marker #21.ogg",100
+Sample,119015,0,"Drum_Kick_F.ogg",100
+Sample,119015,0,"AddonSplit - Marker #13.ogg",100
+Sample,119336,0,"Piano_Small - Marker #80.ogg",100
+Sample,119336,0,"Hihat Open_TypeA.ogg",100
+Sample,119336,0,"AddonSplit - Marker #14.ogg",100
+Sample,119657,0,"Piano_Small - Marker #143.ogg",100
+Sample,119657,0,"Piano_Small - Marker #61.ogg",100
+Sample,119657,0,"Piano_Small - Marker #93.ogg",100
+Sample,119657,0,"Drum_Kick_F.ogg",100
+Sample,119657,0,"Piano_Small - Marker #115.ogg",100
+Sample,119978,0,"Hihat Open_TypeA.ogg",100
+Sample,119978,0,"Piano_Small - Marker #64.ogg",100
+Sample,120299,0,"Piano_Small - Marker #66.ogg",100
+Sample,120299,0,"Piano_Small - Marker #103.ogg",100
+Sample,120299,0,"Hihat Open_TypeA.ogg",100
+Sample,120459,0,"Piano_Small - Marker #54.ogg",100
+Sample,120620,0,"Hihat Open_TypeA.ogg",100
+Sample,120780,0,"Piano_Small - Marker #72.ogg",100
+Sample,120780,0,"Drum_Crash - Marker #5.ogg",60
+Sample,120780,0,"Piano_Small - Marker #36.ogg",100
+Sample,120780,0,"Piano_Small - Marker #14.ogg",100
+Sample,120780,0,"Piano_Small - Marker #51.ogg",100
+Sample,121261,0,"Piano_Small - Marker #82.ogg",100
+Sample,121422,0,"Piano_Small - Marker #35.ogg",100
+Sample,121422,0,"MassiveDetunedLead - Marker #7.ogg",100
+Sample,121422,0,"Piano_Small - Marker #53.ogg",100
+Sample,121422,0,"Drum_Kick_F.ogg",100
+Sample,121422,0,"Piano_Small - Marker #7.ogg",100
+Sample,121743,0,"Piano_Small - Marker #51.ogg",100
+Sample,122224,0,"Colossus_Bells - Marker #25.ogg",100
+Sample,122224,0,"Piano_Small - Marker #115.ogg",100
+Sample,122224,0,"Piano_Small - Marker #143.ogg",100
+Sample,122224,0,"Drum_Crash - Marker #5.ogg",60
+Sample,122224,0,"Piano_Small - Marker #8.ogg",100
+Sample,122545,0,"Hihat Open_TypeA.ogg",100
+Sample,122545,0,"Piano_Small - Marker #34.ogg",100
+Sample,122545,0,"Piano_Small - Marker #149.ogg",100
+Sample,122705,0,"PhraseString_Cluster - Marker #3.ogg",100
+Sample,122705,0,"Piano_Small - Marker #126.ogg",100
+Sample,122705,0,"Piano_Small - Marker #110.ogg",100
+Sample,123026,0,"Piano_Small - Marker #116.ogg",100
+Sample,123186,0,"Piano_Small - Marker #133.ogg",100
+Sample,123347,0,"Piano_Small - Marker #5.ogg",100
+Sample,123347,0,"Piano_Small - Marker #91.ogg",100
+Sample,123347,0,"Piano_Small - Marker #28.ogg",100
+Sample,123347,0,"Piano_Small - Marker #139.ogg",100
+Sample,123668,0,"Piano_Small - Marker #157.ogg",100
+Sample,123828,0,"Hihat Open_TypeA.ogg",100
+Sample,123989,0,"Piano_Small - Marker #170.ogg",100
+Sample,123989,0,"Piano_Small - Marker #3.ogg",100
+Sample,123989,0,"Piano_Small - Marker #25.ogg",100
+Sample,124309,0,"Piano_Small - Marker #101.ogg",100
+Sample,124470,0,"Piano_Small - Marker #186.ogg",100
+Sample,124630,0,"Piano_Small - Marker #191.ogg",100
+Sample,124791,0,"PhraseString_Cluster - Marker #13.ogg",100
+Sample,124791,0,"Piano_Small - Marker #75.ogg",100
+Sample,124791,0,"Piano_Sub - Marker #2.ogg",100
+Sample,124791,0,"Colossus_Bells - Marker #7.ogg",100
+Sample,124791,0,"Piano_Small - Marker #42.ogg",100
+Sample,124791,0,"Piano_Small - Marker #16.ogg",100
+Sample,124791,0,"Crash_Vengeance_M.ogg",100
+Sample,124791,0,"Piano_Small - Marker #94.ogg",100
+Sample,124871,0,"Piano_Sub - Marker #5.ogg",100
+Sample,124951,0,"Piano_Sub - Marker #8.ogg",100
+Sample,125031,0,"Piano_Sub - Marker #10.ogg",100
+Sample,125112,0,"Piano_Small - Marker #42.ogg",100
+Sample,125112,0,"Hihat Open_TypeA.ogg",100
+Sample,125112,0,"Piano_Small - Marker #95.ogg",100
+Sample,125432,0,"Hihat Open_TypeA.ogg",100
+Sample,125432,0,"Piano_Small - Marker #48.ogg",100
+Sample,125432,0,"Drum_Kick_F.ogg",100
+Sample,125432,0,"Piano_Small - Marker #104.ogg",100
+Sample,125593,0,"Drum_Kick_F.ogg",100
+Sample,125593,0,"Piano_Small - Marker #74.ogg",100
+Sample,125593,0,"Piano_Small - Marker #95.ogg",100
+Sample,125914,0,"Piano_Small - Marker #42.ogg",100
+Sample,125914,0,"Piano_Small - Marker #75.ogg",100
+Sample,125914,0,"Piano_Small - Marker #96.ogg",100
+Sample,126074,0,"Drum_Kick_F.ogg",100
+Sample,126235,0,"Piano_Small - Marker #49.ogg",100
+Sample,126235,0,"Piano_Small - Marker #83.ogg",100
+Sample,126395,0,"Piano_Small - Marker #97.ogg",100
+Sample,126395,0,"Piano_Small - Marker #77.ogg",100
+Sample,126555,0,"Drum_Kick_F.ogg",100
+Sample,126716,0,"Hihat Open_TypeA.ogg",100
+Sample,126716,0,"Piano_Small - Marker #92.ogg",100
+Sample,126716,0,"Piano_Small - Marker #74.ogg",100
+Sample,126716,0,"Piano_Small - Marker #41.ogg",100
+Sample,127358,0,"Hihat Open_TypeA.ogg",100
+Sample,127358,0,"Piano_Small - Marker #62.ogg",100
+Sample,127358,0,"Piano_Small - Marker #42.ogg",100
+Sample,127358,0,"PhraseString_Cluster - Marker #14.ogg",100
+Sample,127358,0,"Colossus_Bells - Marker #21.ogg",100
+Sample,127358,0,"Crash_Vengeance_M.ogg",100
+Sample,127358,0,"Drum_Kick_F.ogg",100
+Sample,127358,0,"Piano_Small - Marker #96.ogg",100
+Sample,127438,0,"Piano_Sub - Marker #3.ogg",100
+Sample,127518,0,"Piano_Sub - Marker #8.ogg",100
+Sample,127598,0,"Piano_Sub - Marker #12.ogg",100
+Sample,127678,0,"Piano_Small - Marker #42.ogg",100
+Sample,127678,0,"Piano_Small - Marker #95.ogg",100
+Sample,127678,0,"Piano_Small - Marker #62.ogg",100
+Sample,127759,0,"Piano_Sub - Marker #15.ogg",100
+Sample,127999,0,"Piano_Small - Marker #105.ogg",100
+Sample,127999,0,"Piano_Small - Marker #48.ogg",100
+Sample,127999,0,"Hihat Open_TypeA.ogg",100
+Sample,127999,0,"Drum_Kick_F.ogg",100
+Sample,128160,0,"Piano_Small - Marker #95.ogg",100
+Sample,128160,0,"Piano_Small - Marker #62.ogg",100
+Sample,128160,0,"Drum_Kick_F.ogg",100
+Sample,128481,0,"Piano_Small - Marker #63.ogg",100
+Sample,128481,0,"Piano_Small - Marker #95.ogg",100
+Sample,128481,0,"Drum_Kick_F.ogg",100
+Sample,128641,0,"Drum_Kick_F.ogg",100
+Sample,128801,0,"Piano_Small - Marker #48.ogg",100
+Sample,128801,0,"Piano_Small - Marker #67.ogg",100
+Sample,128801,0,"Piano_Small - Marker #107.ogg",100
+Sample,128962,0,"Piano_Small - Marker #46.ogg",100
+Sample,128962,0,"Piano_Small - Marker #100.ogg",100
+Sample,129122,0,"Drum_Kick_F.ogg",100
+Sample,129283,0,"Drum_Crash - Marker #4.ogg",100
+Sample,129283,0,"Piano_Small - Marker #64.ogg",100
+Sample,129283,0,"MassiveDetunedLead - Marker #12.ogg",100
+Sample,129283,0,"Piano_Small - Marker #46.ogg",100
+Sample,129283,0,"Piano_Small - Marker #99.ogg",100
+Sample,129283,0,"Hihat Open_TypeA.ogg",100
+Sample,129283,0,"Piano_Small - Marker #15.ogg",100
+Sample,129283,0,"Crash_Vengeance_R.ogg",100
+Sample,129604,0,"Piano_Small - Marker #85.ogg",100
+Sample,129604,0,"Piano_Small - Marker #37.ogg",100
+Sample,129604,0,"Piano_Small - Marker #11.ogg",100
+Sample,129604,0,"Piano_Small - Marker #57.ogg",100
+Sample,129924,0,"Piano_Small - Marker #42.ogg",100
+Sample,129924,0,"Crash_Vengeance_M.ogg",100
+Sample,129924,0,"Piano_Small - Marker #9.ogg",100
+Sample,129924,0,"Colossus_Bells - Marker #1.ogg",100
+Sample,129924,0,"Piano_Small - Marker #33.ogg",100
+Sample,130245,0,"Drum_Snare_Basic.ogg",100
+Sample,130406,0,"Piano_Small - Marker #124.ogg",100
+Sample,130406,0,"Piano_Small - Marker #71.ogg",100
+Sample,130406,0,"Piano_Small - Marker #108.ogg",100
+Sample,130566,0,"Drum_Ride.ogg",100
+Sample,130887,0,"Piano_Small - Marker #111.ogg",100
+Sample,130887,0,"Piano_Small - Marker #130.ogg",100
+Sample,130887,0,"Piano_Small - Marker #79.ogg",100
+Sample,130887,0,"Drum_Snare_Basic.ogg",100
+Sample,131047,0,"Crash_Vengeance_R.ogg",100
+Sample,131208,0,"Colossus_Bells - Marker #11.ogg",100
+Sample,131368,0,"Piano_Small - Marker #108.ogg",100
+Sample,131850,0,"Piano_Small - Marker #110.ogg",100
+Sample,131850,0,"Hihat Open_TypeA.ogg",100
+Sample,131850,0,"Piano_Small - Marker #84.ogg",100
+Sample,131850,0,"Drum_Crash - Marker #5.ogg",60
+Sample,131850,0,"Crash_Vengeance_L.ogg",100
+Sample,132170,0,"Hihat Open_TypeA.ogg",100
+Sample,132170,0,"Piano_Small - Marker #86.ogg",100
+Sample,132170,0,"Piano_Small - Marker #146.ogg",100
+Sample,132491,0,"Crash_Vengeance_M.ogg",100
+Sample,132491,0,"Colossus_Bells - Marker #22.ogg",100
+Sample,132491,0,"Piano_Small - Marker #115.ogg",100
+Sample,132491,0,"Piano_Small - Marker #26.ogg",100
+Sample,132491,0,"Piano_Small - Marker #154.ogg",100
+Sample,132812,0,"Piano_Small - Marker #92.ogg",100
+Sample,132812,0,"Hihat Open_TypeA.ogg",100
+Sample,132812,0,"Piano_Small - Marker #167.ogg",100
+Sample,132812,0,"Drum_Crash - Marker #6.ogg",100
+Sample,132972,0,"Piano_Small - Marker #115.ogg",100
+Sample,132972,0,"Piano_Small - Marker #143.ogg",100
+Sample,133293,0,"Piano_Small - Marker #104.ogg",100
+Sample,133454,0,"Piano_Small - Marker #103.ogg",100
+Sample,133454,0,"Piano_Small - Marker #146.ogg",100
+Sample,133454,0,"Hihat Open_TypeA.ogg",100
+Sample,133614,0,"Drum_Crash - Marker #5.ogg",60
+Sample,133614,0,"Piano_Small - Marker #92.ogg",100
+Sample,133614,0,"Piano_Small - Marker #140.ogg",100
+Sample,133614,0,"Piano_Small - Marker #113.ogg",100
+Sample,133614,0,"Colossus_Bells - Marker #35.ogg",100
+Sample,133775,0,"Hihat Open_TypeA.ogg",100
+Sample,134416,0,"Piano_Small - Marker #181.ogg",100
+Sample,134416,0,"Piano_Small - Marker #117.ogg",100
+Sample,134416,0,"GuitarSolo - Marker #1.ogg",100
+Sample,134416,0,"Piano_Small - Marker #147.ogg",100
+Sample,134416,0,"MassiveDetunedLead - Marker #26.ogg",100
+Sample,134577,0,"MassiveDetunedLead - Marker #27.ogg",100
+Sample,134577,0,"Piano_Small - Marker #117.ogg",100
+Sample,134577,0,"Piano_Small - Marker #181.ogg",100
+Sample,134577,0,"Piano_Small - Marker #147.ogg",100
+Sample,135058,0,"Colossus_Bells - Marker #4.ogg",100
+Sample,135058,0,"Piano_Climax_020.ogg",100
+Sample,135058,0,"Piano_Climax_026.ogg",100
+Sample,135058,0,"Drum_Crash - Marker #5.ogg",60
+Sample,135058,0,"Piano_Climax_007.ogg",100
+Sample,135058,0,"Piano_Climax_016.ogg",100
+Sample,135058,0,"Drum_Kick_F.ogg",100
+Sample,135058,0,"FX_Sleigh_TypeA.ogg",100
+Sample,135058,0,"FX_VEC4.ogg",100
+Sample,135379,0,"Piano_Climax_016.ogg",100
+Sample,135379,0,"Piano_Climax_020.ogg",100
+Sample,135379,0,"Piano_Climax_026.ogg",100
+Sample,135379,0,"Drum_Crash - Marker #5.ogg",60
+Sample,135700,0,"Piano_Climax_007.ogg",100
+Sample,135700,0,"Piano_Climax_016.ogg",100
+Sample,135700,0,"Piano_Climax_026.ogg",100
+Sample,135700,0,"Piano_Climax_020.ogg",100
+Sample,136021,0,"Piano_Climax_020.ogg",100
+Sample,136021,0,"Piano_Climax_016.ogg",100
+Sample,136021,0,"Piano_Climax_026.ogg",100
+Sample,136021,0,"Drum_Crash - Marker #5.ogg",60
+Sample,136341,0,"Piano_Climax_020.ogg",100
+Sample,136341,0,"Piano_Climax_026.ogg",100
+Sample,136341,0,"Piano_Climax_007.ogg",100
+Sample,136341,0,"Piano_Climax_016.ogg",100
+Sample,136662,0,"Piano_Climax_016.ogg",100
+Sample,136662,0,"Piano_Climax_020.ogg",100
+Sample,136662,0,"Piano_Climax_026.ogg",100
+Sample,136662,0,"Drum_Crash - Marker #5.ogg",60
+Sample,136983,0,"Piano_Climax_020.ogg",100
+Sample,136983,0,"Piano_Climax_016.ogg",100
+Sample,136983,0,"Piano_Climax_007.ogg",100
+Sample,136983,0,"Piano_Climax_026.ogg",100
+Sample,136983,0,"Drum_Crash - Marker #5.ogg",60
+Sample,137304,0,"Piano_Climax_007.ogg",100
+Sample,137304,0,"Piano_Climax_020.ogg",100
+Sample,137304,0,"Piano_Climax_016.ogg",100
+Sample,137304,0,"Drum_Crash - Marker #5.ogg",60
+Sample,137304,0,"Piano_Climax_026.ogg",100
+Sample,137625,0,"Colossus_Bells - Marker #4.ogg",100
+Sample,137625,0,"Piano_Climax_026.ogg",100
+Sample,137625,0,"Piano_Climax_013.ogg",100
+Sample,137625,0,"Piano_Climax_017.ogg",100
+Sample,137625,0,"Crash_Vengeance_M.ogg",100
+Sample,137625,0,"Drum_Snare_Basic.ogg",100
+Sample,137625,0,"Piano_Climax_007.ogg",100
+Sample,137946,0,"Piano_Climax_017.ogg",100
+Sample,137946,0,"Piano_Climax_026.ogg",100
+Sample,137946,0,"Piano_Climax_013.ogg",100
+Sample,137946,0,"Drum_Crash - Marker #5.ogg",60
+Sample,137946,0,"FX_Sleigh_TypeA.ogg",100
+Sample,138267,0,"Piano_Climax_026.ogg",100
+Sample,138267,0,"Piano_Climax_017.ogg",100
+Sample,138267,0,"Piano_Climax_013.ogg",100
+Sample,138267,0,"Piano_Climax_007.ogg",100
+Sample,138587,0,"Piano_Climax_026.ogg",100
+Sample,138587,0,"Piano_Climax_017.ogg",100
+Sample,138587,0,"Piano_Climax_013.ogg",100
+Sample,138587,0,"Drum_Crash - Marker #5.ogg",60
+Sample,138908,0,"Piano_Climax_026.ogg",100
+Sample,138908,0,"Piano_Climax_007.ogg",100
+Sample,138908,0,"Piano_Climax_017.ogg",100
+Sample,138908,0,"Piano_Climax_013.ogg",100
+Sample,139229,0,"Piano_Climax_013.ogg",100
+Sample,139229,0,"Piano_Climax_017.ogg",100
+Sample,139229,0,"Piano_Climax_026.ogg",100
+Sample,139229,0,"Drum_Crash - Marker #5.ogg",60
+Sample,139550,0,"Piano_Climax_026.ogg",100
+Sample,139550,0,"Piano_Climax_007.ogg",100
+Sample,139550,0,"Piano_Climax_017.ogg",100
+Sample,139550,0,"Piano_Climax_013.ogg",100
+Sample,139550,0,"GuitarSolo - Marker #8.ogg",100
+Sample,139871,0,"Piano_Climax_017.ogg",100
+Sample,139871,0,"Drum_Snare_Basic.ogg",100
+Sample,139871,0,"Piano_Climax_026.ogg",100
+Sample,139871,0,"GuitarSolo - Marker #9.ogg",100
+Sample,139871,0,"Piano_Climax_007.ogg",100
+Sample,139871,0,"Piano_Climax_013.ogg",100
+Sample,140192,0,"Piano_Climax_003.ogg",100
+Sample,140192,0,"Drum_Kick_F.ogg",100
+Sample,140192,0,"Piano_Climax_051.ogg",100
+Sample,140192,0,"Colossus_Bells - Marker #4.ogg",100
+Sample,140192,0,"Drum_Crash - Marker #4.ogg",100
+Sample,140192,0,"Piano_Climax_039.ogg",100
+Sample,140192,0,"Piano_Climax_025.ogg",100
+Sample,140513,0,"Piano_Climax_051.ogg",100
+Sample,140513,0,"Piano_Climax_039.ogg",100
+Sample,140513,0,"Piano_Climax_003.ogg",100
+Sample,140513,0,"Hihat Open_TypeA.ogg",100
+Sample,140513,0,"Drum_Snare_Basic.ogg",100
+Sample,140513,0,"Piano_Climax_025.ogg",100
+Sample,140833,0,"Hihat Open_TypeA.ogg",100
+Sample,140833,0,"Piano_Climax_050.ogg",100
+Sample,140833,0,"Drum_Kick_F.ogg",100
+Sample,140833,0,"Piano_Climax_065.ogg",100
+Sample,140833,0,"Piano_Climax_004.ogg",100
+Sample,140833,0,"Piano_Climax_037.ogg",100
+Sample,140833,0,"Piano_Climax_028.ogg",100
+Sample,140994,0,"Drum_Kick_F.ogg",100
+Sample,140994,0,"Piano_Climax_028.ogg",100
+Sample,140994,0,"Piano_Climax_004.ogg",100
+Sample,140994,0,"Piano_Climax_066.ogg",100
+Sample,141074,0,"Piano_Sub - Marker #18.ogg",100
+Sample,141154,0,"Crash_Vengeance_L.ogg",100
+Sample,141235,0,"Piano_Sub - Marker #11.ogg",100
+Sample,141315,0,"Piano_Climax_034.ogg",100
+Sample,141315,0,"Piano_Climax_068.ogg",100
+Sample,141315,0,"Colossus_Bells - Marker #14.ogg",100
+Sample,141315,0,"Crash_Vengeance_R.ogg",100
+Sample,141315,0,"Piano_Climax_010.ogg",100
+Sample,141315,0,"Drum_Kick_F.ogg",100
+Sample,141315,0,"Piano_Climax_049.ogg",100
+Sample,141475,0,"Hihat Open_TypeA.ogg",100
+Sample,141796,0,"Piano_Climax_050.ogg",100
+Sample,141796,0,"Piano_Climax_011.ogg",100
+Sample,141796,0,"Piano_Climax_060.ogg",100
+Sample,141796,0,"Hihat Open_TypeA.ogg",100
+Sample,141796,0,"Piano_Climax_039.ogg",100
+Sample,141876,0,"Piano_Sub - Marker #18.ogg",100
+Sample,141956,0,"Piano_Sub - Marker #16.ogg",100
+Sample,142037,0,"Piano_Sub - Marker #11.ogg",100
+Sample,142117,0,"Piano_Climax_056.ogg",100
+Sample,142117,0,"Piano_Climax_038.ogg",100
+Sample,142117,0,"Piano_Climax_029.ogg",100
+Sample,142117,0,"Crash_Vengeance_L.ogg",100
+Sample,142117,0,"Piano_Climax_048.ogg",100
+Sample,142117,0,"GuitarSolo - Marker #16.ogg",100
+Sample,142117,0,"Colossus_Bells - Marker #2.ogg",100
+Sample,142197,0,"Piano_Sub - Marker #18.ogg",100
+Sample,142277,0,"Piano_Sub - Marker #16.ogg",100
+Sample,142358,0,"Piano_Sub - Marker #11.ogg",100
+Sample,142438,0,"Piano_Climax_040.ogg",100
+Sample,142438,0,"Piano_Climax_030.ogg",100
+Sample,142438,0,"Piano_Climax_012.ogg",100
+Sample,142438,0,"Piano_Sub - Marker #32.ogg",100
+Sample,142438,0,"Hihat Open_TypeA.ogg",100
+Sample,142518,0,"Piano_Sub - Marker #24.ogg",100
+Sample,142598,0,"Piano_Sub - Marker #21.ogg",100
+Sample,142678,0,"Piano_Sub - Marker #18.ogg",100
+Sample,142759,0,"Drum_Crash - Marker #4.ogg",100
+Sample,142759,0,"Piano_Climax_058.ogg",100
+Sample,142759,0,"Colossus_Bells - Marker #19.ogg",100
+Sample,142759,0,"Piano_Climax_042.ogg",100
+Sample,142759,0,"Crash_Vengeance_M.ogg",100
+Sample,143079,0,"Hihat Open_TypeA.ogg",100
+Sample,143079,0,"Drum_Snare_Basic.ogg",100
+Sample,143079,0,"Piano_Climax_058.ogg",100
+Sample,143400,0,"Hihat Open_TypeA.ogg",100
+Sample,143400,0,"Piano_Climax_043.ogg",100
+Sample,143400,0,"Drum_Kick_F.ogg",100
+Sample,143400,0,"Piano_Climax_026.ogg",100
+Sample,143400,0,"Piano_Climax_059.ogg",100
+Sample,143561,0,"Piano_Climax_026.ogg",100
+Sample,143882,0,"Crash_Vengeance_R.ogg",100
+Sample,143882,0,"Colossus_Bells - Marker #28.ogg",100
+Sample,143882,0,"Piano_Climax_009.ogg",100
+Sample,143882,0,"Drum_Crash - Marker #5.ogg",60
+Sample,144042,0,"Hihat Open_TypeA.ogg",100
+Sample,144363,0,"Piano_Climax_055.ogg",100
+Sample,144363,0,"Hihat Open_TypeA.ogg",100
+Sample,144684,0,"Piano_Climax_021.ogg",100
+Sample,144684,0,"Drum_Crash - Marker #4.ogg",100
+Sample,144684,0,"Colossus_Bells - Marker #15.ogg",100
+Sample,144684,0,"Piano_Climax_045.ogg",100
+Sample,144684,0,"Crash_Vengeance_L.ogg",100
+Sample,144684,0,"Piano_Climax_008.ogg",100
+Sample,144924,0,"Drum_Tom_Floor.ogg",100
+Sample,145005,0,"Hihat Open_TypeA.ogg",100
+Sample,145005,0,"Piano_Climax_024.ogg",100
+Sample,145325,0,"Colossus_Bells - Marker #10.ogg",100
+Sample,145325,0,"Piano_Climax_018.ogg",100
+Sample,145325,0,"FX_Sleigh_TypeA.ogg",100
+Sample,145325,0,"Drum_Kick_F.ogg",100
+Sample,145325,0,"Piano_Climax_014.ogg",100
+Sample,145325,0,"Crash_Vengeance_M.ogg",100
+Sample,145325,0,"Drum_Crash - Marker #4.ogg",100
+Sample,145646,0,"Piano_Climax_022.ogg",100
+Sample,145967,0,"Piano_Climax_019.ogg",100
+Sample,145967,0,"Piano_Climax_032.ogg",100
+Sample,145967,0,"Piano_Climax_015.ogg",100
+Sample,145967,0,"Drum_Kick_F.ogg",100
+Sample,146288,0,"Piano_Climax_044.ogg",100
+Sample,146288,0,"GuitarSolo - Marker #22.ogg",100
+Sample,146609,0,"FX_Sleigh_TypeA.ogg",100
+Sample,146609,0,"Piano_Climax_036.ogg",100
+Sample,146609,0,"Colossus_Bells - Marker #13.ogg",100
+Sample,146609,0,"Crash_Vengeance_M.ogg",100
+Sample,146609,0,"GuitarSolo - Marker #23.ogg",100
+Sample,146609,0,"Piano_Climax_024.ogg",100
+Sample,146930,0,"Piano_Climax_036.ogg",100
+Sample,146930,0,"Piano_Climax_024.ogg",100
+Sample,146930,0,"Drum_Snare_Basic.ogg",100
+Sample,147251,0,"Piano_Climax_054.ogg",100
+Sample,147251,0,"Piano_Climax_036.ogg",100
+Sample,147251,0,"Drum_Kick_F.ogg",100
+Sample,147251,0,"Piano_Climax_024.ogg",100
+Sample,147571,0,"GuitarSolo - Marker #26.ogg",100
+Sample,147571,0,"Piano_Climax_061.ogg",100
+Sample,147571,0,"Piano_Climax_041.ogg",100
+Sample,147892,0,"Crash_Vengeance_M.ogg",100
+Sample,147892,0,"Colossus_Bells - Marker #3.ogg",100
+Sample,147892,0,"Drum_Crash - Marker #4.ogg",100
+Sample,147892,0,"Piano_Climax_062.ogg",100
+Sample,147892,0,"Piano_Climax_037.ogg",100
+Sample,147892,0,"Piano_Climax_001.ogg",100
+Sample,147892,0,"FX_Sleigh_TypeA.ogg",100
+Sample,147892,0,"Piano_Climax_046.ogg",100
+Sample,147972,0,"Piano_Sub - Marker #40.ogg",100
+Sample,148133,0,"Piano_Sub - Marker #28.ogg",100
+Sample,148213,0,"Piano_Climax_033.ogg",100
+Sample,148293,0,"Piano_Sub - Marker #19.ogg",100
+Sample,148454,0,"Drum_Snare_Basic.ogg",100
+Sample,148534,0,"Piano_Climax_073.ogg",100
+Sample,148534,0,"Piano_Climax_062.ogg",100
+Sample,148534,0,"Piano_Climax_067.ogg",100
+Sample,148534,0,"Drum_Crash - Marker #5.ogg",60
+Sample,148534,0,"Piano_Climax_002.ogg",100
+Sample,148614,0,"Piano_Sub - Marker #33.ogg",100
+Sample,148775,0,"Piano_Sub - Marker #22.ogg",100
+Sample,148855,0,"Hihat Open_TypeA.ogg",100
+Sample,148935,0,"Piano_Sub - Marker #15.ogg",100
+Sample,149095,0,"Drum_Kick_F.ogg",100
+Sample,149176,0,"Drum_Crash - Marker #4.ogg",100
+Sample,149176,0,"Piano_Climax_052.ogg",100
+Sample,149176,0,"Colossus_Bells - Marker #18.ogg",100
+Sample,149176,0,"Crash_Vengeance_M.ogg",100
+Sample,149176,0,"Piano_Climax_069.ogg",100
+Sample,149176,0,"Piano_Climax_000.ogg",100
+Sample,149176,0,"FX_Sleigh_TypeA.ogg",100
+Sample,149176,0,"Piano_Climax_062.ogg",100
+Sample,149256,0,"Piano_Sub - Marker #28.ogg",100
+Sample,149416,0,"Piano_Sub - Marker #15.ogg",100
+Sample,149497,0,"Piano_Climax_074.ogg",100
+Sample,149497,0,"Hihat Open_TypeA.ogg",100
+Sample,149577,0,"Piano_Sub - Marker #28.ogg",100
+Sample,149737,0,"Drum_Kick_F.ogg",100
+Sample,149817,0,"Drum_Snare_Basic.ogg",100
+Sample,149817,0,"Piano_Climax_063.ogg",100
+Sample,149817,0,"Piano_Climax_075.ogg",100
+Sample,149817,0,"Piano_Climax_070.ogg",100
+Sample,149898,0,"Piano_Sub - Marker #28.ogg",100
+Sample,150058,0,"Piano_Sub - Marker #15.ogg",100
+Sample,150138,0,"Piano_Climax_076.ogg",100
+Sample,150138,0,"Drum_Snare_Basic.ogg",100
+Sample,150138,0,"Piano_Sub - Marker #47.ogg",100
+Sample,150218,0,"Piano_Sub - Marker #28.ogg",100
+Sample,150299,0,"Piano_Sub - Marker #23.ogg",100
+Sample,150299,0,"Drum_Kick_F.ogg",100
+Sample,150379,0,"Drum_Snare_Basic.ogg",100
+Sample,150459,0,"FX_Sleigh_TypeA.ogg",100
+Sample,150459,0,"Piano_Small - Marker #120.ogg",100
+Sample,150459,0,"Piano_Small - Marker #134.ogg",100
+Sample,150459,0,"FX_VEC4.ogg",100
+Sample,150459,0,"Piano_Small - Marker #207.ogg",100
+Sample,150459,0,"Crash_Vengeance_M.ogg",100
+Sample,150459,0,"Colossus_Bells - Marker #33.ogg",100
+Sample,150459,0,"GuitarSolo - Marker #33.ogg",100
+Sample,150940,0,"Piano_Small - Marker #181.ogg",100
+Sample,150940,0,"Drum_Snare_Basic.ogg",100
+Sample,150940,0,"Piano_Small - Marker #209.ogg",100
+Sample,150940,0,"Piano_Sub - Marker #29.ogg",100
+Sample,151021,0,"Piano_Small - Marker #209.ogg",100
+Sample,151021,0,"Piano_Sub - Marker #29.ogg",100
+Sample,151021,0,"Piano_Small - Marker #181.ogg",100
+Sample,151021,0,"Piano_Sub - Marker #54.ogg",100
+Sample,151101,0,"FX_Sleigh_TypeA.ogg",100
+Sample,151101,0,"Piano_Small - Marker #207.ogg",100
+Sample,151101,0,"Piano_Small - Marker #175.ogg",100
+Sample,151101,0,"Piano_Sub - Marker #26.ogg",100
+Sample,151582,0,"Piano_Small - Marker #202.ogg",100
+Sample,151582,0,"Piano_Small - Marker #212.ogg",100
+Sample,151582,0,"Drum_Snare_Basic.ogg",100
+Sample,151582,0,"Piano_Sub - Marker #38.ogg",100
+Sample,151662,0,"Piano_Small - Marker #202.ogg",100
+Sample,151662,0,"Drum_Kick_F.ogg",100
+Sample,151662,0,"Piano_Small - Marker #212.ogg",100
+Sample,151662,0,"Piano_Sub - Marker #58.ogg",100
+Sample,151743,0,"Piano_Small - Marker #210.ogg",100
+Sample,151743,0,"Piano_Small - Marker #197.ogg",100
+Sample,151743,0,"Crash_Vengeance_M.ogg",100
+Sample,151743,0,"FX_Sleigh_TypeA.ogg",100
+Sample,151743,0,"Piano_Sub - Marker #55.ogg",100
+Sample,152224,0,"Piano_Sub - Marker #54.ogg",100
+Sample,152224,0,"Piano_Small - Marker #209.ogg",100
+Sample,152224,0,"Drum_Snare_Basic.ogg",100
+Sample,152224,0,"Piano_Small - Marker #214.ogg",100
+Sample,152304,0,"Piano_Sub - Marker #54.ogg",100
+Sample,152304,0,"Piano_Small - Marker #214.ogg",100
+Sample,152304,0,"Piano_Sub - Marker #65.ogg",100
+Sample,152304,0,"Piano_Small - Marker #209.ogg",100
+Sample,152384,0,"Drum_Kick_F.ogg",100
+Sample,152384,0,"Piano_Small - Marker #213.ogg",100
+Sample,152384,0,"FX_Sleigh_TypeA.ogg",100
+Sample,152384,0,"Piano_Small - Marker #206.ogg",100
+Sample,153026,0,"Crash_Vengeance_R.ogg",100
+Sample,153026,0,"Colossus_Bells - Marker #20.ogg",100
+Sample,153026,0,"Piano_Small - Marker #30.ogg",100
+Sample,153026,0,"Sine_ClimaxKiller - Marker #1.ogg",100
+Sample,153026,0,"Drum_Cluster_ClimaxKiller.ogg",100
+Sample,153026,0,"Drum_Crash - Marker #4.ogg",100
+Sample,153026,0,"FX_Sleigh_TypeA.ogg",100
+Sample,153026,0,"Piano_Small - Marker #6.ogg",100
+Sample,153347,0,"Sine_ClimaxKiller - Marker #2.ogg",100
+Sample,153347,0,"Drum_Crash - Marker #5.ogg",60
+Sample,153347,0,"Piano_Small - Marker #30.ogg",100
+Sample,153347,0,"Piano_Small - Marker #144.ogg",100
+Sample,153347,0,"Piano_Small - Marker #6.ogg",100
+Sample,153347,0,"FX_Sleigh_TypeB.ogg",100
+Sample,153668,0,"FX_Sleigh_TypeA.ogg",100
+Sample,153668,0,"Crash_Vengeance_R.ogg",100
+Sample,153668,0,"Piano_Small - Marker #30.ogg",100
+Sample,153668,0,"Drum_Kick_FF.ogg",100
+Sample,153668,0,"Piano_Small - Marker #6.ogg",100
+Sample,153668,0,"Sine_ClimaxKiller - Marker #3.ogg",100
+Sample,153989,0,"Piano_Small - Marker #6.ogg",100
+Sample,153989,0,"Piano_Small - Marker #32.ogg",100
+Sample,153989,0,"Sine_ClimaxKiller - Marker #4.ogg",100
+Sample,153989,0,"Drum_Crash - Marker #5.ogg",60
+Sample,153989,0,"Piano_Small - Marker #78.ogg",100
+Sample,153989,0,"FX_Sleigh_TypeB.ogg",100
+Sample,154310,0,"Drum_Crash - Marker #4.ogg",100
+Sample,154310,0,"Drum_Kick_FF.ogg",100
+Sample,154310,0,"Drum_Crash - Marker #4.ogg",100
+Sample,154310,0,"FX_water_droplet_mom.ogg",100
+Sample,154310,0,"FX_Sleigh_TypeA.ogg",100
+Sample,154310,0,"FX_water_droplet_mom.ogg",100
+Sample,154310,0,"FX_Sleigh_TypeA.ogg",100
+Sample,154310,0,"Drum_Crash - Marker #5.ogg",50
+Sample,154310,0,"Drum_Kick_FF.ogg",100
+Sample,154310,0,"Drum_Crash - Marker #5.ogg",50
+
+[TimingPoints]
+300,320.855614973262,4,2,1,54,1,0
+11850,320.855614973262,4,2,1,54,1,0
+93989,-100,4,2,1,54,0,1
+114523,-100,4,2,1,54,0,0
+135058,-100,4,2,1,54,0,1
+140192,-100,4,2,1,54,0,0
+150459,-100,4,2,1,54,0,1
+154310,401.33779264214,4,2,1,54,1,0
+154310,-79.946524,4,2,1,54,0,0
+159126,451.127819548872,4,2,1,54,1,0
+159126,-71.122995,4,2,1,54,0,0
+159802,545.454545454546,4,2,1,54,1,0
+159802,-58.823529,4,2,1,54,0,0
+160347,444.444444444444,4,2,1,54,1,0
+160347,-72.192513,4,2,1,54,0,0
+160791,530.973451327434,4,2,1,54,1,0
+160791,-60.427807,4,2,1,54,0,0
+161189,550.45871559633,4,2,1,54,1,0
+161189,-58.28877,4,2,1,54,0,0
+161601,585.365853658537,4,2,1,54,1,0
+161601,-54.812834,4,2,1,54,0,0
+161893,500,4,2,1,54,1,0
+161893,-64.171123,4,2,1,54,0,0
+162143,540.540540540541,4,2,1,54,1,0
+162143,-59.358289,4,2,1,54,0,0
+162413,521.739130434783,4,2,1,54,1,0
+162413,-61.497326,4,2,1,54,0,0
+162673,545.454545454546,4,2,1,54,1,0
+162673,-58.823529,4,2,1,54,0,0
+162945,571.428571428571,4,2,1,54,1,0
+162945,-56.149733,4,2,1,54,0,0
+163230,512.820512820513,4,2,1,54,1,0
+163230,-62.566845,4,2,1,54,0,0
+163486,413.793103448276,4,2,1,54,1,0
+163486,-77.540107,4,2,1,54,0,0
+164313,422.535211267606,4,2,1,54,1,0
+164313,-75.935829,4,2,1,54,0,0
+
+
+[HitObjects]
+64,192,300,128,0,460:0:0:0:100:Piano_Intro - Marker #46.ogg
+320,192,300,128,0,620:0:0:0:100:Piano_Intro - Marker #31.ogg
+448,192,460,128,0,620:0:0:0:100:Piano_Intro - Marker #11.ogg
+64,192,620,128,0,941:0:0:0:100:Piano_Intro - Marker #15.ogg
+192,192,620,128,0,781:0:0:0:100:FX_Sleigh_TypeB.ogg
+448,192,781,128,0,1102:0:0:0:100:Piano_Intro - Marker #23.ogg
+192,192,941,128,0,1262:0:0:0:100:Piano_Intro - Marker #31.ogg
+320,192,941,128,0,1102:0:0:0:100:FX_Sleigh_TypeB.ogg
+64,192,1102,128,0,1422:0:0:0:100:Piano_Intro - Marker #35.ogg
+320,192,1262,128,0,1583:0:0:0:100:Piano_Intro - Marker #41.ogg
+448,192,1262,128,0,1422:0:0:0:100:FX_Sleigh_TypeB.ogg
+192,192,1422,128,0,1743:0:0:0:100:Piano_Intro - Marker #48.ogg
+64,192,1583,128,0,1904:0:0:0:100:Piano_Intro - Marker #45.ogg
+448,192,1583,128,0,1743:0:0:0:100:Piano_Intro - Marker #34.ogg
+320,192,1743,128,0,1904:0:0:0:100:Piano_Intro - Marker #10.ogg
+192,192,1904,128,0,2064:0:0:0:100:Piano_Intro - Marker #13.ogg
+448,192,1904,128,0,2385:0:0:0:100:Piano_Intro - Marker #43.ogg
+64,192,2064,128,0,2385:0:0:0:100:Piano_Intro - Marker #19.ogg
+192,192,2225,128,0,2706:0:0:0:100:Piano_Intro - Marker #33.ogg
+320,192,2225,128,0,2706:0:0:0:100:FX_Sleigh_TypeB.ogg
+64,192,2545,128,0,2866:0:0:0:100:Piano_Intro - Marker #32.ogg
+448,192,2545,128,0,2866:0:0:0:100:FX_Sleigh_TypeB.ogg
+192,192,2866,128,0,3187:0:0:0:100:Piano_Intro - Marker #17.ogg
+320,192,2866,128,0,3027:0:0:0:100:Piano_Intro - Marker #24.ogg
+448,192,3027,128,0,3187:0:0:0:100:Piano_Intro - Marker #10.ogg
+64,192,3187,128,0,3508:0:0:0:100:Piano_Intro - Marker #14.ogg
+320,192,3187,128,0,3348:0:0:0:100:FX_Sleigh_TypeB.ogg
+192,192,3348,128,0,3508:0:0:0:100:Piano_Intro - Marker #16.ogg
+320,192,3508,128,0,3668:0:0:0:100:Piano_Intro - Marker #25.ogg
+448,192,3508,128,0,3829:0:0:0:100:FX_Sleigh_TypeB.ogg
+64,192,3829,128,0,4150:0:0:0:100:Piano_Intro - Marker #52.ogg
+192,192,3829,128,0,3989:0:0:0:100:Piano_Intro - Marker #44.ogg
+320,192,4150,128,0,4310:0:0:0:100:Piano_Intro - Marker #51.ogg
+448,192,4150,128,0,5032:0:0:0:100:Piano_Intro - Marker #2.ogg
+192,192,4471,128,0,4631:0:0:0:100:Piano_Intro - Marker #49.ogg
+320,192,4471,128,0,5112:0:0:0:100:FX_Sleigh_TypeB.ogg
+64,192,4791,128,0,5032:0:0:0:100:Piano_Intro - Marker #47.ogg
+192,192,4791,128,0,5193:0:0:0:100:FX_Sleigh_TypeB.ogg
+64,192,5112,128,0,5273:0:0:0:100:Piano_Intro - Marker #44.ogg
+448,192,5112,128,0,5353:0:0:0:100:Cluster_Spicatto_1.ogg
+320,192,5193,128,0,5353:0:0:0:0:
+192,192,5273,128,0,5353:0:0:0:0:
+64,192,5353,128,0,6610:0:0:0:0:
+192,192,5433,128,0,6663:0:0:0:100:Colossus_Bells - Marker #23.ogg
+320,192,5433,128,0,6717:0:0:0:100:Drum_Crash - Marker #3.ogg
+448,192,5433,128,0,6777:0:0:0:100:Piano_Intro - Marker #21.ogg
+64,192,6717,1,0,0:0:0:100:HarpKit - Marker #5.ogg
+192,192,6777,1,0,0:0:0:0:
+320,192,6850,1,0,0:0:0:0:
+448,192,6904,1,0,0:0:0:0:
+64,192,6977,1,0,0:0:0:0:
+192,192,7037,1,0,0:0:0:100:HarpKit - Marker #6.ogg
+320,192,7098,1,0,0:0:0:0:
+448,192,7171,1,0,0:0:0:0:
+192,192,7225,1,0,0:0:0:0:
+64,192,7298,1,0,0:0:0:0:
+448,192,7358,1,0,0:0:0:100:HarpKit - Marker #7.ogg
+320,192,7418,1,0,0:0:0:0:
+192,192,7492,1,0,0:0:0:0:
+64,192,7545,1,0,0:0:0:0:
+64,192,8000,1,0,0:0:0:100:Piano_Intro - Marker #22.ogg
+448,192,8000,1,0,0:0:0:100:Glock - Marker #4.ogg
+320,192,8080,128,0,8963:0:0:0:100:Piano_Intro - Marker #29.ogg
+448,192,8160,128,0,9043:0:0:0:0:
+64,192,8963,128,0,9043:0:0:0:100:Cluster_Harp.ogg
+192,192,9043,128,0,9123:0:0:0:0:
+320,192,9123,128,0,9203:0:0:0:0:
+448,192,9203,128,0,9283:0:0:0:0:
+64,192,9283,128,0,9444:0:0:0:0:
+192,192,9364,128,0,9524:0:0:0:0:
+320,192,9444,128,0,9604:0:0:0:0:
+448,192,9524,128,0,9685:0:0:0:0:
+64,192,9604,128,0,9845:0:0:0:100:Piano_Intro - Marker #20.ogg
+192,192,9604,128,0,9765:0:0:0:100:Piano_Intro - Marker #28.ogg
+320,192,9685,128,0,10005:0:0:0:0:
+448,192,9765,128,0,9925:0:0:0:0:
+192,192,9845,128,0,10086:0:0:0:0:
+64,192,9925,128,0,10166:0:0:0:0:
+448,192,10005,128,0,11529:0:0:0:0:
+320,192,10086,128,0,11449:0:0:0:0:
+192,192,10166,128,0,11369:0:0:0:0:
+64,192,10246,128,0,11289:0:0:0:0:
+64,192,11850,1,0,0:0:0:100:Piano_Small - Marker #192.ogg
+448,192,11850,1,0,0:0:0:100:Piano_Small - Marker #69.ogg
+320,192,12010,1,0,0:0:0:100:Piano_Small - Marker #132.ogg
+64,192,12170,1,0,0:0:0:100:Piano_Small - Marker #119.ogg
+320,192,12170,1,0,0:0:0:100:Drum_Rim_2.ogg
+192,192,12331,1,0,0:0:0:100:Piano_Small - Marker #159.ogg
+192,192,12491,1,0,0:0:0:100:Drum_Rim_1.ogg
+448,192,12491,1,0,0:0:0:100:Hihat Closed_P.ogg
+320,192,12652,1,0,0:0:0:100:Piano_Small - Marker #177.ogg
+64,192,12812,1,0,0:0:0:100:Hihat Closed_PP.ogg
+448,192,12812,128,0,13293:0:0:0:100:Drum_Rim_2.ogg
+320,192,12972,1,0,0:0:0:100:Piano_Small - Marker #194.ogg
+64,192,13133,128,0,13614:0:0:0:100:Hihat Closed_P.ogg
+192,192,13133,1,0,0:0:0:100:Drum_Rim_1.ogg
+320,192,13454,1,0,0:0:0:100:Piano_Small - Marker #163.ogg
+448,192,13454,128,0,13935:0:0:0:100:Drum_Rim_2.ogg
+64,192,13775,128,0,14095:0:0:0:100:Piano_Small - Marker #195.ogg
+192,192,13775,1,0,0:0:0:100:Hihat Closed_P.ogg
+192,192,14095,1,0,0:0:0:100:Piano_Small - Marker #165.ogg
+448,192,14095,128,0,14336:0:0:0:100:Drum_Rim_2.ogg
+320,192,14176,128,0,14336:0:0:0:0:
+192,192,14256,128,0,14336:0:0:0:0:
+64,192,14416,128,0,15058:0:0:0:100:Piano_Small - Marker #58.ogg
+320,192,14416,1,0,0:0:0:100:Piano_Small - Marker #192.ogg
+448,192,14416,1,0,0:0:0:100:Hihat Closed_P.ogg
+192,192,14577,1,0,0:0:0:100:Piano_Small - Marker #132.ogg
+192,192,14737,1,0,0:0:0:100:Piano_Small - Marker #119.ogg
+448,192,14737,1,0,0:0:0:100:Drum_Rim_2.ogg
+448,192,14898,128,0,15218:0:0:0:100:Piano_Small - Marker #159.ogg
+192,192,15058,1,0,0:0:0:100:Drum_Rim_1.ogg
+320,192,15058,128,0,16021:0:0:0:100:Hihat Closed_P.ogg
+64,192,15218,1,0,0:0:0:100:Piano_Small - Marker #177.ogg
+192,192,15379,1,0,0:0:0:100:Drum_Rim_2.ogg
+448,192,15379,1,0,0:0:0:100:Hihat Closed_PP.ogg
+448,192,15539,1,0,0:0:0:100:Piano_Small - Marker #194.ogg
+64,192,15700,1,0,0:0:0:100:Hihat Closed_P.ogg
+192,192,15700,1,0,0:0:0:100:Drum_Rim_1.ogg
+64,192,16021,128,0,16261:0:0:0:100:Piano_Small - Marker #156.ogg
+448,192,16021,1,0,0:0:0:100:Drum_Rim_2.ogg
+192,192,16101,128,0,16261:0:0:0:0:
+320,192,16181,128,0,16261:0:0:0:0:
+64,192,16341,128,0,16823:0:0:0:100:Piano_Small - Marker #195.ogg
+448,192,16341,1,0,0:0:0:100:Piano_Small - Marker #56.ogg
+192,192,16662,128,0,17144:0:0:0:100:Piano_Small - Marker #148.ogg
+320,192,16662,1,0,0:0:0:100:Drum_Rim_2.ogg
+64,192,16983,1,0,0:0:0:100:Piano_Small - Marker #128.ogg
+448,192,16983,128,0,17625:0:0:0:100:Piano_Small - Marker #192.ogg
+320,192,17144,1,0,0:0:0:100:Piano_Small - Marker #112.ogg
+64,192,17304,1,0,0:0:0:100:Piano_Small - Marker #119.ogg
+192,192,17304,1,0,0:0:0:100:Drum_Rim_2.ogg
+64,192,17464,128,0,17785:0:0:0:100:Piano_Small - Marker #159.ogg
+192,192,17625,128,0,17946:0:0:0:100:Hihat Closed_P.ogg
+320,192,17625,1,0,0:0:0:100:Drum_Rim_1.ogg
+448,192,17785,1,0,0:0:0:100:Piano_Small - Marker #177.ogg
+64,192,17946,1,0,0:0:0:100:Drum_Rim_2.ogg
+448,192,17946,1,0,0:0:0:100:Hihat Closed_PP.ogg
+320,192,18106,1,0,0:0:0:100:Piano_Small - Marker #201.ogg
+64,192,18267,1,0,0:0:0:100:Piano_Small - Marker #198.ogg
+192,192,18267,128,0,18748:0:0:0:100:Piano_Small - Marker #179.ogg
+448,192,18427,1,0,0:0:0:100:Piano_Small - Marker #136.ogg
+320,192,18587,128,0,19069:0:0:0:100:Piano_Small - Marker #188.ogg
+448,192,18587,1,0,0:0:0:100:Hihat Closed_PP.ogg
+64,192,18748,1,0,0:0:0:100:Piano_Small - Marker #160.ogg
+64,192,18908,128,0,19390:0:0:0:100:Piano_Small - Marker #183.ogg
+192,192,18908,1,0,0:0:0:100:Hihat Closed_P.ogg
+448,192,19069,1,0,0:0:0:0:
+320,192,19229,1,0,0:0:0:100:Piano_Small - Marker #190.ogg
+448,192,19229,128,0,19710:0:0:0:100:Drum_Rim_2.ogg
+64,192,19550,128,0,20673:0:0:0:100:Piano_Small - Marker #169.ogg
+192,192,19550,1,0,0:0:0:100:Piano_Small - Marker #150.ogg
+320,192,19710,1,0,0:0:0:100:Piano_Small - Marker #88.ogg
+192,192,19871,1,0,0:0:0:100:Piano_Small - Marker #121.ogg
+448,192,19871,1,0,0:0:0:100:Hihat Closed_PP.ogg
+320,192,20031,1,0,0:0:0:100:Piano_Small - Marker #144.ogg
+192,192,20192,1,0,0:0:0:100:Drum_Rim_1.ogg
+448,192,20192,1,0,0:0:0:100:Hihat Closed_P.ogg
+320,192,20352,1,0,0:0:0:100:Piano_Small - Marker #156.ogg
+192,192,20513,1,0,0:0:0:100:Drum_Rim_2.ogg
+448,192,20513,128,0,20833:0:0:0:100:Hihat Closed_PP.ogg
+320,192,20673,128,0,21956:0:0:0:100:Piano_Small - Marker #173.ogg
+64,192,20833,1,0,0:0:0:100:Drum_Rim_1.ogg
+192,192,20833,1,0,0:0:0:100:Hihat Closed_P.ogg
+64,192,21154,1,0,0:0:0:100:Piano_Small - Marker #131.ogg
+448,192,21154,128,0,21315:0:0:0:100:Drum_Rim_2.ogg
+64,192,21475,1,0,0:0:0:100:Piano_Small - Marker #122.ogg
+448,192,21475,128,0,21956:0:0:0:100:Piano_Small - Marker #60.ogg
+64,192,21796,128,0,21956:0:0:0:100:Hihat Closed_PP.ogg
+64,192,22117,1,0,0:0:0:100:Piano_Small - Marker #69.ogg
+448,192,22117,1,0,0:0:0:100:Piano_Small - Marker #192.ogg
+320,192,22277,1,0,0:0:0:100:Piano_Small - Marker #132.ogg
+64,192,22438,1,0,0:0:0:100:Piano_Small - Marker #119.ogg
+320,192,22438,1,0,0:0:0:100:Drum_Rim_2.ogg
+192,192,22598,1,0,0:0:0:100:Piano_Small - Marker #159.ogg
+192,192,22759,1,0,0:0:0:100:Drum_Rim_1.ogg
+448,192,22759,1,0,0:0:0:100:Hihat Closed_P.ogg
+64,192,22919,1,0,0:0:0:100:Piano_Small - Marker #177.ogg
+320,192,23079,128,0,23561:0:0:0:100:Drum_Rim_2.ogg
+448,192,23079,1,0,0:0:0:100:Hihat Closed_PP.ogg
+192,192,23240,1,0,0:0:0:100:Piano_Small - Marker #172.ogg
+64,192,23400,1,0,0:0:0:100:Hihat Closed_P.ogg
+192,192,23400,1,0,0:0:0:100:Drum_Rim_1.ogg
+448,192,23400,128,0,23882:0:0:0:0:
+64,192,23721,1,0,0:0:0:100:Piano_Small - Marker #163.ogg
+320,192,23721,128,0,24202:0:0:0:100:Hihat Closed_PP.ogg
+192,192,24042,1,0,0:0:0:100:Piano_Small - Marker #195.ogg
+448,192,24042,128,0,24523:0:0:0:100:Piano_Small - Marker #123.ogg
+64,192,24363,128,0,24844:0:0:0:100:Piano_Small - Marker #165.ogg
+320,192,24363,1,0,0:0:0:100:Drum_Rim_2.ogg
+320,192,24684,1,0,0:0:0:100:Piano_Small - Marker #58.ogg
+448,192,24684,128,0,25325:0:0:0:100:Piano_Small - Marker #192.ogg
+192,192,24844,1,0,0:0:0:100:Piano_Small - Marker #132.ogg
+64,192,25005,1,0,0:0:0:100:Piano_Small - Marker #119.ogg
+320,192,25005,1,0,0:0:0:100:Drum_Rim_2.ogg
+192,192,25165,128,0,25486:0:0:0:100:Piano_Small - Marker #159.ogg
+64,192,25325,128,0,26288:0:0:0:100:Drum_Rim_1.ogg
+320,192,25325,1,0,0:0:0:100:Hihat Closed_P.ogg
+448,192,25486,1,0,0:0:0:100:Piano_Small - Marker #177.ogg
+192,192,25646,1,0,0:0:0:100:Drum_Rim_2.ogg
+320,192,25646,1,0,0:0:0:100:Hihat Closed_PP.ogg
+448,192,25807,1,0,0:0:0:100:Piano_Small - Marker #172.ogg
+192,192,25967,1,0,0:0:0:100:Hihat Closed_P.ogg
+320,192,25967,1,0,0:0:0:100:Drum_Rim_1.ogg
+448,192,26128,1,0,0:0:0:0:
+192,192,26288,1,0,0:0:0:100:Piano_Small - Marker #156.ogg
+320,192,26288,1,0,0:0:0:100:Drum_Rim_2.ogg
+64,192,26609,128,0,27090:0:0:0:100:Piano_Small - Marker #195.ogg
+448,192,26609,1,0,0:0:0:100:Piano_Small - Marker #148.ogg
+192,192,26930,128,0,27411:0:0:0:100:Piano_Small - Marker #148.ogg
+320,192,26930,1,0,0:0:0:100:Drum_Rim_2.ogg
+64,192,27251,128,0,27892:0:0:0:100:Piano_Small - Marker #50.ogg
+320,192,27251,1,0,0:0:0:100:Piano_Small - Marker #128.ogg
+448,192,27251,1,0,0:0:0:100:Piano_Small - Marker #192.ogg
+448,192,27411,1,0,0:0:0:100:Piano_Small - Marker #112.ogg
+192,192,27571,1,0,0:0:0:100:Piano_Small - Marker #119.ogg
+320,192,27571,1,0,0:0:0:100:Drum_Rim_2.ogg
+448,192,27732,128,0,28053:0:0:0:100:Piano_Small - Marker #159.ogg
+192,192,27892,1,0,0:0:0:100:Drum_Rim_1.ogg
+320,192,27892,128,0,28855:0:0:0:100:Hihat Closed_P.ogg
+192,192,28053,1,0,0:0:0:100:Piano_Small - Marker #177.ogg
+64,192,28213,1,0,0:0:0:100:Drum_Rim_2.ogg
+448,192,28213,1,0,0:0:0:100:Hihat Closed_PP.ogg
+448,192,28374,1,0,0:0:0:100:Piano_Small - Marker #145.ogg
+64,192,28534,1,0,0:0:0:100:Piano_Small - Marker #89.ogg
+192,192,28534,1,0,0:0:0:100:Piano_Small - Marker #179.ogg
+448,192,28694,1,0,0:0:0:100:Piano_Small - Marker #135.ogg
+64,192,28855,1,0,0:0:0:100:Piano_Small - Marker #188.ogg
+192,192,28855,1,0,0:0:0:100:Drum_Rim_2.ogg
+320,192,29015,1,0,0:0:0:100:Piano_Small - Marker #158.ogg
+64,192,29176,1,0,0:0:0:100:Piano_Small - Marker #182.ogg
+448,192,29176,128,0,29657:0:0:0:100:Hihat Closed_P.ogg
+192,192,29497,1,0,0:0:0:100:Piano_Small - Marker #188.ogg
+320,192,29497,1,0,0:0:0:100:Drum_Rim_2.ogg
+320,192,29657,128,0,29978:0:0:0:0:
+64,192,29817,1,0,0:0:0:100:Cluster_LL.ogg
+448,192,29817,128,0,30780:0:0:0:100:Piano_Small - Marker #38.ogg
+64,192,30138,1,0,0:0:0:100:Piano_Small - Marker #118.ogg
+320,192,30138,1,0,0:0:0:100:Hihat Closed_PP.ogg
+192,192,30299,1,0,0:0:0:100:Piano_Small - Marker #138.ogg
+64,192,30459,1,0,0:0:0:100:Drum_Rim_1.ogg
+320,192,30459,1,0,0:0:0:100:Hihat Closed_P.ogg
+192,192,30620,1,0,0:0:0:100:Piano_Small - Marker #155.ogg
+320,192,30780,128,0,30860:0:0:0:100:Drum_Rim_2.ogg
+192,192,30860,128,0,30940:0:0:0:0:
+64,192,30940,128,0,31021:0:0:0:100:Piano_Small - Marker #193.ogg
+448,192,31021,128,0,31101:0:0:0:0:
+320,192,31101,128,0,31181:0:0:0:100:Hihat Closed_P.ogg
+192,192,31181,128,0,31261:0:0:0:0:
+64,192,31261,128,0,31341:0:0:0:0:
+448,192,31341,128,0,31422:0:0:0:0:
+320,192,31422,128,0,31502:0:0:0:100:Drum_Rim_2.ogg
+64,192,31502,128,0,31582:0:0:0:0:
+192,192,31582,128,0,31743:0:0:0:100:Cluster_Glissando_TypeA.ogg
+320,192,31662,128,0,31823:0:0:0:0:
+64,192,31743,128,0,31903:0:0:0:100:Drum_Kick_MF.ogg
+448,192,31743,128,0,31823:0:0:0:100:Drum_Crash - Marker #4.ogg
+192,192,31823,128,0,31903:0:0:0:0:
+320,192,31903,128,0,31983:0:0:0:100:Drum_Snare_P.ogg
+448,192,31903,128,0,31983:0:0:0:0:
+64,192,31983,128,0,32063:0:0:0:100:Drum_Snare_P.ogg
+192,192,31983,128,0,32063:0:0:0:0:
+320,192,32063,128,0,32144:0:0:0:100:Drum_Snare_P.ogg
+448,192,32063,128,0,32144:0:0:0:0:
+64,192,32144,128,0,32224:0:0:0:100:Drum_Snare_P.ogg
+192,192,32144,128,0,32224:0:0:0:0:
+320,192,32224,128,0,32304:0:0:0:100:Drum_Snare_P.ogg
+448,192,32224,128,0,32304:0:0:0:0:
+192,192,32304,128,0,32384:0:0:0:100:Drum_Snare_P.ogg
+64,192,32384,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,32384,1,0,0:0:0:100:Piano_VerseB - Marker #51.ogg
+448,192,32384,1,0,0:0:0:100:Piano_VerseB - Marker #16.ogg
+320,192,32545,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,32705,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+192,192,32705,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,32705,1,0,0:0:0:0:
+192,192,32866,1,0,0:0:0:100:Piano_VerseB - Marker #38.ogg
+320,192,33026,1,0,0:0:0:100:Drum_Kick_MF.ogg
+448,192,33026,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,33186,1,0,0:0:0:100:Piano_VerseB - Marker #17.ogg
+192,192,33186,1,0,0:0:0:100:Drum_Kick_MF.ogg
+64,192,33347,128,0,33507:0:0:0:100:Piano_VerseB - Marker #75.ogg
+320,192,33347,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,33347,1,0,0:0:0:100:Piano_VerseB - Marker #40.ogg
+192,192,33427,128,0,33587:0:0:0:0:
+320,192,33507,128,0,33668:0:0:0:100:Hihat Pedaled_2.ogg
+64,192,33668,1,0,0:0:0:100:Piano_VerseB - Marker #71.ogg
+448,192,33668,128,0,33828:0:0:0:100:Piano_VerseB - Marker #43.ogg
+320,192,33748,128,0,33908:0:0:0:0:
+192,192,33828,128,0,33989:0:0:0:100:Hihat Closed_F.ogg
+64,192,33989,1,0,0:0:0:100:Piano_VerseB - Marker #64.ogg
+320,192,33989,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,33989,128,0,34309:0:0:0:100:Hihat Pedaled_1.ogg
+64,192,34149,1,0,0:0:0:100:Piano_VerseB - Marker #10.ogg
+192,192,34149,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,34309,128,0,34630:0:0:0:100:Piano_VerseB - Marker #57.ogg
+320,192,34470,1,0,0:0:0:100:Drum_Kick_MF.ogg
+448,192,34470,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,34630,1,0,0:0:0:100:Piano_VerseB - Marker #66.ogg
+320,192,34630,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,34630,128,0,34951:0:0:0:100:Hihat Pedaled_1.ogg
+192,192,34791,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+64,192,34951,128,0,35112:0:0:0:100:Piano_VerseB - Marker #68.ogg
+320,192,34951,1,0,0:0:0:100:Piano_VerseB - Marker #26.ogg
+192,192,35031,128,0,35192:0:0:0:0:
+320,192,35112,128,0,35272:0:0:0:100:Hihat Closed_F.ogg
+448,192,35192,128,0,35352:0:0:0:0:
+64,192,35272,128,0,35593:0:0:0:100:Drum_Snare_Basic.ogg
+192,192,35272,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+192,192,35432,128,0,35593:0:0:0:100:Piano_VerseB - Marker #55.ogg
+320,192,35593,128,0,35753:0:0:0:100:Piano_VerseB - Marker #25.ogg
+448,192,35593,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,35673,128,0,35833:0:0:0:0:
+64,192,35753,128,0,36395:0:0:0:100:Drum_Kick_MF.ogg
+192,192,35914,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,35914,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+448,192,35914,1,0,0:0:0:0:
+448,192,36074,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+192,192,36235,1,0,0:0:0:100:Piano_VerseB - Marker #25.ogg
+320,192,36235,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,36395,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,36555,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+192,192,36555,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,36555,1,0,0:0:0:0:
+192,192,36716,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,36716,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+320,192,36876,128,0,37037:0:0:0:100:Piano_VerseB - Marker #103.ogg
+448,192,36956,128,0,37197:0:0:0:0:
+64,192,37037,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,37037,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,37197,128,0,37358:0:0:0:100:Drum_Snare_Basic.ogg
+192,192,37197,1,0,0:0:0:100:Piano_VerseB - Marker #86.ogg
+320,192,37197,1,0,0:0:0:100:Piano_VerseB - Marker #29.ogg
+320,192,37358,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,37358,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+64,192,37438,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,37438,1,0,0:0:0:0:
+320,192,37518,128,0,37678:0:0:0:100:Piano_VerseB - Marker #90.ogg
+448,192,37518,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,37598,128,0,37759:0:0:0:0:
+64,192,37678,128,0,37839:0:0:0:100:Hihat Closed_F.ogg
+448,192,37759,1,0,0:0:0:0:
+192,192,37839,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+320,192,37839,128,0,38320:0:0:0:100:Piano_VerseB - Marker #83.ogg
+448,192,37999,128,0,38320:0:0:0:100:Piano_VerseB - Marker #90.ogg
+64,192,38160,1,0,0:0:0:100:Piano_VerseB - Marker #20.ogg
+192,192,38160,1,0,0:0:0:100:Piano_VerseB - Marker #40.ogg
+64,192,38320,1,0,0:0:0:100:Piano_VerseB - Marker #116.ogg
+192,192,38320,128,0,38801:0:0:0:100:Piano_VerseB - Marker #74.ogg
+64,192,38481,1,0,0:0:0:100:Piano_VerseB - Marker #21.ogg
+320,192,38481,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,38481,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+320,192,38641,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+64,192,38801,1,0,0:0:0:100:Piano_VerseB - Marker #129.ogg
+448,192,38801,128,0,38962:0:0:0:100:Piano_VerseB - Marker #109.ogg
+320,192,38882,128,0,39042:0:0:0:0:
+192,192,38962,128,0,39122:0:0:0:100:Hihat Closed_F.ogg
+64,192,39042,128,0,39202:0:0:0:0:
+320,192,39122,1,0,0:0:0:100:Piano_VerseB - Marker #132.ogg
+448,192,39122,128,0,39604:0:0:0:100:Hihat Pedaled_1.ogg
+64,192,39283,128,0,39604:0:0:0:100:Piano_VerseB - Marker #133.ogg
+192,192,39283,1,0,0:0:0:100:Piano_VerseB - Marker #122.ogg
+320,192,39443,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,39604,128,0,39924:0:0:0:100:Piano_VerseB - Marker #21.ogg
+320,192,39604,1,0,0:0:0:100:Piano_VerseB - Marker #106.ogg
+64,192,39764,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,39764,128,0,39924:0:0:0:100:Hihat Pedaled_1.ogg
+448,192,39764,128,0,39924:0:0:0:0:
+64,192,39924,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+192,192,40085,1,0,0:0:0:100:Piano_VerseB - Marker #107.ogg
+448,192,40085,128,0,40245:0:0:0:100:Piano_VerseB - Marker #128.ogg
+320,192,40165,128,0,40325:0:0:0:0:
+64,192,40245,128,0,40566:0:0:0:100:Hihat Closed_F.ogg
+192,192,40406,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+320,192,40406,128,0,40566:0:0:0:100:Piano_VerseB - Marker #112.ogg
+448,192,40406,128,0,40566:0:0:0:100:Drum_Snare_Basic.ogg
+192,192,40566,128,0,40727:0:0:0:100:Piano_VerseB - Marker #100.ogg
+320,192,40646,128,0,40807:0:0:0:0:
+64,192,40727,1,0,0:0:0:100:Hihat Closed_F.ogg
+448,192,40727,128,0,40887:0:0:0:100:Drum_Kick_MF.ogg
+192,192,40887,1,0,0:0:0:100:NexTranceGuitar_TypeA - Marker #1.ogg
+320,192,40887,128,0,41208:0:0:0:100:Piano_VerseB - Marker #111.ogg
+64,192,41047,1,0,0:0:0:100:NexTranceGuitar_TypeA - Marker #2.ogg
+192,192,41047,128,0,41368:0:0:0:100:Piano_VerseB - Marker #121.ogg
+448,192,41047,1,0,0:0:0:100:Piano_VerseB - Marker #79.ogg
+64,192,41208,128,0,41529:0:0:0:100:NexTranceGuitar_TypeA - Marker #3.ogg
+448,192,41208,128,0,41529:0:0:0:100:Piano_VerseB - Marker #115.ogg
+320,192,41368,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,41529,1,0,0:0:0:100:Hihat Closed_F.ogg
+320,192,41529,1,0,0:0:0:100:FX_water_droplet_timetravel.ogg
+64,192,41689,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+192,192,41689,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,41689,1,0,0:0:0:0:
+64,192,41850,1,0,0:0:0:100:Drum_Kick_MF.ogg
+448,192,41850,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+192,192,42010,1,0,0:0:0:100:NexTranceGuitar_TypeA - Marker #4.ogg
+320,192,42010,1,0,0:0:0:100:Nexpiano - Marker #1.ogg
+448,192,42090,1,0,0:0:0:0:
+64,192,42170,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,42170,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,42331,1,0,0:0:0:100:Piano_VerseB - Marker #77.ogg
+320,192,42331,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,42331,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+192,192,42491,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,42491,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+320,192,42571,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,42652,1,0,0:0:0:100:Piano_VerseB - Marker #15.ogg
+192,192,42652,1,0,0:0:0:100:Crash_Vengeance_M.ogg
+448,192,42652,1,0,0:0:0:100:Drum_Crash - Marker #4.ogg
+64,192,42812,1,0,0:0:0:100:Piano_VerseB - Marker #78.ogg
+192,192,42972,1,0,0:0:0:100:Piano_VerseB - Marker #70.ogg
+320,192,42972,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,42972,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+320,192,43133,1,0,0:0:0:100:Piano_VerseB - Marker #88.ogg
+64,192,43293,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,43293,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,43454,1,0,0:0:0:100:Piano_VerseB - Marker #104.ogg
+448,192,43454,1,0,0:0:0:100:Drum_Kick_MF.ogg
+64,192,43614,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,43614,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+448,192,43614,128,0,43775:0:0:0:0:
+320,192,43694,128,0,43855:0:0:0:0:
+192,192,43775,128,0,43935:0:0:0:100:Piano_VerseB - Marker #89.ogg
+64,192,43935,128,0,44095:0:0:0:100:Drum_Kick_MF.ogg
+448,192,43935,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,44015,128,0,44176:0:0:0:0:
+320,192,44095,128,0,44256:0:0:0:100:Hihat Closed_F.ogg
+64,192,44256,128,0,44577:0:0:0:100:Piano_VerseB - Marker #93.ogg
+192,192,44256,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,44256,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+320,192,44416,1,0,0:0:0:100:Drum_Kick_MF.ogg
+448,192,44416,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+320,192,44577,128,0,44898:0:0:0:100:Piano_VerseB - Marker #118.ogg
+64,192,44737,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,44737,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,44898,128,0,45218:0:0:0:100:Piano_VerseB - Marker #109.ogg
+192,192,44898,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,44898,1,0,0:0:0:100:Piano_VerseB - Marker #94.ogg
+320,192,45058,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+192,192,45218,1,0,0:0:0:100:Piano_VerseB - Marker #113.ogg
+448,192,45218,128,0,45379:0:0:0:100:Piano_VerseB - Marker #103.ogg
+320,192,45299,128,0,45459:0:0:0:0:
+192,192,45379,128,0,45539:0:0:0:100:Piano_VerseB - Marker #78.ogg
+64,192,45459,128,0,45620:0:0:0:0:
+320,192,45539,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,45539,128,0,45860:0:0:0:100:Piano_VerseB - Marker #67.ogg
+320,192,45700,128,0,45860:0:0:0:100:Piano_VerseB - Marker #88.ogg
+64,192,45860,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,45860,128,0,46021:0:0:0:100:Drum_Kick_MF.ogg
+320,192,45940,128,0,46101:0:0:0:0:
+448,192,46021,128,0,46662:0:0:0:100:Piano_VerseB - Marker #104.ogg
+64,192,46181,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,46181,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+320,192,46181,1,0,0:0:0:0:
+64,192,46341,1,0,0:0:0:100:Piano_VerseB - Marker #114.ogg
+192,192,46502,1,0,0:0:0:100:Hihat Closed_F.ogg
+320,192,46502,1,0,0:0:0:0:
+192,192,46662,1,0,0:0:0:100:Drum_Kick_MF.ogg
+64,192,46823,1,0,0:0:0:100:Piano_VerseB - Marker #87.ogg
+320,192,46823,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,46823,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+192,192,46983,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+320,192,46983,1,0,0:0:0:0:
+64,192,47144,128,0,47464:0:0:0:100:Piano_VerseB - Marker #48.ogg
+320,192,47304,1,0,0:0:0:100:Drum_Kick_MF.ogg
+448,192,47304,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,47464,1,0,0:0:0:100:Piano_VerseB - Marker #86.ogg
+320,192,47464,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,47464,128,0,47625:0:0:0:100:Hihat Pedaled_1.ogg
+64,192,47625,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,47625,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+320,192,47705,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,47705,1,0,0:0:0:0:
+64,192,47785,1,0,0:0:0:100:Piano_VerseB - Marker #18.ogg
+192,192,47785,128,0,47946:0:0:0:100:Piano_VerseB - Marker #89.ogg
+320,192,47866,128,0,48026:0:0:0:0:
+448,192,47946,128,0,48106:0:0:0:100:Hihat Closed_F.ogg
+64,192,48026,1,0,0:0:0:0:
+192,192,48106,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+320,192,48106,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,48267,128,0,48587:0:0:0:100:Piano_VerseB - Marker #117.ogg
+320,192,48427,128,0,49069:0:0:0:100:Hihat Closed_F.ogg
+448,192,48427,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,48587,1,0,0:0:0:100:Drum_Kick_MF.ogg
+448,192,48587,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,48748,1,0,0:0:0:100:Piano_VerseB - Marker #92.ogg
+192,192,48748,1,0,0:0:0:100:Piano_VerseB - Marker #22.ogg
+448,192,48748,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,48908,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+64,192,49069,128,0,49229:0:0:0:100:Piano_VerseB - Marker #2.ogg
+448,192,49069,1,0,0:0:0:100:Piano_VerseB - Marker #13.ogg
+192,192,49149,128,0,49309:0:0:0:0:
+320,192,49229,128,0,49390:0:0:0:100:Piano_VerseB - Marker #50.ogg
+448,192,49309,128,0,49470:0:0:0:0:
+64,192,49390,1,0,0:0:0:100:Hihat Pedaled_1.ogg
+192,192,49390,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,49550,1,0,0:0:0:100:Piano_VerseB - Marker #1.ogg
+448,192,49550,1,0,0:0:0:100:Piano_VerseB - Marker #12.ogg
+64,192,49710,128,0,50272:0:0:0:100:Piano_VerseB - Marker #63.ogg
+448,192,49710,1,0,0:0:0:100:Piano_VerseB - Marker #50.ogg
+192,192,49871,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,49871,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,50031,128,0,50272:0:0:0:100:Piano_VerseB - Marker #119.ogg
+320,192,50031,1,0,0:0:0:100:Piano_VerseB - Marker #76.ogg
+448,192,50031,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,50192,128,0,50272:0:0:0:100:Hihat Pedaled_2.ogg
+448,192,50192,128,0,50272:0:0:0:0:
+64,192,50352,128,0,50593:0:0:0:100:Piano_VerseB - Marker #96.ogg
+320,192,50352,1,0,0:0:0:100:Crash_Vengeance_M.ogg
+448,192,50352,1,0,0:0:0:100:Piano_VerseB - Marker #113.ogg
+192,192,50432,128,0,50593:0:0:0:0:
+320,192,50513,128,0,50593:0:0:0:100:Piano_VerseB - Marker #78.ogg
+448,192,50593,1,0,0:0:0:0:
+64,192,50673,128,0,51315:0:0:0:100:Hihat Open_TypeC.ogg
+192,192,50673,128,0,50833:0:0:0:100:Piano_VerseB - Marker #69.ogg
+320,192,50673,128,0,50753:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,50833,1,0,0:0:0:100:Piano_VerseB - Marker #88.ogg
+192,192,50994,1,0,0:0:0:100:Hihat Open_TypeC.ogg
+320,192,50994,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,51154,1,0,0:0:0:100:Piano_VerseB - Marker #104.ogg
+448,192,51154,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,51315,1,0,0:0:0:100:Hihat Open_TypeC.ogg
+320,192,51315,128,0,51716:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,51315,1,0,0:0:0:0:
+64,192,51475,128,0,51716:0:0:0:100:Piano_VerseB - Marker #105.ogg
+192,192,51475,128,0,51716:0:0:0:100:Piano_VerseB - Marker #85.ogg
+448,192,51475,128,0,51876:0:0:0:100:Drum_Kick_MF.ogg
+64,192,51796,128,0,51876:0:0:0:100:Piano_VerseB - Marker #102.ogg
+192,192,51796,128,0,51876:0:0:0:100:Piano_VerseB - Marker #61.ogg
+320,192,51796,128,0,51876:0:0:0:100:Drum_Crash - Marker #5.ogg
+64,192,51956,128,0,52037:0:0:0:100:Drum_Snare_Basic.ogg
+192,192,51956,128,0,52037:0:0:0:100:Hihat Pedaled_1.ogg
+320,192,51956,128,0,52037:0:0:0:0:
+448,192,51956,128,0,52037:0:0:0:0:
+192,192,52117,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+64,192,52277,128,0,52438:0:0:0:100:Piano_VerseB - Marker #59.ogg
+320,192,52277,128,0,52358:0:0:0:100:Piano_VerseB - Marker #99.ogg
+448,192,52277,128,0,52358:0:0:0:100:Crash_Vengeance_M.ogg
+320,192,52438,1,0,0:0:0:100:Drum_Kick_MF.ogg
+448,192,52438,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,52598,128,0,52678:0:0:0:100:Piano_VerseB - Marker #91.ogg
+192,192,52598,128,0,52678:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,52598,128,0,52759:0:0:0:100:Hihat Pedaled_1.ogg
+64,192,52759,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,52759,1,0,0:0:0:100:Hihat Pedaled_2.ogg
+320,192,52839,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,52919,1,0,0:0:0:100:Piano_VerseC - Marker #134.ogg
+192,192,52919,1,0,0:0:0:100:Piano_VerseC - Marker #88.ogg
+448,192,52919,128,0,53160:0:0:0:100:Drum_Kick_MF.ogg
+320,192,52999,128,0,53160:0:0:0:0:
+64,192,53079,128,0,53561:0:0:0:100:Piano_VerseC - Marker #66.ogg
+192,192,53240,1,0,0:0:0:100:Piano_VerseC - Marker #33.ogg
+320,192,53240,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,53240,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,53400,128,0,53561:0:0:0:100:Piano_VerseC - Marker #80.ogg
+320,192,53561,1,0,0:0:0:100:Piano_VerseC - Marker #100.ogg
+448,192,53561,128,0,53801:0:0:0:100:Drum_Kick_MF.ogg
+192,192,53721,1,0,0:0:0:100:Piano_VerseC - Marker #109.ogg
+320,192,53721,128,0,53962:0:0:0:100:Drum_Kick_MF.ogg
+64,192,53882,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,53882,1,0,0:0:0:100:Hihat Closed_F.ogg
+448,192,53882,128,0,54122:0:0:0:100:Piano_VerseC - Marker #72.ogg
+64,192,54042,1,0,0:0:0:100:Piano_VerseC - Marker #136.ogg
+320,192,54042,128,0,54283:0:0:0:100:Drum_Kick_MF.ogg
+192,192,54202,128,0,54283:0:0:0:100:Piano_VerseC - Marker #94.ogg
+448,192,54202,128,0,54283:0:0:0:100:Piano_VerseC - Marker #104.ogg
+64,192,54363,1,0,0:0:0:100:Piano_VerseC - Marker #10.ogg
+320,192,54363,1,0,0:0:0:100:Piano_VerseC - Marker #55.ogg
+64,192,54523,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,54523,1,0,0:0:0:100:Piano_VerseC - Marker #65.ogg
+448,192,54523,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,54684,1,0,0:0:0:100:Piano_VerseC - Marker #91.ogg
+448,192,54684,1,0,0:0:0:100:Drum_Kick_MF.ogg
+64,192,54844,128,0,55406:0:0:0:100:Piano_VerseC - Marker #100.ogg
+192,192,55005,1,0,0:0:0:100:Piano_VerseC - Marker #109.ogg
+320,192,55005,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,55165,128,0,55406:0:0:0:100:Piano_VerseC - Marker #121.ogg
+320,192,55165,128,0,55406:0:0:0:100:Drum_Snare_P.ogg
+448,192,55165,128,0,55406:0:0:0:100:Hihat Closed_F.ogg
+64,192,55486,128,0,55727:0:0:0:100:Piano_VerseC - Marker #107.ogg
+448,192,55486,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,55566,128,0,55727:0:0:0:0:
+448,192,55646,128,0,56128:0:0:0:100:Piano_VerseC - Marker #54.ogg
+64,192,55807,1,0,0:0:0:100:Piano_VerseC - Marker #64.ogg
+192,192,55807,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,55807,1,0,0:0:0:100:Hihat Closed_F.ogg
+320,192,55967,128,0,56128:0:0:0:100:Piano_VerseC - Marker #91.ogg
+64,192,56128,128,0,56368:0:0:0:100:Piano_VerseC - Marker #107.ogg
+192,192,56128,1,0,0:0:0:100:Piano_VerseC - Marker #133.ogg
+192,192,56288,128,0,56529:0:0:0:100:Drum_Kick_MF.ogg
+320,192,56288,1,0,0:0:0:0:
+64,192,56448,128,0,56689:0:0:0:100:Piano_VerseC - Marker #143.ogg
+320,192,56448,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,56448,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,56609,128,0,56849:0:0:0:100:Drum_Kick_MF.ogg
+448,192,56609,1,0,0:0:0:0:
+64,192,56769,128,0,56849:0:0:0:100:Piano_VerseC - Marker #129.ogg
+320,192,56769,128,0,56849:0:0:0:100:Piano_VerseC - Marker #142.ogg
+448,192,56849,128,0,57010:0:0:0:0:
+192,192,56930,1,0,0:0:0:100:Piano_VerseC - Marker #48.ogg
+320,192,56930,128,0,57090:0:0:0:100:Drum_Kick_MF.ogg
+64,192,57090,1,0,0:0:0:100:Piano_VerseC - Marker #145.ogg
+192,192,57090,128,0,57411:0:0:0:100:Drum_Snare_P.ogg
+448,192,57090,1,0,0:0:0:100:Piano_VerseC - Marker #66.ogg
+64,192,57251,128,0,57411:0:0:0:100:Piano_VerseC - Marker #99.ogg
+320,192,57251,128,0,57411:0:0:0:100:Piano_VerseC - Marker #33.ogg
+448,192,57411,128,0,57652:0:0:0:100:Piano_VerseC - Marker #148.ogg
+320,192,57491,128,0,57652:0:0:0:0:
+64,192,57571,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,57571,128,0,57652:0:0:0:0:
+64,192,57732,1,0,0:0:0:100:Piano_VerseC - Marker #143.ogg
+320,192,57732,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,57732,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,57892,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,57892,1,0,0:0:0:0:
+64,192,58053,1,0,0:0:0:100:Piano_VerseC - Marker #17.ogg
+320,192,58053,128,0,58293:0:0:0:100:Piano_VerseC - Marker #95.ogg
+448,192,58053,1,0,0:0:0:100:Piano_VerseC - Marker #53.ogg
+192,192,58133,128,0,58293:0:0:0:0:
+64,192,58213,128,0,58293:0:0:0:100:Piano_VerseC - Marker #50.ogg
+64,192,58374,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,58374,128,0,58614:0:0:0:100:Piano_VerseC - Marker #62.ogg
+448,192,58374,1,0,0:0:0:100:Hihat Closed_F.ogg
+320,192,58534,128,0,58775:0:0:0:100:Piano_VerseC - Marker #86.ogg
+64,192,58694,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,58694,128,0,58935:0:0:0:100:Piano_VerseC - Marker #49.ogg
+448,192,58694,1,0,0:0:0:100:Hihat Closed_F.ogg
+64,192,58855,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,58855,128,0,59095:0:0:0:0:
+448,192,58855,1,0,0:0:0:0:
+64,192,59015,128,0,59095:0:0:0:100:Piano_VerseC - Marker #111.ogg
+192,192,59015,128,0,59095:0:0:0:100:Drum_Snare_P.ogg
+448,192,59015,128,0,59095:0:0:0:100:Piano_VerseC - Marker #141.ogg
+192,192,59176,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,59176,1,0,0:0:0:0:
+64,192,59336,1,0,0:0:0:100:Piano_VerseC - Marker #140.ogg
+192,192,59336,128,0,59497:0:0:0:100:Piano_VerseC - Marker #87.ogg
+320,192,59416,128,0,59577:0:0:0:0:
+64,192,59497,1,0,0:0:0:100:Piano_VerseC - Marker #46.ogg
+448,192,59497,128,0,59657:0:0:0:100:Drum_Kick_MF.ogg
+64,192,59657,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,59657,1,0,0:0:0:100:Piano_VerseC - Marker #15.ogg
+320,192,59657,1,0,0:0:0:100:Piano_VerseC - Marker #62.ogg
+320,192,59817,128,0,60058:0:0:0:100:Piano_VerseC - Marker #91.ogg
+448,192,59817,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,59978,128,0,60218:0:0:0:100:Hihat Closed_F.ogg
+64,192,60138,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,60138,128,0,60459:0:0:0:0:
+64,192,60299,128,0,60459:0:0:0:100:Piano_VerseC - Marker #121.ogg
+192,192,60299,128,0,60459:0:0:0:100:Drum_Snare_P.ogg
+448,192,60299,128,0,60459:0:0:0:100:Hihat Closed_F.ogg
+64,192,60620,128,0,60860:0:0:0:100:Piano_VerseC - Marker #31.ogg
+192,192,60620,128,0,60860:0:0:0:100:Piano_VerseC - Marker #45.ogg
+448,192,60780,128,0,61021:0:0:0:100:Piano_VerseC - Marker #4.ogg
+64,192,60940,128,0,61181:0:0:0:100:Piano_VerseC - Marker #9.ogg
+192,192,60940,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,60940,1,0,0:0:0:100:Hihat Closed_F.ogg
+320,192,61101,128,0,61181:0:0:0:100:Piano_VerseC - Marker #76.ogg
+448,192,61101,128,0,61181:0:0:0:100:Piano_VerseC - Marker #116.ogg
+64,192,61261,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,61261,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,61422,1,0,0:0:0:100:Drum_Kick_MF.ogg
+320,192,61422,1,0,0:0:0:0:
+64,192,61582,128,0,61823:0:0:0:100:Piano_VerseC - Marker #127.ogg
+320,192,61582,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,61582,1,0,0:0:0:100:Hihat Closed_F.ogg
+192,192,61662,128,0,61823:0:0:0:0:
+320,192,61743,128,0,61823:0:0:0:100:Drum_Kick_MF.ogg
+448,192,61743,1,0,0:0:0:0:
+64,192,61903,1,0,0:0:0:100:Piano_VerseC - Marker #118.ogg
+448,192,61903,128,0,62063:0:0:0:100:Piano_VerseC - Marker #83.ogg
+320,192,61983,128,0,62144:0:0:0:0:
+64,192,62063,1,0,0:0:0:100:Drum_Kick_MF.ogg
+192,192,62063,128,0,62224:0:0:0:0:
+64,192,62224,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,62224,1,0,0:0:0:100:Hihat Closed_F.ogg
+448,192,62224,1,0,0:0:0:0:
+192,192,62384,1,0,0:0:0:100:Piano_VerseC - Marker #112.ogg
+320,192,62384,1,0,0:0:0:100:Drum_Kick_MF.ogg
+448,192,62545,128,0,62705:0:0:0:100:Piano_VerseC - Marker #92.ogg
+320,192,62625,128,0,62785:0:0:0:0:
+64,192,62705,128,0,62866:0:0:0:100:Drum_Kick_MF.ogg
+192,192,62705,128,0,62785:0:0:0:0:
+448,192,62785,128,0,62946:0:0:0:0:
+192,192,62866,128,0,63026:0:0:0:100:Piano_VerseC - Marker #71.ogg
+320,192,62866,128,0,62946:0:0:0:100:Drum_Snare_Basic.ogg
+64,192,62946,128,0,63106:0:0:0:0:
+320,192,63026,128,0,63186:0:0:0:100:Drum_Snare_P.ogg
+448,192,63026,128,0,63106:0:0:0:0:
+192,192,63106,128,0,63186:0:0:0:100:Drum_Snare_P.ogg
+64,192,63186,1,0,0:0:0:100:Colossus_Bells - Marker #30.ogg
+448,192,63186,128,0,63293:0:0:0:100:Piano_VerseC - Marker #3.ogg
+320,192,63240,128,0,63347:0:0:0:0:
+192,192,63293,128,0,63400:0:0:0:0:
+64,192,63347,128,0,63454:0:0:0:100:Piano_VerseC - Marker #11.ogg
+448,192,63400,128,0,63507:0:0:0:0:
+320,192,63454,128,0,63561:0:0:0:0:
+64,192,63507,128,0,63614:0:0:0:100:Piano_VerseC - Marker #27.ogg
+192,192,63561,128,0,63668:0:0:0:0:
+320,192,63614,128,0,63721:0:0:0:0:
+448,192,63668,128,0,63775:0:0:0:100:Piano_VerseC - Marker #20.ogg
+64,192,63721,128,0,63828:0:0:0:0:
+192,192,63775,128,0,63882:0:0:0:0:
+320,192,63828,128,0,63989:0:0:0:100:Piano_VerseC - Marker #34.ogg
+448,192,63828,128,0,63989:0:0:0:100:Drum_Kick_F.ogg
+64,192,63989,1,0,0:0:0:100:Piano_VerseC - Marker #42.ogg
+192,192,63989,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,64149,128,0,64390:0:0:0:100:Piano_VerseC - Marker #51.ogg
+320,192,64149,128,0,64229:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,64149,128,0,64390:0:0:0:100:Hihat Open_TypeA.ogg
+192,192,64309,128,0,64390:0:0:0:100:Piano_VerseC - Marker #73.ogg
+320,192,64309,128,0,64390:0:0:0:0:
+64,192,64470,128,0,64577:0:0:0:100:Colossus_Bells - Marker #31.ogg
+448,192,64470,1,0,0:0:0:100:Piano_VerseC - Marker #38.ogg
+192,192,64523,128,0,64630:0:0:0:0:
+320,192,64577,128,0,64684:0:0:0:0:
+448,192,64630,128,0,64737:0:0:0:100:Piano_VerseC - Marker #8.ogg
+64,192,64684,128,0,64791:0:0:0:0:
+192,192,64737,128,0,64844:0:0:0:0:
+448,192,64791,128,0,64898:0:0:0:100:Drum_Snare_Basic.ogg
+320,192,64844,128,0,64951:0:0:0:0:
+192,192,64898,128,0,65005:0:0:0:0:
+64,192,64951,128,0,65058:0:0:0:100:Piano_VerseC - Marker #22.ogg
+448,192,65005,128,0,65112:0:0:0:0:
+320,192,65058,128,0,65165:0:0:0:0:
+64,192,65112,128,0,65272:0:0:0:100:Piano_VerseC - Marker #35.ogg
+192,192,65112,128,0,65272:0:0:0:100:Hihat Open_TypeA.ogg
+320,192,65272,1,0,0:0:0:100:Piano_VerseC - Marker #43.ogg
+448,192,65272,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,65432,128,0,65673:0:0:0:100:Drum_Snare_Basic.ogg
+192,192,65432,128,0,65513:0:0:0:100:Piano_VerseC - Marker #52.ogg
+448,192,65432,128,0,65673:0:0:0:100:FX_Sleigh_TypeB.ogg
+192,192,65593,128,0,65673:0:0:0:100:Piano_VerseC - Marker #74.ogg
+320,192,65593,128,0,65673:0:0:0:0:
+64,192,65753,1,0,0:0:0:100:Piano_VerseC - Marker #68.ogg
+448,192,65753,128,0,65860:0:0:0:100:Colossus_Bells - Marker #31.ogg
+320,192,65807,128,0,65914:0:0:0:0:
+192,192,65860,128,0,65967:0:0:0:0:
+64,192,65914,128,0,66021:0:0:0:100:Piano_VerseC - Marker #7.ogg
+448,192,65967,128,0,66074:0:0:0:0:
+320,192,66021,128,0,66128:0:0:0:0:
+64,192,66074,128,0,66181:0:0:0:100:Drum_Snare_Basic.ogg
+192,192,66128,128,0,66235:0:0:0:0:
+320,192,66181,128,0,66288:0:0:0:0:
+448,192,66235,128,0,66341:0:0:0:100:Piano_VerseC - Marker #27.ogg
+64,192,66288,128,0,66395:0:0:0:0:
+192,192,66341,128,0,66448:0:0:0:0:
+320,192,66395,128,0,66555:0:0:0:100:Piano_VerseC - Marker #24.ogg
+448,192,66395,128,0,66555:0:0:0:100:Drum_Kick_F.ogg
+64,192,66555,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,66555,1,0,0:0:0:0:
+64,192,66716,128,0,66956:0:0:0:100:Piano_VerseC - Marker #102.ogg
+448,192,66716,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,66796,128,0,66956:0:0:0:0:
+320,192,66876,128,0,66956:0:0:0:100:Drum_Kick_F.ogg
+448,192,66876,128,0,66956:0:0:0:0:
+64,192,67037,128,0,67277:0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,67037,128,0,67277:0:0:0:100:Piano_VerseC - Marker #44.ogg
+320,192,67037,128,0,67117:0:0:0:100:Piano_VerseC - Marker #96.ogg
+448,192,67037,128,0,67117:0:0:0:100:Drum_Snare_Basic.ogg
+320,192,67197,128,0,67438:0:0:0:100:Drum_Kick_F.ogg
+448,192,67197,128,0,67277:0:0:0:0:
+64,192,67358,128,0,67598:0:0:0:100:FX_Sleigh_TypeB.ogg
+192,192,67358,128,0,67438:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,67358,128,0,67598:0:0:0:100:Piano_VerseC - Marker #103.ogg
+192,192,67518,128,0,67759:0:0:0:100:Drum_Kick_F.ogg
+320,192,67518,128,0,67598:0:0:0:0:
+64,192,67678,128,0,67759:0:0:0:100:FX_Sleigh_TypeA.ogg
+320,192,67678,128,0,67919:0:0:0:100:Piano_VerseC - Marker #117.ogg
+448,192,67678,128,0,67919:0:0:0:100:Drum_Snare_Basic.ogg
+64,192,67839,128,0,67919:0:0:0:100:Drum_Kick_F.ogg
+192,192,67839,128,0,68079:0:0:0:0:
+64,192,67999,128,0,68079:0:0:0:100:FX_Sleigh_TypeB.ogg
+320,192,67999,128,0,68079:0:0:0:100:Piano_VerseC - Marker #126.ogg
+448,192,67999,128,0,68079:0:0:0:100:Drum_Snare_Basic.ogg
+320,192,68160,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,68160,1,0,0:0:0:0:
+64,192,68240,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,68240,1,0,0:0:0:0:
+320,192,68320,1,0,0:0:0:100:NexTranceGuitar_TypeD - Marker #1.ogg
+448,192,68320,1,0,0:0:0:100:Piano_VerseC - Marker #130.ogg
+64,192,68481,1,0,0:0:0:100:Piano_VerseC - Marker #47.ogg
+448,192,68641,1,0,0:0:0:100:Piano_VerseC - Marker #63.ogg
+320,192,68801,128,0,69122:0:0:0:100:Piano_VerseC - Marker #81.ogg
+192,192,68962,128,0,69283:0:0:0:100:Piano_VerseC - Marker #99.ogg
+64,192,69122,128,0,69443:0:0:0:100:NexTranceGuitar_TypeD - Marker #4.ogg
+448,192,69283,128,0,69604:0:0:0:100:NexTranceGuitar_TypeD - Marker #5.ogg
+320,192,69443,128,0,69764:0:0:0:100:NexTranceGuitar_TypeD - Marker #6.ogg
+64,192,69604,128,0,70887:0:0:0:100:NexTranceGuitar_TypeD - Marker #7.ogg
+192,192,69604,128,0,70085:0:0:0:100:Piano_VerseC - Marker #139.ogg
+448,192,69924,128,0,70406:0:0:0:100:NexTranceGuitar_TypeD - Marker #8.ogg
+192,192,70245,128,0,70727:0:0:0:100:NexTranceGuitar_TypeD - Marker #9.ogg
+448,192,70566,128,0,70887:0:0:0:100:NexTranceGuitar_TypeD - Marker #10.ogg
+192,192,70887,1,0,0:0:0:100:NexTranceGuitar_TypeD - Marker #11.ogg
+320,192,70887,1,0,0:0:0:100:Piano_VerseC - Marker #105.ogg
+64,192,71047,1,0,0:0:0:100:Piano_VerseC - Marker #36.ogg
+448,192,71208,1,0,0:0:0:100:Piano_VerseC - Marker #56.ogg
+320,192,71368,1,0,0:0:0:100:Piano_VerseC - Marker #67.ogg
+192,192,71529,128,0,72010:0:0:0:100:Piano_VerseC - Marker #110.ogg
+320,192,71850,128,0,72331:0:0:0:100:Piano_VerseC - Marker #126.ogg
+64,192,72170,1,0,0:0:0:100:Piano_VerseC - Marker #122.ogg
+448,192,72170,128,0,72652:0:0:0:100:Piano_VerseC - Marker #144.ogg
+320,192,72491,128,0,73053:0:0:0:100:Piano_VerseC - Marker #147.ogg
+64,192,72812,128,0,73053:0:0:0:100:Piano_VerseC - Marker #135.ogg
+192,192,72812,128,0,73374:0:0:0:100:Piano_VerseC - Marker #89.ogg
+448,192,72812,128,0,73053:0:0:0:100:Drum_Kick_F.ogg
+64,192,73133,128,0,73374:0:0:0:100:Piano_VerseC - Marker #138.ogg
+320,192,73133,128,0,73374:0:0:0:100:Piano_VerseC - Marker #102.ogg
+448,192,73133,128,0,73374:0:0:0:0:
+64,192,73454,1,0,0:0:0:100:Piano_March - Marker #5.ogg
+192,192,73454,1,0,0:0:0:100:Piano_March - Marker #24.ogg
+320,192,73454,1,0,0:0:0:100:Piano_March - Marker #17.ogg
+448,192,73454,1,0,0:0:0:100:Drum_Kick_FF.ogg
+64,192,73775,1,0,0:0:0:100:Piano_March - Marker #21.ogg
+192,192,73775,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+64,192,73882,1,0,0:0:0:100:Piano_March - Marker #21.ogg
+192,192,73882,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+320,192,73989,1,0,0:0:0:100:Piano_March - Marker #21.ogg
+448,192,73989,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+64,192,74095,1,0,0:0:0:100:Piano_March - Marker #17.ogg
+320,192,74095,1,0,0:0:0:100:Piano_March - Marker #24.ogg
+448,192,74095,1,0,0:0:0:100:Drum_Kick_FF.ogg
+320,192,74416,1,0,0:0:0:100:Piano_March - Marker #21.ogg
+448,192,74416,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+320,192,74523,1,0,0:0:0:100:Piano_March - Marker #21.ogg
+448,192,74523,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+64,192,74630,1,0,0:0:0:100:Piano_March - Marker #21.ogg
+192,192,74630,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+64,192,74737,1,0,0:0:0:100:Piano_March - Marker #24.ogg
+192,192,74737,1,0,0:0:0:100:Piano_March - Marker #39.ogg
+448,192,74737,1,0,0:0:0:100:Piano_March - Marker #17.ogg
+320,192,75058,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+448,192,75058,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+320,192,75165,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+448,192,75165,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+64,192,75272,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+192,192,75272,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+64,192,75379,1,0,0:0:0:100:Drum_Kick_FF.ogg
+320,192,75379,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+448,192,75379,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,75486,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+448,192,75486,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,75593,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+192,192,75593,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,75700,1,0,0:0:0:100:Drum_Kick_FF.ogg
+192,192,75700,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+448,192,75700,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,75807,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+448,192,75807,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,75914,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+192,192,75914,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,76021,1,0,0:0:0:100:Piano_March - Marker #53.ogg
+192,192,76021,1,0,0:0:0:100:Piano_March - Marker #33.ogg
+320,192,76021,1,0,0:0:0:100:Piano_March - Marker #1.ogg
+448,192,76021,1,0,0:0:0:100:Drum_Kick_FF.ogg
+320,192,76341,1,0,0:0:0:100:Piano_March - Marker #46.ogg
+448,192,76341,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+320,192,76448,1,0,0:0:0:100:Piano_March - Marker #46.ogg
+448,192,76448,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+64,192,76555,1,0,0:0:0:100:Piano_March - Marker #46.ogg
+192,192,76555,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+64,192,76662,1,0,0:0:0:100:Piano_March - Marker #33.ogg
+192,192,76662,1,0,0:0:0:100:Piano_March - Marker #43.ogg
+448,192,76662,1,0,0:0:0:100:Piano_March - Marker #53.ogg
+64,192,76983,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,76983,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+64,192,77090,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,77090,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+320,192,77197,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,77197,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+64,192,77304,1,0,0:0:0:100:Piano_March - Marker #53.ogg
+320,192,77304,1,0,0:0:0:100:Piano_March - Marker #47.ogg
+448,192,77304,1,0,0:0:0:100:Drum_Kick_FF.ogg
+64,192,77625,1,0,0:0:0:100:Piano_March - Marker #57.ogg
+192,192,77625,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+64,192,77732,1,0,0:0:0:100:Piano_March - Marker #57.ogg
+192,192,77732,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+320,192,77839,1,0,0:0:0:100:Piano_March - Marker #57.ogg
+448,192,77839,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+64,192,77946,1,0,0:0:0:100:Piano_March - Marker #60.ogg
+192,192,77946,1,0,0:0:0:100:Drum_Kick_FF.ogg
+448,192,77946,1,0,0:0:0:100:Addon_Cluster.ogg
+64,192,78053,1,0,0:0:0:100:Piano_March - Marker #60.ogg
+192,192,78053,1,0,0:0:0:100:Piano_March - Marker #32.ogg
+320,192,78160,1,0,0:0:0:100:Piano_March - Marker #60.ogg
+448,192,78160,1,0,0:0:0:100:Piano_March - Marker #32.ogg
+64,192,78267,1,0,0:0:0:100:Piano_March - Marker #62.ogg
+320,192,78267,1,0,0:0:0:100:Drum_Kick_FF.ogg
+448,192,78267,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,78374,1,0,0:0:0:100:Piano_March - Marker #62.ogg
+192,192,78374,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,78481,1,0,0:0:0:100:Piano_March - Marker #62.ogg
+448,192,78481,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,78587,1,0,0:0:0:100:Piano_March - Marker #15.ogg
+192,192,78587,1,0,0:0:0:100:Drum_Kick_FF.ogg
+448,192,78587,1,0,0:0:0:100:Crash_Vengeance_M.ogg
+320,192,78694,1,0,0:0:0:0:
+192,192,78801,1,0,0:0:0:0:
+64,192,78908,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+448,192,78908,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,79015,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+448,192,79015,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,79122,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+320,192,79122,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,79229,1,0,0:0:0:100:Piano_March - Marker #39.ogg
+320,192,79229,1,0,0:0:0:100:Drum_Kick_FF.ogg
+448,192,79229,1,0,0:0:0:100:Piano_March - Marker #15.ogg
+192,192,79336,1,0,0:0:0:0:
+320,192,79443,1,0,0:0:0:0:
+64,192,79550,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+448,192,79550,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,79657,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+448,192,79657,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,79764,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+320,192,79764,1,0,0:0:0:100:Piano_March - Marker #16.ogg
+64,192,79871,1,0,0:0:0:100:Drum_Kick_FF.ogg
+192,192,79871,1,0,0:0:0:100:Piano_March - Marker #24.ogg
+448,192,79871,1,0,0:0:0:100:Piano_March - Marker #15.ogg
+320,192,79978,1,0,0:0:0:0:
+192,192,80085,1,0,0:0:0:0:
+64,192,80192,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+448,192,80192,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,80299,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+448,192,80299,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,80406,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,80406,1,0,0:0:0:100:Piano_March - Marker #41.ogg
+64,192,80513,1,0,0:0:0:100:Piano_March - Marker #46.ogg
+320,192,80513,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,80513,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+320,192,80620,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,80620,1,0,0:0:0:100:Piano_March - Marker #46.ogg
+64,192,80727,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,80727,1,0,0:0:0:100:Piano_March - Marker #46.ogg
+64,192,80833,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,80833,1,0,0:0:0:100:Piano_March - Marker #52.ogg
+448,192,80833,1,0,0:0:0:100:Piano_March - Marker #26.ogg
+320,192,80940,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,80940,1,0,0:0:0:100:Piano_March - Marker #52.ogg
+64,192,81047,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,81047,1,0,0:0:0:100:Piano_March - Marker #52.ogg
+64,192,81154,1,0,0:0:0:100:Piano_March - Marker #12.ogg
+192,192,81154,1,0,0:0:0:100:Drum_Kick_FF.ogg
+448,192,81154,1,0,0:0:0:100:Crash_Vengeance_M.ogg
+320,192,81261,1,0,0:0:0:0:
+192,192,81368,1,0,0:0:0:0:
+64,192,81475,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+448,192,81475,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,81582,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+448,192,81582,1,0,0:0:0:100:Drum_Snare_P.ogg
+192,192,81689,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,81689,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+64,192,81796,1,0,0:0:0:100:Drum_Kick_FF.ogg
+320,192,81796,1,0,0:0:0:100:Piano_March - Marker #53.ogg
+448,192,81796,1,0,0:0:0:100:Piano_March - Marker #33.ogg
+192,192,81903,1,0,0:0:0:0:
+320,192,82010,1,0,0:0:0:0:
+64,192,82117,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,82117,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+64,192,82224,1,0,0:0:0:100:Drum_Snare_P.ogg
+448,192,82224,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+192,192,82331,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,82331,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+64,192,82438,128,0,82759:0:0:0:100:Piano_March - Marker #29.ogg
+192,192,82438,128,0,82678:0:0:0:100:FX_BOFU2016_ACE.ogg
+448,192,82438,128,0,82598:0:0:0:100:Drum_Kick_FF.ogg
+320,192,82759,1,0,0:0:0:100:Piano_March - Marker #57.ogg
+448,192,82759,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,82866,1,0,0:0:0:100:Piano_March - Marker #57.ogg
+192,192,82866,1,0,0:0:0:100:Drum_Snare_P.ogg
+320,192,82972,1,0,0:0:0:100:Piano_March - Marker #57.ogg
+448,192,82972,1,0,0:0:0:100:Drum_Snare_P.ogg
+64,192,83079,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+320,192,83079,1,0,0:0:0:100:Piano_March - Marker #10.ogg
+448,192,83079,1,0,0:0:0:100:Piano_March - Marker #52.ogg
+64,192,83240,1,0,0:0:0:100:Drum_Snare_FF.ogg
+192,192,83240,1,0,0:0:0:0:
+320,192,83320,1,0,0:0:0:100:Piano_March - Marker #55.ogg
+448,192,83320,1,0,0:0:0:100:Piano_March - Marker #10.ogg
+64,192,83400,1,0,0:0:0:100:SawLead_March - Marker #1.ogg
+192,192,83400,1,0,0:0:0:100:Drum_Snare_FF.ogg
+320,192,83481,1,0,0:0:0:100:Drum_Snare_FF.ogg
+448,192,83481,1,0,0:0:0:100:SawLead_March - Marker #2.ogg
+64,192,83561,1,0,0:0:0:100:Drum_Snare_FF.ogg
+192,192,83561,1,0,0:0:0:100:SawLead_March - Marker #3.ogg
+320,192,83641,1,0,0:0:0:100:Drum_Snare_FF.ogg
+64,192,83721,1,0,0:0:0:100:Piano_March - Marker #25.ogg
+192,192,83721,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,83721,1,0,0:0:0:100:Drum_Crash - Marker #1.ogg
+320,192,83882,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,83882,1,0,0:0:0:0:
+64,192,84042,1,0,0:0:0:100:Piano_Sub - Marker #38.ogg
+192,192,84042,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,84042,128,0,84202:0:0:0:100:Drum_Kick_F.ogg
+448,192,84122,128,0,84283:0:0:0:100:Piano_Sub - Marker #41.ogg
+64,192,84202,128,0,84363:0:0:0:100:Piano_Sub - Marker #45.ogg
+192,192,84283,128,0,84443:0:0:0:100:Piano_Sub - Marker #38.ogg
+320,192,84363,128,0,84443:0:0:0:100:Piano_Sub - Marker #52.ogg
+448,192,84363,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,84523,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,84523,1,0,0:0:0:0:
+64,192,84684,1,0,0:0:0:100:Piano_Sub - Marker #45.ogg
+320,192,84684,128,0,84844:0:0:0:100:Hihat Open_TypeA.ogg
+448,192,84684,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,84764,128,0,84924:0:0:0:100:Piano_Sub - Marker #48.ogg
+64,192,84844,128,0,85005:0:0:0:100:Piano_Sub - Marker #54.ogg
+448,192,84924,128,0,85085:0:0:0:100:Piano_Sub - Marker #45.ogg
+192,192,85005,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,85005,128,0,85085:0:0:0:100:Piano_Sub - Marker #57.ogg
+64,192,85165,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,85165,1,0,0:0:0:0:
+64,192,85325,1,0,0:0:0:100:Piano_Sub - Marker #58.ogg
+192,192,85325,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,85325,128,0,85486:0:0:0:100:Drum_Kick_F.ogg
+448,192,85406,128,0,85566:0:0:0:100:Piano_Sub - Marker #59.ogg
+64,192,85486,128,0,85646:0:0:0:100:Piano_Sub - Marker #60.ogg
+192,192,85566,128,0,85727:0:0:0:100:Piano_Sub - Marker #58.ogg
+320,192,85646,128,0,85727:0:0:0:100:Piano_Sub - Marker #63.ogg
+448,192,85646,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,85807,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,85807,1,0,0:0:0:0:
+64,192,85967,1,0,0:0:0:100:SawLead_March - Marker #6.ogg
+320,192,85967,128,0,86047:0:0:0:100:Drum_Kick_F.ogg
+448,192,85967,1,0,0:0:0:100:Piano_March - Marker #22.ogg
+192,192,86047,128,0,86128:0:0:0:100:Piano_Sub - Marker #41.ogg
+64,192,86128,1,0,0:0:0:100:Piano_Sub - Marker #45.ogg
+448,192,86128,128,0,86208:0:0:0:100:SawLead_March - Marker #8.ogg
+320,192,86208,128,0,86288:0:0:0:100:Piano_Sub - Marker #48.ogg
+64,192,86288,128,0,86448:0:0:0:100:Piano_Sub - Marker #52.ogg
+192,192,86288,128,0,86368:0:0:0:100:SawLead_March - Marker #10.ogg
+448,192,86288,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,86448,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,86448,1,0,0:0:0:0:
+64,192,86609,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,86609,1,0,0:0:0:100:Piano_Sub - Marker #45.ogg
+320,192,86609,128,0,86769:0:0:0:100:Drum_Kick_F.ogg
+448,192,86689,128,0,86849:0:0:0:100:Piano_Sub - Marker #48.ogg
+64,192,86769,128,0,86930:0:0:0:100:Drum_Kick_F.ogg
+192,192,86849,128,0,87010:0:0:0:100:Piano_Sub - Marker #45.ogg
+320,192,86930,128,0,87010:0:0:0:100:Hihat Open_TypeA.ogg
+448,192,86930,1,0,0:0:0:100:Piano_Sub - Marker #57.ogg
+192,192,87090,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,87090,1,0,0:0:0:0:
+64,192,87251,1,0,0:0:0:100:Piano_Sub - Marker #58.ogg
+320,192,87251,128,0,87411:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,87251,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,87331,128,0,87411:0:0:0:100:Piano_Sub - Marker #59.ogg
+64,192,87411,128,0,87491:0:0:0:100:Piano_Sub - Marker #60.ogg
+448,192,87411,128,0,87491:0:0:0:100:Drum_Kick_F.ogg
+320,192,87491,128,0,87571:0:0:0:100:Piano_Sub - Marker #58.ogg
+64,192,87571,128,0,87652:0:0:0:100:Drum_Snare_FF.ogg
+192,192,87571,128,0,87732:0:0:0:100:Piano_Sub - Marker #63.ogg
+448,192,87571,128,0,87652:0:0:0:100:Crash_Vengeance_M.ogg
+320,192,87652,128,0,87812:0:0:0:100:Drum_Kick_F.ogg
+64,192,87732,128,0,87812:0:0:0:100:Drum_Kick_F.ogg
+448,192,87732,128,0,87812:0:0:0:0:
+192,192,87812,128,0,87892:0:0:0:100:Drum_Kick_F.ogg
+64,192,87892,128,0,87972:0:0:0:100:Drum_Snare_FF.ogg
+320,192,87892,128,0,88053:0:0:0:100:Drum_Kick_F.ogg
+448,192,87892,128,0,87972:0:0:0:100:Drum_Crash - Marker #5.ogg
+192,192,87972,128,0,88133:0:0:0:100:Drum_Kick_F.ogg
+64,192,88053,128,0,88133:0:0:0:100:Drum_Kick_F.ogg
+448,192,88053,128,0,88133:0:0:0:100:Piano_Sub - Marker #64.ogg
+320,192,88133,128,0,88213:0:0:0:100:Piano_Sub - Marker #60.ogg
+64,192,88213,128,0,88293:0:0:0:100:Piano_Sub - Marker #66.ogg
+192,192,88213,128,0,88374:0:0:0:100:Drum_Kick_F.ogg
+448,192,88213,128,0,88293:0:0:0:100:Drum_Crash - Marker #5.ogg
+320,192,88293,128,0,88454:0:0:0:100:Drum_Kick_F.ogg
+64,192,88374,128,0,88454:0:0:0:100:Drum_Kick_F.ogg
+448,192,88374,128,0,88454:0:0:0:0:
+192,192,88454,128,0,88534:0:0:0:100:Drum_Kick_F.ogg
+64,192,88534,128,0,88614:0:0:0:100:FX_Sleigh_TypeB.ogg
+320,192,88534,128,0,88694:0:0:0:100:Drum_Kick_F.ogg
+448,192,88534,128,0,88614:0:0:0:100:Drum_Crash - Marker #6.ogg
+192,192,88614,128,0,88775:0:0:0:100:Drum_Kick_F.ogg
+64,192,88694,128,0,88775:0:0:0:100:Drum_Kick_F.ogg
+448,192,88694,128,0,88775:0:0:0:0:
+320,192,88775,128,0,88855:0:0:0:100:Drum_Kick_F.ogg
+64,192,88855,1,0,0:0:0:100:Piano_March - Marker #28.ogg
+192,192,88855,1,0,0:0:0:100:Drum_Ride_Cluster.ogg
+448,192,88855,1,0,0:0:0:100:FX_Tokay_TypeB_L.ogg
+192,192,89015,1,0,0:0:0:100:Piano_March - Marker #67.ogg
+64,192,89657,1,0,0:0:0:0:
+192,192,89737,1,0,0:0:0:0:
+320,192,89817,1,0,0:0:0:0:
+448,192,89898,1,0,0:0:0:0:
+64,192,89978,1,0,0:0:0:0:
+192,192,90058,1,0,0:0:0:0:
+448,192,90138,1,0,0:0:0:100:FX_Tokay_TypeB_R.ogg
+320,192,90218,1,0,0:0:0:0:
+192,192,90299,1,0,0:0:0:0:
+64,192,90379,1,0,0:0:0:0:
+448,192,90459,1,0,0:0:0:0:
+320,192,90519,1,0,0:0:0:0:
+64,192,90593,1,0,0:0:0:0:
+192,192,90646,1,0,0:0:0:0:
+320,192,90720,1,0,0:0:0:0:
+448,192,90780,1,0,0:0:0:0:
+64,192,90840,1,0,0:0:0:0:
+192,192,90914,1,0,0:0:0:0:
+320,192,90967,1,0,0:0:0:0:
+448,192,91041,128,0,91288:0:0:0:0:
+64,192,91422,128,0,91662:0:0:0:100:Drum_Kick_FF.ogg
+192,192,91422,128,0,91502:0:0:0:100:Colossus_Bells - Marker #8.ogg
+448,192,91422,128,0,91582:0:0:0:100:Piano_HOOK_Sub - Marker #4.ogg
+320,192,91502,128,0,91743:0:0:0:100:Piano_HOOK_Sub - Marker #8.ogg
+192,192,91582,128,0,91662:0:0:0:100:Piano_HOOK_Sub - Marker #10.ogg
+448,192,91662,128,0,91823:0:0:0:100:Piano_HOOK_Sub - Marker #15.ogg
+64,192,91743,128,0,91903:0:0:0:100:Piano_HOOK_Sub - Marker #11.ogg
+192,192,91743,128,0,92063:0:0:0:100:Drum_Kick_FF.ogg
+320,192,91823,128,0,91983:0:0:0:100:Piano_HOOK_Sub - Marker #16.ogg
+448,192,91903,128,0,91983:0:0:0:100:Piano_HOOK_Sub - Marker #18.ogg
+64,192,91983,128,0,92144:0:0:0:100:Piano_HOOK_Sub - Marker #20.ogg
+320,192,92063,128,0,92384:0:0:0:100:Piano_HOOK_Sub - Marker #13.ogg
+448,192,92063,128,0,92224:0:0:0:100:Drum_Kick_FF.ogg
+192,192,92144,128,0,92304:0:0:0:100:Piano_HOOK_Sub - Marker #17.ogg
+64,192,92224,128,0,92304:0:0:0:100:Piano_HOOK_Sub - Marker #19.ogg
+448,192,92304,128,0,92464:0:0:0:100:Piano_HOOK_Sub - Marker #22.ogg
+64,192,92384,128,0,92545:0:0:0:100:Piano_HOOK_Sub - Marker #20.ogg
+192,192,92384,128,0,92705:0:0:0:100:Drum_Kick_FF.ogg
+320,192,92464,128,0,92625:0:0:0:100:Piano_HOOK_Sub - Marker #23.ogg
+448,192,92545,128,0,92625:0:0:0:100:Piano_HOOK_Sub - Marker #25.ogg
+64,192,92625,128,0,92705:0:0:0:100:Piano_HOOK_Sub - Marker #27.ogg
+320,192,92705,128,0,92785:0:0:0:100:Piano_HOOK_Sub - Marker #21.ogg
+448,192,92705,128,0,92785:0:0:0:100:Drum_Kick_F.ogg
+64,192,92785,128,0,92866:0:0:0:100:Piano_HOOK_Sub - Marker #24.ogg
+192,192,92785,128,0,92866:0:0:0:100:Drum_Kick_F.ogg
+320,192,92866,128,0,92946:0:0:0:100:Piano_HOOK_Sub - Marker #26.ogg
+448,192,92866,128,0,92946:0:0:0:100:Drum_Kick_F.ogg
+64,192,92946,128,0,93026:0:0:0:100:Piano_HOOK_Sub - Marker #29.ogg
+192,192,92946,128,0,93026:0:0:0:100:Drum_Kick_F.ogg
+320,192,93026,128,0,93106:0:0:0:100:Piano_HOOK_Sub - Marker #28.ogg
+448,192,93026,128,0,93106:0:0:0:100:Drum_Kick_F.ogg
+64,192,93106,128,0,93186:0:0:0:100:Piano_HOOK_Sub - Marker #30.ogg
+192,192,93106,128,0,93186:0:0:0:100:Drum_Kick_F.ogg
+320,192,93186,128,0,93267:0:0:0:100:Drum_Kick_F.ogg
+448,192,93186,128,0,93267:0:0:0:100:Piano_HOOK_Sub - Marker #31.ogg
+64,192,93267,128,0,93507:0:0:0:100:Drum_Kick_F.ogg
+192,192,93267,128,0,93908:0:0:0:100:Piano_HOOK_Sub - Marker #33.ogg
+320,192,93347,128,0,93908:0:0:0:100:Piano_Small - Marker #70.ogg
+448,192,93347,128,0,93507:0:0:0:100:Piano_Small - Marker #27.ogg
+64,192,93668,128,0,93908:0:0:0:100:Piano_Small - Marker #189.ogg
+448,192,93668,128,0,93908:0:0:0:0:
+64,192,93989,128,0,94149:0:0:0:100:Piano_HOOK - Marker #75.ogg
+320,192,93989,1,0,0:0:0:100:Crash_Vengeance_M.ogg
+448,192,93989,1,0,0:0:0:100:Piano_HOOK - Marker #61.ogg
+192,192,94069,128,0,94229:0:0:0:0:
+320,192,94149,128,0,94309:0:0:0:0:
+448,192,94229,128,0,94470:0:0:0:0:
+64,192,94309,1,0,0:0:0:100:Piano_HOOK - Marker #75.ogg
+192,192,94309,1,0,0:0:0:100:Piano_HOOK - Marker #61.ogg
+320,192,94390,128,0,94550:0:0:0:0:
+192,192,94470,128,0,94630:0:0:0:0:
+64,192,94550,128,0,94710:0:0:0:0:
+320,192,94630,128,0,94791:0:0:0:100:Hihat Open_TypeA.ogg
+448,192,94630,1,0,0:0:0:100:Piano_HOOK - Marker #74.ogg
+192,192,94710,128,0,94871:0:0:0:0:
+64,192,94791,128,0,94951:0:0:0:100:NexTranceGuitar_TypeB - Marker #1.ogg
+320,192,94871,128,0,95031:0:0:0:0:
+192,192,94951,128,0,95112:0:0:0:100:NexTranceGuitar_TypeB - Marker #2.ogg
+448,192,94951,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,95031,128,0,95192:0:0:0:0:
+320,192,95112,128,0,95272:0:0:0:100:NexTranceGuitar_TypeB - Marker #3.ogg
+448,192,95112,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,95192,128,0,95352:0:0:0:0:
+64,192,95272,128,0,95432:0:0:0:100:Hihat Open_TypeA.ogg
+320,192,95352,128,0,95513:0:0:0:0:
+192,192,95432,128,0,95593:0:0:0:100:Piano_HOOK - Marker #43.ogg
+448,192,95432,128,0,95513:0:0:0:100:Drum_Kick_F.ogg
+64,192,95513,128,0,95593:0:0:0:0:
+320,192,95593,1,0,0:0:0:100:Piano_HOOK - Marker #34.ogg
+448,192,95593,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,95753,1,0,0:0:0:0:
+320,192,95753,1,0,0:0:0:0:
+64,192,95914,1,0,0:0:0:100:Piano_HOOK - Marker #40.ogg
+192,192,95914,128,0,96154:0:0:0:100:Hihat Open_TypeA.ogg
+320,192,95994,128,0,96154:0:0:0:0:
+64,192,96074,128,0,96154:0:0:0:100:Drum_Kick_F.ogg
+448,192,96074,128,0,96154:0:0:0:0:
+192,192,96235,128,0,96475:0:0:0:100:Piano_HOOK - Marker #77.ogg
+320,192,96235,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,96315,128,0,96475:0:0:0:0:
+320,192,96395,128,0,96475:0:0:0:0:
+448,192,96395,128,0,96475:0:0:0:0:
+64,192,96555,1,0,0:0:0:100:Piano_HOOK - Marker #28.ogg
+192,192,96555,1,0,0:0:0:100:Piano_HOOK - Marker #45.ogg
+448,192,96555,128,0,96716:0:0:0:100:Drum_Kick_F.ogg
+320,192,96636,128,0,96796:0:0:0:0:
+192,192,96716,128,0,96876:0:0:0:0:
+64,192,96796,128,0,97037:0:0:0:0:
+320,192,96876,1,0,0:0:0:100:Piano_HOOK - Marker #45.ogg
+448,192,96876,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,96956,128,0,97117:0:0:0:0:
+320,192,97037,128,0,97197:0:0:0:0:
+448,192,97117,128,0,97277:0:0:0:0:
+64,192,97197,1,0,0:0:0:100:Piano_HOOK - Marker #74.ogg
+192,192,97197,128,0,97358:0:0:0:100:Drum_Kick_F.ogg
+320,192,97277,128,0,97438:0:0:0:0:
+448,192,97358,128,0,97518:0:0:0:100:NexTranceGuitar_TypeB - Marker #1.ogg
+192,192,97438,128,0,97598:0:0:0:0:
+64,192,97518,1,0,0:0:0:100:NexTranceGuitar_TypeB - Marker #2.ogg
+320,192,97518,128,0,97678:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,97598,128,0,97759:0:0:0:0:
+64,192,97678,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,97678,128,0,97839:0:0:0:100:NexTranceGuitar_TypeB - Marker #3.ogg
+320,192,97759,128,0,97919:0:0:0:0:
+448,192,97839,128,0,97999:0:0:0:100:Hihat Open_TypeA.ogg
+192,192,97919,128,0,98079:0:0:0:0:
+64,192,97999,128,0,98079:0:0:0:100:Piano_HOOK - Marker #31.ogg
+320,192,97999,128,0,98160:0:0:0:100:Drum_Kick_F.ogg
+448,192,98079,128,0,98160:0:0:0:0:
+64,192,98160,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,98160,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,98320,1,0,0:0:0:0:
+320,192,98320,1,0,0:0:0:0:
+320,192,98481,128,0,98721:0:0:0:100:Piano_HOOK - Marker #47.ogg
+448,192,98481,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,98561,128,0,98721:0:0:0:0:
+64,192,98641,128,0,98721:0:0:0:100:Drum_Kick_F.ogg
+448,192,98641,128,0,98721:0:0:0:0:
+192,192,98801,1,0,0:0:0:100:Piano_HOOK - Marker #13.ogg
+320,192,98801,128,0,99042:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,98882,128,0,99042:0:0:0:0:
+64,192,98962,128,0,99042:0:0:0:0:
+192,192,98962,128,0,99042:0:0:0:0:
+64,192,99122,1,0,0:0:0:100:Piano_HOOK - Marker #7.ogg
+320,192,99122,128,0,99363:0:0:0:100:Hihat Open_TypeA.ogg
+448,192,99122,1,0,0:0:0:100:Crash_Vengeance_R.ogg
+192,192,99202,128,0,99363:0:0:0:0:
+64,192,99283,128,0,99363:0:0:0:0:
+192,192,99443,128,0,99523:0:0:0:100:Piano_HOOK - Marker #34.ogg
+320,192,99443,128,0,99604:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,99443,128,0,99684:0:0:0:100:Piano_HOOK - Marker #17.ogg
+64,192,99604,1,0,0:0:0:0:
+192,192,99764,128,0,99924:0:0:0:100:Hihat Open_TypeA.ogg
+320,192,99764,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,99924,128,0,100085:0:0:0:100:Piano_HOOK - Marker #8.ogg
+448,192,99924,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,100085,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,100085,1,0,0:0:0:100:Piano_HOOK - Marker #19.ogg
+448,192,100085,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,100245,1,0,0:0:0:100:Piano_HOOK - Marker #22.ogg
+192,192,100245,128,0,100325:0:0:0:100:Piano_HOOK - Marker #11.ogg
+320,192,100245,128,0,100406:0:0:0:100:Crash_Vengeance_L.ogg
+448,192,100325,128,0,100486:0:0:0:0:
+64,192,100406,128,0,100566:0:0:0:100:Hihat Open_TypeA.ogg
+320,192,100566,1,0,0:0:0:100:Piano_HOOK - Marker #12.ogg
+448,192,100566,128,0,101047:0:0:0:100:Drum_Kick_F.ogg
+64,192,100727,1,0,0:0:0:100:Piano_HOOK - Marker #23.ogg
+192,192,100727,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,100727,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,100887,128,0,101208:0:0:0:100:Piano_HOOK - Marker #81.ogg
+192,192,100887,1,0,0:0:0:100:Piano_HOOK - Marker #66.ogg
+320,192,101047,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,101208,1,0,0:0:0:100:Drum_Tom_High.ogg
+448,192,101208,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,101368,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,101368,1,0,0:0:0:100:Drum_Tom_Floor.ogg
+448,192,101368,1,0,0:0:0:100:Piano_HOOK - Marker #53.ogg
+64,192,101529,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,101529,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,101609,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,101689,1,0,0:0:0:100:Piano_HOOK - Marker #59.ogg
+192,192,101689,1,0,0:0:0:100:Crash_Vengeance_M.ogg
+448,192,101689,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,101849,1,0,0:0:0:0:
+64,192,102010,1,0,0:0:0:100:Piano_HOOK_Sub2 - Marker #1.ogg
+192,192,102010,1,0,0:0:0:100:Piano_HOOK - Marker #59.ogg
+320,192,102010,128,0,102170:0:0:0:100:Hihat Open_TypeB.ogg
+448,192,102090,128,0,102170:0:0:0:0:
+192,192,102170,128,0,102331:0:0:0:0:
+64,192,102251,128,0,102331:0:0:0:0:
+320,192,102331,128,0,102491:0:0:0:100:Piano_HOOK_Sub2 - Marker #2.ogg
+448,192,102331,1,0,0:0:0:100:Piano_HOOK - Marker #76.ogg
+192,192,102411,128,0,102571:0:0:0:0:
+64,192,102491,128,0,102652:0:0:0:0:
+448,192,102571,128,0,102732:0:0:0:0:
+192,192,102652,128,0,102812:0:0:0:100:Piano_HOOK_Sub2 - Marker #3.ogg
+320,192,102652,128,0,102732:0:0:0:100:Drum_Snare_Basic.ogg
+64,192,102732,128,0,102812:0:0:0:0:
+320,192,102812,128,0,102972:0:0:0:100:Drum_Tom_High.ogg
+448,192,102812,128,0,102972:0:0:0:100:Drum_Crash - Marker #4.ogg
+192,192,102892,128,0,103053:0:0:0:0:
+64,192,102972,128,0,103133:0:0:0:100:Piano_HOOK_Sub2 - Marker #4.ogg
+448,192,103053,128,0,103133:0:0:0:0:
+192,192,103133,128,0,103293:0:0:0:100:Piano_HOOK - Marker #49.ogg
+320,192,103133,128,0,103293:0:0:0:100:Drum_Kick_F.ogg
+448,192,103213,128,0,103374:0:0:0:0:
+64,192,103293,128,0,103454:0:0:0:100:Piano_HOOK_Sub2 - Marker #5.ogg
+192,192,103374,128,0,103534:0:0:0:0:
+320,192,103454,128,0,103534:0:0:0:100:Piano_HOOK - Marker #73.ogg
+448,192,103454,128,0,103534:0:0:0:50:Drum_Crash - Marker #5.ogg
+64,192,103534,128,0,103614:0:0:0:0:
+192,192,103614,1,0,0:0:0:100:Piano_HOOK_Sub2 - Marker #6.ogg
+320,192,103614,1,0,0:0:0:100:Hihat Open_TypeB.ogg
+448,192,103614,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,103775,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,103775,1,0,0:0:0:50:Drum_Crash - Marker #5.ogg
+64,192,103935,1,0,0:0:0:100:Piano_HOOK_Sub2 - Marker #7.ogg
+192,192,103935,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,103935,1,0,0:0:0:100:Hihat Open_TypeB.ogg
+320,192,104095,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,104095,1,0,0:0:0:0:
+192,192,104176,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,104256,1,0,0:0:0:100:Piano_HOOK - Marker #87.ogg
+320,192,104256,128,0,104416:0:0:0:100:Piano_HOOK - Marker #60.ogg
+448,192,104256,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,104336,128,0,104497:0:0:0:0:
+64,192,104416,128,0,104577:0:0:0:0:
+192,192,104577,128,0,104737:0:0:0:100:Piano_HOOK - Marker #75.ogg
+448,192,104577,1,0,0:0:0:100:Piano_HOOK - Marker #87.ogg
+320,192,104657,128,0,104817:0:0:0:0:
+448,192,104737,128,0,104898:0:0:0:0:
+64,192,104898,1,0,0:0:0:100:Piano_HOOK - Marker #76.ogg
+320,192,104898,128,0,105058:0:0:0:100:Piano_HOOK - Marker #87.ogg
+192,192,104978,128,0,105138:0:0:0:0:
+64,192,105058,128,0,105218:0:0:0:0:
+192,192,105218,128,0,105379:0:0:0:100:Piano_HOOK - Marker #88.ogg
+448,192,105218,1,0,0:0:0:100:Piano_HOOK - Marker #63.ogg
+320,192,105299,128,0,105459:0:0:0:0:
+448,192,105379,128,0,105539:0:0:0:0:
+64,192,105539,1,0,0:0:0:100:Piano_HOOK - Marker #67.ogg
+320,192,105539,128,0,105780:0:0:0:100:Hihat Open_TypeB.ogg
+192,192,105620,128,0,105780:0:0:0:0:
+64,192,105700,128,0,105780:0:0:0:0:
+448,192,105780,1,0,0:0:0:0:
+64,192,105860,128,0,106021:0:0:0:100:Piano_HOOK - Marker #84.ogg
+192,192,105860,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,105860,1,0,0:0:0:100:Piano_HOOK - Marker #69.ogg
+320,192,106021,1,0,0:0:0:100:Piano_HOOK - Marker #80.ogg
+448,192,106021,128,0,106341:0:0:0:100:Piano_HOOK - Marker #64.ogg
+192,192,106181,1,0,0:0:0:100:Hihat Open_TypeB.ogg
+64,192,106341,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,106341,1,0,0:0:0:0:
+64,192,106502,1,0,0:0:0:100:Piano_HOOK - Marker #54.ogg
+192,192,106502,128,0,106662:0:0:0:100:Piano_HOOK - Marker #30.ogg
+448,192,106502,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,106662,128,0,106823:0:0:0:0:
+64,192,106823,1,0,0:0:0:100:Piano_HOOK - Marker #82.ogg
+192,192,106823,128,0,106983:0:0:0:100:Piano_HOOK - Marker #67.ogg
+448,192,106823,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,106903,128,0,107063:0:0:0:0:
+448,192,106983,128,0,107144:0:0:0:0:
+64,192,107144,1,0,0:0:0:100:Piano_HOOK - Marker #82.ogg
+320,192,107144,128,0,107304:0:0:0:100:Piano_HOOK - Marker #67.ogg
+192,192,107224,128,0,107384:0:0:0:0:
+64,192,107304,128,0,107464:0:0:0:0:
+192,192,107464,128,0,107625:0:0:0:100:Piano_HOOK - Marker #82.ogg
+448,192,107464,1,0,0:0:0:100:Piano_HOOK - Marker #67.ogg
+320,192,107545,128,0,107705:0:0:0:0:
+448,192,107625,128,0,107785:0:0:0:100:Drum_Kick_F.ogg
+64,192,107785,1,0,0:0:0:100:Piano_HOOK - Marker #68.ogg
+320,192,107785,128,0,107946:0:0:0:100:Piano_HOOK - Marker #48.ogg
+192,192,107866,128,0,108026:0:0:0:0:
+64,192,107946,128,0,108106:0:0:0:0:
+192,192,108106,128,0,108347:0:0:0:100:Piano_HOOK - Marker #67.ogg
+448,192,108106,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,108186,128,0,108347:0:0:0:0:
+448,192,108267,128,0,108347:0:0:0:0:
+64,192,108347,1,0,0:0:0:0:
+192,192,108427,1,0,0:0:0:100:Piano_HOOK - Marker #79.ogg
+320,192,108427,1,0,0:0:0:100:Hihat Open_TypeB.ogg
+448,192,108427,128,0,108748:0:0:0:100:Drum_Snare_Basic.ogg
+64,192,108587,128,0,108908:0:0:0:100:Piano_HOOK - Marker #72.ogg
+192,192,108587,1,0,0:0:0:100:Piano_HOOK - Marker #38.ogg
+320,192,108748,1,0,0:0:0:100:Drum_Crash - Marker #6.ogg
+320,192,108908,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,108908,1,0,0:0:0:0:
+64,192,109069,1,0,0:0:0:100:Drum_Crash - Marker #4.ogg
+192,192,109069,128,0,109229:0:0:0:100:Piano_HOOK - Marker #90.ogg
+448,192,109069,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,109229,128,0,109390:0:0:0:0:
+64,192,109390,1,0,0:0:0:100:Piano_HOOK - Marker #85.ogg
+192,192,109390,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,109390,128,0,109550:0:0:0:100:Piano_HOOK - Marker #4.ogg
+320,192,109470,128,0,109630:0:0:0:0:
+192,192,109550,128,0,109710:0:0:0:0:
+64,192,109630,128,0,109791:0:0:0:0:
+320,192,109710,128,0,109871:0:0:0:100:Piano_HOOK_Sub - Marker #36.ogg
+448,192,109710,128,0,109791:0:0:0:100:Drum_Snare_Basic.ogg
+192,192,109791,128,0,109951:0:0:0:100:Piano_HOOK_Sub - Marker #35.ogg
+64,192,109871,128,0,109951:0:0:0:100:Piano_HOOK_Sub - Marker #34.ogg
+448,192,109871,128,0,110031:0:0:0:100:Drum_Kick_F.ogg
+320,192,109951,128,0,110112:0:0:0:100:Piano_HOOK_Sub - Marker #33.ogg
+64,192,110031,128,0,110192:0:0:0:100:Piano_HOOK_Sub - Marker #32.ogg
+192,192,110031,128,0,110112:0:0:0:100:FX_water_droplet_timetravel.ogg
+448,192,110112,128,0,110272:0:0:0:100:Piano_HOOK_Sub - Marker #31.ogg
+192,192,110192,128,0,110352:0:0:0:100:Piano_HOOK_Sub - Marker #30.ogg
+320,192,110192,128,0,110272:0:0:0:100:Drum_Kick_F.ogg
+64,192,110272,128,0,110432:0:0:0:100:Piano_HOOK_Sub - Marker #29.ogg
+320,192,110352,128,0,110432:0:0:0:100:Piano_HOOK_Sub - Marker #28.ogg
+448,192,110352,128,0,110432:0:0:0:100:Hihat Open_TypeB.ogg
+192,192,110432,128,0,110593:0:0:0:100:Piano_HOOK_Sub - Marker #26.ogg
+64,192,110513,128,0,110593:0:0:0:100:Crash_Vengeance_R.ogg
+320,192,110513,128,0,110673:0:0:0:100:Drum_Kick_F.ogg
+448,192,110513,128,0,110753:0:0:0:100:Piano_HOOK_Sub - Marker #24.ogg
+192,192,110673,128,0,110833:0:0:0:100:Piano_HOOK_Sub - Marker #28.ogg
+320,192,110753,128,0,110914:0:0:0:100:Piano_HOOK_Sub - Marker #26.ogg
+64,192,110833,128,0,110994:0:0:0:100:Piano_HOOK_Sub - Marker #24.ogg
+448,192,110833,128,0,110914:0:0:0:100:Drum_Kick_F.ogg
+192,192,110914,128,0,111074:0:0:0:100:Piano_HOOK_Sub - Marker #22.ogg
+320,192,110994,128,0,111074:0:0:0:100:Piano_HOOK_Sub - Marker #21.ogg
+448,192,110994,128,0,111235:0:0:0:100:Hihat Open_TypeB.ogg
+64,192,111074,128,0,111154:0:0:0:100:Piano_HOOK_Sub - Marker #19.ogg
+192,192,111154,128,0,111395:0:0:0:100:Drum_Kick_F.ogg
+320,192,111154,128,0,111315:0:0:0:100:Crash_Vengeance_L.ogg
+64,192,111235,128,0,111395:0:0:0:100:Piano_HOOK_Sub - Marker #14.ogg
+448,192,111315,128,0,111555:0:0:0:100:Piano_HOOK_Sub - Marker #12.ogg
+320,192,111395,128,0,111475:0:0:0:100:Piano_HOOK_Sub - Marker #9.ogg
+64,192,111475,128,0,111555:0:0:0:100:Piano_HOOK_Sub - Marker #7.ogg
+192,192,111475,128,0,111555:0:0:0:100:Drum_Kick_F.ogg
+320,192,111555,128,0,111716:0:0:0:100:Piano_HOOK_Sub - Marker #6.ogg
+64,192,111636,128,0,111876:0:0:0:100:Piano_HOOK_Sub - Marker #5.ogg
+192,192,111636,128,0,111796:0:0:0:100:FX_Sleigh_TypeB.ogg
+448,192,111636,128,0,111716:0:0:0:100:Drum_Snare_Basic.ogg
+320,192,111956,128,0,112117:0:0:0:100:Piano_HOOK_Sub - Marker #4.ogg
+448,192,111956,128,0,112037:0:0:0:50:Drum_Crash - Marker #5.ogg
+192,192,112037,128,0,112197:0:0:0:100:Piano_HOOK_Sub - Marker #8.ogg
+64,192,112117,128,0,112197:0:0:0:100:Piano_HOOK_Sub - Marker #10.ogg
+448,192,112117,128,0,112277:0:0:0:0:
+320,192,112197,128,0,112358:0:0:0:100:Piano_HOOK_Sub - Marker #15.ogg
+64,192,112277,128,0,112438:0:0:0:100:Piano_HOOK_Sub - Marker #11.ogg
+192,192,112277,128,0,112358:0:0:0:100:Drum_Kick_F.ogg
+448,192,112358,128,0,112518:0:0:0:100:Piano_HOOK_Sub - Marker #16.ogg
+192,192,112438,128,0,112598:0:0:0:100:Piano_HOOK_Sub - Marker #18.ogg
+320,192,112438,128,0,112518:0:0:0:0:
+64,192,112518,128,0,112598:0:0:0:100:Piano_HOOK_Sub - Marker #20.ogg
+320,192,112598,128,0,112678:0:0:0:100:Piano_HOOK_Sub - Marker #13.ogg
+448,192,112598,128,0,112678:0:0:0:100:Drum_Kick_F.ogg
+64,192,112678,128,0,112759:0:0:0:100:Piano_HOOK_Sub - Marker #17.ogg
+192,192,112678,128,0,112759:0:0:0:0:
+320,192,112759,128,0,112839:0:0:0:100:Piano_HOOK_Sub - Marker #19.ogg
+448,192,112759,128,0,112839:0:0:0:0:
+64,192,112839,128,0,112919:0:0:0:100:Piano_HOOK_Sub - Marker #22.ogg
+192,192,112839,128,0,112919:0:0:0:0:
+320,192,112919,128,0,112999:0:0:0:100:Piano_HOOK_Sub - Marker #20.ogg
+448,192,112919,128,0,112999:0:0:0:100:Drum_Kick_F.ogg
+64,192,112999,128,0,113079:0:0:0:100:Piano_HOOK_Sub - Marker #23.ogg
+192,192,112999,128,0,113079:0:0:0:0:
+320,192,113079,128,0,113160:0:0:0:100:Piano_HOOK_Sub - Marker #25.ogg
+448,192,113079,128,0,113160:0:0:0:0:
+64,192,113160,128,0,113240:0:0:0:100:Piano_HOOK_Sub - Marker #27.ogg
+192,192,113160,128,0,113320:0:0:0:0:
+320,192,113240,128,0,113320:0:0:0:100:Sine_Up - Marker #3.ogg
+448,192,113240,128,0,113400:0:0:0:100:Piano_HOOK_Sub - Marker #21.ogg
+64,192,113320,128,0,113481:0:0:0:100:Piano_HOOK_Sub - Marker #24.ogg
+192,192,113400,128,0,113481:0:0:0:100:Piano_HOOK_Sub - Marker #26.ogg
+320,192,113400,128,0,113561:0:0:0:0:
+448,192,113481,128,0,113641:0:0:0:100:Piano_HOOK_Sub - Marker #29.ogg
+64,192,113561,128,0,113641:0:0:0:100:Piano_HOOK_Sub - Marker #28.ogg
+192,192,113561,128,0,113721:0:0:0:100:Drum_Kick_F.ogg
+320,192,113641,128,0,113801:0:0:0:100:Piano_HOOK_Sub - Marker #30.ogg
+64,192,113721,128,0,113882:0:0:0:100:Piano_HOOK_Sub - Marker #31.ogg
+448,192,113721,128,0,113801:0:0:0:0:
+192,192,113801,128,0,113882:0:0:0:100:Piano_HOOK_Sub - Marker #33.ogg
+320,192,113882,128,0,114443:0:0:0:100:Piano_Small - Marker #162.ogg
+448,192,113882,128,0,114443:0:0:0:100:Piano_Small - Marker #187.ogg
+64,192,114202,1,0,0:0:0:100:Piano_Small - Marker #200.ogg
+192,192,114202,1,0,0:0:0:0:
+64,192,114363,128,0,114443:0:0:0:0:
+192,192,114363,128,0,114443:0:0:0:0:
+64,192,114523,128,0,116769:0:0:0:100:Colossus_Bells - Marker #22.ogg
+192,192,114523,1,0,0:0:0:100:Piano_Small - Marker #21.ogg
+320,192,114523,1,0,0:0:0:100:Piano_Small - Marker #127.ogg
+448,192,114523,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,114844,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,114844,1,0,0:0:0:100:Piano_Small - Marker #127.ogg
+448,192,114844,1,0,0:0:0:100:Piano_Small - Marker #73.ogg
+448,192,115005,1,0,0:0:0:100:AddonSplit - Marker #2.ogg
+192,192,115165,1,0,0:0:0:100:Piano_Small - Marker #124.ogg
+320,192,115165,1,0,0:0:0:100:Piano_Small - Marker #71.ogg
+192,192,115325,1,0,0:0:0:100:AddonSplit - Marker #3.ogg
+192,192,115486,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,115486,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,115486,1,0,0:0:0:0:
+320,192,115646,1,0,0:0:0:100:Piano_Small - Marker #127.ogg
+448,192,115646,1,0,0:0:0:100:Piano_Small - Marker #73.ogg
+192,192,115807,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,115967,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,115967,1,0,0:0:0:100:Piano_Small - Marker #72.ogg
+192,192,116128,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,116128,1,0,0:0:0:100:Piano_Small - Marker #22.ogg
+448,192,116128,1,0,0:0:0:100:AddonSplit - Marker #5.ogg
+192,192,116288,1,0,0:0:0:0:
+320,192,116448,1,0,0:0:0:100:Colossus_Bells - Marker #17.ogg
+448,192,116448,1,0,0:0:0:100:Piano_Small - Marker #20.ogg
+192,192,116609,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,116609,1,0,0:0:0:0:
+192,192,116769,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,116769,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,116769,1,0,0:0:0:100:Colossus_Bells - Marker #23.ogg
+448,192,116930,1,0,0:0:0:0:
+64,192,117090,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,117090,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,117411,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,117411,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,117411,1,0,0:0:0:100:Piano_Small - Marker #115.ogg
+192,192,117571,1,0,0:0:0:100:AddonSplit - Marker #9.ogg
+192,192,117732,1,0,0:0:0:100:Piano_Small - Marker #114.ogg
+448,192,117732,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,117892,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,117892,1,0,0:0:0:100:AddonSplit - Marker #10.ogg
+64,192,118053,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,118053,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+448,192,118053,1,0,0:0:0:0:
+192,192,118213,1,0,0:0:0:100:Piano_Small - Marker #73.ogg
+320,192,118213,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,118374,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,118534,1,0,0:0:0:100:Piano_Small - Marker #113.ogg
+448,192,118534,1,0,0:0:0:100:Piano_Small - Marker #140.ogg
+64,192,118694,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,118694,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,118694,1,0,0:0:0:100:AddonSplit - Marker #12.ogg
+320,192,118855,1,0,0:0:0:0:
+192,192,119015,1,0,0:0:0:100:Piano_Small - Marker #99.ogg
+448,192,119015,1,0,0:0:0:100:Colossus_Bells - Marker #23.ogg
+64,192,119176,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,119176,1,0,0:0:0:0:
+64,192,119336,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,119336,1,0,0:0:0:100:Colossus_Bells - Marker #26.ogg
+448,192,119336,1,0,0:0:0:100:Piano_Small - Marker #103.ogg
+448,192,119497,1,0,0:0:0:0:
+64,192,119657,1,0,0:0:0:100:MassiveDetunedLead - Marker #1.ogg
+320,192,119657,128,0,119898:0:0:0:100:Colossus_Bells - Marker #25.ogg
+448,192,119657,1,0,0:0:0:50:Drum_Crash - Marker #5.ogg
+192,192,119737,128,0,119898:0:0:0:0:
+64,192,119817,128,0,119898:0:0:0:0:
+64,192,119978,1,0,0:0:0:100:MassiveDetunedLead - Marker #2.ogg
+320,192,119978,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,119978,1,0,0:0:0:100:Piano_Small - Marker #99.ogg
+448,192,120138,1,0,0:0:0:0:
+64,192,120299,1,0,0:0:0:100:MassiveDetunedLead - Marker #3.ogg
+192,192,120299,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,120459,1,0,0:0:0:100:MassiveDetunedLead - Marker #4.ogg
+320,192,120459,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,120620,1,0,0:0:0:100:MassiveDetunedLead - Marker #5.ogg
+320,192,120620,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,120620,1,0,0:0:0:100:Piano_Small - Marker #68.ogg
+64,192,120780,1,0,0:0:0:100:Colossus_Bells - Marker #32.ogg
+192,192,120780,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,120780,128,0,120940:0:0:0:100:MassiveDetunedLead - Marker #6.ogg
+320,192,120860,128,0,121021:0:0:0:0:
+192,192,120940,128,0,121101:0:0:0:0:
+64,192,121021,128,0,121181:0:0:0:0:
+320,192,121101,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,121101,1,0,0:0:0:0:
+64,192,121261,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,121261,1,0,0:0:0:100:Piano_Small - Marker #55.ogg
+448,192,121261,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,121422,1,0,0:0:0:100:Piano_Small - Marker #59.ogg
+192,192,121422,1,0,0:0:0:100:Colossus_Bells - Marker #30.ogg
+320,192,121582,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,121743,1,0,0:0:0:100:MassiveDetunedLead - Marker #8.ogg
+448,192,121743,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,121903,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,121903,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,121903,1,0,0:0:0:0:
+64,192,122224,1,0,0:0:0:100:PhraseString_Cluster - Marker #1.ogg
+192,192,122224,128,0,122384:0:0:0:100:MassiveDetunedLead - Marker #9.ogg
+448,192,122224,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,122304,128,0,122464:0:0:0:0:
+448,192,122384,128,0,122545:0:0:0:100:Piano_Small - Marker #13.ogg
+64,192,122545,1,0,0:0:0:100:MassiveDetunedLead - Marker #10.ogg
+192,192,122545,1,0,0:0:0:100:PhraseString_Cluster - Marker #2.ogg
+320,192,122545,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,122705,1,0,0:0:0:100:MassiveDetunedLead - Marker #11.ogg
+320,192,122866,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,122866,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,123026,1,0,0:0:0:100:PhraseString_Cluster - Marker #4.ogg
+448,192,123026,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,123186,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,123186,1,0,0:0:0:100:PhraseString_Cluster - Marker #5.ogg
+320,192,123186,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,123347,128,0,123507:0:0:0:100:PhraseString_Cluster - Marker #6.ogg
+320,192,123347,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,123347,1,0,0:0:0:100:Drum_Crash - Marker #4.ogg
+64,192,123427,128,0,123587:0:0:0:0:
+448,192,123507,128,0,123668:0:0:0:0:
+192,192,123668,1,0,0:0:0:100:PhraseString_Cluster - Marker #7.ogg
+320,192,123668,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,123828,1,0,0:0:0:100:PhraseString_Cluster - Marker #8.ogg
+320,192,123828,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,123828,1,0,0:0:0:100:Piano_Small - Marker #167.ogg
+64,192,123989,1,0,0:0:0:100:PhraseString_Cluster - Marker #9.ogg
+192,192,123989,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,123989,1,0,0:0:0:100:Piano_Small - Marker #137.ogg
+448,192,123989,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+64,192,124149,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,124149,1,0,0:0:0:0:
+448,192,124149,1,0,0:0:0:0:
+192,192,124309,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,124309,1,0,0:0:0:100:PhraseString_Cluster - Marker #10.ogg
+64,192,124470,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,124470,1,0,0:0:0:100:PhraseString_Cluster - Marker #11.ogg
+448,192,124470,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,124630,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,124630,1,0,0:0:0:100:PhraseString_Cluster - Marker #12.ogg
+320,192,124710,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,124791,128,0,125031:0:0:0:100:Piano_Small - Marker #2.ogg
+192,192,124791,128,0,124951:0:0:0:60:Drum_Crash - Marker #5.ogg
+448,192,124791,128,0,124871:0:0:0:100:Drum_Kick_F.ogg
+192,192,125112,128,0,125272:0:0:0:100:Piano_Sub - Marker #13.ogg
+320,192,125112,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,125112,1,0,0:0:0:100:Piano_Small - Marker #76.ogg
+64,192,125192,128,0,125272:0:0:0:100:Piano_Sub - Marker #17.ogg
+448,192,125272,128,0,125432:0:0:0:100:Piano_Sub - Marker #20.ogg
+320,192,125352,128,0,125432:0:0:0:100:Piano_Sub - Marker #24.ogg
+64,192,125432,1,0,0:0:0:100:Piano_Sub - Marker #25.ogg
+192,192,125432,1,0,0:0:0:100:Piano_Small - Marker #83.ogg
+320,192,125513,128,0,125673:0:0:0:100:Piano_Sub - Marker #31.ogg
+64,192,125593,1,0,0:0:0:100:Piano_Sub - Marker #36.ogg
+448,192,125593,128,0,125673:0:0:0:100:Piano_Small - Marker #43.ogg
+192,192,125673,1,0,0:0:0:100:Piano_Sub - Marker #42.ogg
+64,192,125753,128,0,125914:0:0:0:100:Piano_Sub - Marker #52.ogg
+320,192,125753,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,125753,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,125833,128,0,125914:0:0:0:100:Piano_Sub - Marker #46.ogg
+320,192,125914,1,0,0:0:0:100:Piano_Sub - Marker #42.ogg
+448,192,125914,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,125994,1,0,0:0:0:100:Piano_Sub - Marker #46.ogg
+64,192,126074,1,0,0:0:0:100:Piano_Sub - Marker #51.ogg
+448,192,126074,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,126235,1,0,0:0:0:100:Piano_Small - Marker #106.ogg
+64,192,126395,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,126395,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,126395,1,0,0:0:0:100:Piano_Small - Marker #44.ogg
+64,192,126555,1,0,0:0:0:100:Piano_Sub - Marker #38.ogg
+192,192,126555,1,0,0:0:0:100:Piano_Sub - Marker #58.ogg
+64,192,126636,1,0,0:0:0:100:Piano_Sub - Marker #58.ogg
+192,192,126636,1,0,0:0:0:100:Piano_Sub - Marker #38.ogg
+64,192,126716,1,0,0:0:0:100:Piano_Sub - Marker #56.ogg
+192,192,126716,1,0,0:0:0:100:Piano_Sub - Marker #35.ogg
+320,192,126876,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,126876,1,0,0:0:0:0:
+64,192,127037,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,127037,1,0,0:0:0:100:Piano_Small - Marker #47.ogg
+448,192,127037,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,127117,1,0,0:0:0:0:
+320,192,127197,1,0,0:0:0:0:
+448,192,127277,1,0,0:0:0:0:
+64,192,127358,128,0,127598:0:0:0:100:Piano_Sub - Marker #1.ogg
+192,192,127358,128,0,127518:0:0:0:100:Piano_Small - Marker #12.ogg
+320,192,127358,128,0,127438:0:0:0:60:Drum_Crash - Marker #5.ogg
+64,192,127678,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,127678,1,0,0:0:0:100:Piano_Sub - Marker #10.ogg
+448,192,127678,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,127839,128,0,127999:0:0:0:100:Piano_Sub - Marker #20.ogg
+320,192,127919,128,0,127999:0:0:0:100:Piano_Sub - Marker #24.ogg
+64,192,127999,128,0,128160:0:0:0:100:Piano_Sub - Marker #11.ogg
+448,192,127999,1,0,0:0:0:100:Piano_Small - Marker #67.ogg
+192,192,128079,128,0,128160:0:0:0:100:Piano_Sub - Marker #14.ogg
+320,192,128160,1,0,0:0:0:100:Piano_Sub - Marker #20.ogg
+448,192,128160,1,0,0:0:0:100:Piano_Small - Marker #42.ogg
+192,192,128240,1,0,0:0:0:100:Piano_Sub - Marker #24.ogg
+64,192,128320,128,0,128400:0:0:0:100:Piano_Sub - Marker #52.ogg
+320,192,128320,128,0,128481:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,128320,128,0,128400:0:0:0:100:Hihat Open_TypeA.ogg
+192,192,128400,128,0,128561:0:0:0:100:Piano_Sub - Marker #46.ogg
+64,192,128481,128,0,128561:0:0:0:100:Piano_Sub - Marker #42.ogg
+448,192,128481,128,0,128561:0:0:0:100:Piano_Small - Marker #42.ogg
+320,192,128561,128,0,128641:0:0:0:100:Piano_Sub - Marker #46.ogg
+64,192,128641,1,0,0:0:0:100:Piano_Sub - Marker #51.ogg
+192,192,128641,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+448,192,128641,1,0,0:0:0:100:Drum_Crash - Marker #4.ogg
+64,192,128962,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,128962,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,128962,1,0,0:0:0:100:Piano_Small - Marker #65.ogg
+320,192,129122,1,0,0:0:0:100:Piano_Sub - Marker #58.ogg
+448,192,129122,1,0,0:0:0:100:Piano_Sub - Marker #38.ogg
+320,192,129202,1,0,0:0:0:100:Piano_Sub - Marker #58.ogg
+448,192,129202,1,0,0:0:0:100:Piano_Sub - Marker #38.ogg
+320,192,129283,128,0,129844:0:0:0:100:Piano_Sub - Marker #35.ogg
+448,192,129283,1,0,0:0:0:100:Piano_Sub - Marker #56.ogg
+64,192,129443,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,129443,1,0,0:0:0:0:
+64,192,129604,128,0,129844:0:0:0:100:Hihat Open_TypeA.ogg
+192,192,129604,128,0,129844:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,129604,128,0,129844:0:0:0:100:MassiveDetunedLead - Marker #13.ogg
+64,192,129924,1,0,0:0:0:100:MassiveDetunedLead - Marker #14.ogg
+192,192,129924,1,0,0:0:0:100:Piano_Small - Marker #71.ogg
+320,192,129924,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,129924,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+320,192,130085,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,130085,1,0,0:0:0:0:
+64,192,130245,1,0,0:0:0:100:Drum_Ride.ogg
+192,192,130245,1,0,0:0:0:100:Piano_Small - Marker #40.ogg
+448,192,130245,1,0,0:0:0:100:Drum_Crash - Marker #6.ogg
+64,192,130406,1,0,0:0:0:100:MassiveDetunedLead - Marker #15.ogg
+192,192,130406,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,130566,1,0,0:0:0:100:Drum_Crash - Marker #6.ogg
+64,192,130727,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,130727,1,0,0:0:0:0:
+64,192,130887,1,0,0:0:0:100:Drum_Ride.ogg
+192,192,130887,1,0,0:0:0:100:MassiveDetunedLead - Marker #16.ogg
+448,192,130887,1,0,0:0:0:100:Drum_Crash - Marker #6.ogg
+64,192,131047,1,0,0:0:0:100:Piano_Small - Marker #24.ogg
+192,192,131047,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+320,192,131047,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,131047,1,0,0:0:0:100:Drum_Tom_Low.ogg
+320,192,131208,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,131208,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,131368,1,0,0:0:0:100:MassiveDetunedLead - Marker #17.ogg
+192,192,131368,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,131368,1,0,0:0:0:100:Drum_Crash - Marker #4.ogg
+448,192,131368,1,0,0:0:0:100:Piano_Small - Marker #84.ogg
+64,192,131529,1,0,0:0:0:100:Drum_Ride.ogg
+192,192,131529,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,131529,1,0,0:0:0:0:
+64,192,131689,1,0,0:0:0:100:Piano_Small - Marker #87.ogg
+448,192,131689,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,131850,1,0,0:0:0:100:MassiveDetunedLead - Marker #18.ogg
+320,192,131850,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,131850,1,0,0:0:0:100:Piano_Small - Marker #127.ogg
+64,192,132010,1,0,0:0:0:100:Drum_Crash - Marker #4.ogg
+320,192,132010,128,0,132411:0:0:0:100:Drum_Kick_F.ogg
+64,192,132170,128,0,132411:0:0:0:100:Drum_Ride.ogg
+192,192,132170,128,0,132411:0:0:0:100:MassiveDetunedLead - Marker #19.ogg
+448,192,132170,128,0,132411:0:0:0:100:Drum_Snare_Basic.ogg
+64,192,132491,1,0,0:0:0:100:MassiveDetunedLead - Marker #20.ogg
+192,192,132491,1,0,0:0:0:100:Piano_Small - Marker #93.ogg
+320,192,132491,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+448,192,132491,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,132652,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,132652,1,0,0:0:0:0:
+64,192,132812,1,0,0:0:0:100:MassiveDetunedLead - Marker #21.ogg
+320,192,132812,1,0,0:0:0:100:Drum_Ride.ogg
+448,192,132812,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,132972,1,0,0:0:0:100:MassiveDetunedLead - Marker #22.ogg
+448,192,132972,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,133133,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,133133,1,0,0:0:0:100:Drum_Crash - Marker #6.ogg
+448,192,133133,1,0,0:0:0:100:Drum_Ride.ogg
+192,192,133293,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,133293,1,0,0:0:0:100:MassiveDetunedLead - Marker #23.ogg
+64,192,133454,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,133454,1,0,0:0:0:100:MassiveDetunedLead - Marker #24.ogg
+448,192,133454,1,0,0:0:0:100:Piano_Small - Marker #116.ogg
+64,192,133614,128,0,133935:0:0:0:100:MassiveDetunedLead - Marker #25.ogg
+192,192,133614,1,0,0:0:0:100:Crash_Vengeance_R.ogg
+320,192,133614,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,133614,1,0,0:0:0:100:Piano_Small - Marker #175.ogg
+192,192,133935,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,133935,128,0,134095:0:0:0:0:
+320,192,134015,128,0,134176:0:0:0:0:
+64,192,134095,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,134095,128,0,134256:0:0:0:100:Hihat Open_TypeA.ogg
+320,192,134256,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,134256,1,0,0:0:0:0:
+64,192,134416,128,0,134497:0:0:0:100:Piano_Small - Marker #68.ogg
+320,192,134416,128,0,134497:0:0:0:100:Drum_Kick_F.ogg
+448,192,134416,128,0,134497:0:0:0:60:Drum_Crash_Pedaled - Marker #1.ogg
+64,192,134577,128,0,134657:0:0:0:100:Piano_Small - Marker #68.ogg
+320,192,134577,128,0,134657:0:0:0:100:Drum_Kick_F.ogg
+448,192,134577,128,0,134657:0:0:0:60:Drum_Crash_Pedaled - Marker #2.ogg
+64,192,134737,1,0,0:0:0:100:Cluster_Spicatto_3.ogg
+192,192,134737,1,0,0:0:0:100:Drum_Snare_F.ogg
+320,192,134817,1,0,0:0:0:100:Drum_Snare_F.ogg
+448,192,134817,1,0,0:0:0:0:
+64,192,134898,1,0,0:0:0:100:Drum_Snare_F.ogg
+192,192,134898,1,0,0:0:0:0:
+320,192,134978,1,0,0:0:0:100:Drum_Snare_F.ogg
+64,192,135058,1,0,0:0:0:100:Stacc_Feyrlin_1.ogg
+192,192,135058,1,0,0:0:0:100:GuitarSolo - Marker #2.ogg
+448,192,135058,1,0,0:0:0:100:Crash_Vengeance_M.ogg
+320,192,135218,1,0,0:0:0:0:
+448,192,135218,1,0,0:0:0:0:
+64,192,135379,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,135379,1,0,0:0:0:100:Stacc_Feyrlin_2.ogg
+320,192,135379,1,0,0:0:0:100:Piano_Climax_007.ogg
+448,192,135379,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,135539,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,135539,1,0,0:0:0:0:
+64,192,135700,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,135700,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+320,192,135700,1,0,0:0:0:100:Stacc_Feyrlin_1.ogg
+448,192,135700,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+320,192,135860,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,135860,1,0,0:0:0:0:
+64,192,136021,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,136021,1,0,0:0:0:100:Piano_Climax_007.ogg
+320,192,136021,1,0,0:0:0:100:Stacc_Feyrlin_2.ogg
+448,192,136021,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,136181,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,136181,1,0,0:0:0:0:
+64,192,136341,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,136341,1,0,0:0:0:100:Stacc_Feyrlin_1.ogg
+320,192,136341,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,136341,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+320,192,136502,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,136502,1,0,0:0:0:0:
+64,192,136582,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,136582,1,0,0:0:0:0:
+64,192,136662,1,0,0:0:0:100:Stacc_Feyrlin_2.ogg
+192,192,136662,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,136662,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+448,192,136662,1,0,0:0:0:100:Piano_Climax_007.ogg
+192,192,136823,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,136823,1,0,0:0:0:0:
+64,192,136983,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,136983,1,0,0:0:0:100:Stacc_Feyrlin_1.ogg
+320,192,136983,1,0,0:0:0:100:GuitarSolo - Marker #3.ogg
+448,192,136983,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,137144,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,137144,1,0,0:0:0:0:
+64,192,137304,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,137304,1,0,0:0:0:100:GuitarSolo - Marker #4.ogg
+320,192,137304,1,0,0:0:0:100:Stacc_Feyrlin_2.ogg
+448,192,137304,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,137464,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,137464,1,0,0:0:0:0:
+64,192,137625,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,137625,1,0,0:0:0:100:GuitarSolo - Marker #5.ogg
+320,192,137625,1,0,0:0:0:100:Stacc_Feyrlin_1.ogg
+448,192,137625,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+320,192,137785,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,137785,1,0,0:0:0:0:
+64,192,137946,1,0,0:0:0:100:GuitarSolo - Marker #6.ogg
+192,192,137946,1,0,0:0:0:100:Piano_Climax_007.ogg
+320,192,137946,1,0,0:0:0:100:Stacc_Feyrlin_2.ogg
+448,192,137946,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,138106,1,0,0:0:0:100:GuitarSolo - Marker #7.ogg
+192,192,138106,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,138186,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,138186,1,0,0:0:0:0:
+64,192,138267,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,138267,1,0,0:0:0:100:Stacc_Feyrlin_1.ogg
+320,192,138267,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,138267,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+192,192,138427,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,138427,1,0,0:0:0:0:
+64,192,138587,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,138587,1,0,0:0:0:100:Piano_Climax_007.ogg
+320,192,138587,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,138587,1,0,0:0:0:100:Stacc_Feyrlin_2.ogg
+64,192,138748,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,138748,1,0,0:0:0:0:
+64,192,138908,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,138908,1,0,0:0:0:100:Stacc_Feyrlin_1.ogg
+320,192,138908,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,138908,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+320,192,139069,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,139069,1,0,0:0:0:0:
+64,192,139149,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,139149,1,0,0:0:0:0:
+64,192,139229,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,139229,1,0,0:0:0:100:Piano_Climax_007.ogg
+320,192,139229,1,0,0:0:0:100:Stacc_Feyrlin_2.ogg
+448,192,139229,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,139390,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,139390,1,0,0:0:0:0:
+64,192,139550,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+192,192,139550,1,0,0:0:0:100:Stacc_Feyrlin_1.ogg
+320,192,139550,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,139550,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+64,192,139710,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,139710,1,0,0:0:0:0:
+320,192,139871,1,0,0:0:0:100:FX_Sleigh_TypeA.ogg
+448,192,139871,1,0,0:0:0:100:Stacc_Feyrlin_2.ogg
+64,192,139951,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,139951,1,0,0:0:0:0:
+320,192,140031,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,140031,1,0,0:0:0:0:
+64,192,140192,1,0,0:0:0:100:Piano_Sub - Marker #53.ogg
+192,192,140192,1,0,0:0:0:100:Crash_Vengeance_M.ogg
+448,192,140192,128,0,140352:0:0:0:100:GuitarSolo - Marker #10.ogg
+320,192,140272,128,0,140432:0:0:0:100:Piano_Sub - Marker #39.ogg
+192,192,140352,128,0,140513:0:0:0:100:Piano_Sub - Marker #32.ogg
+64,192,140432,128,0,140593:0:0:0:100:Piano_Sub - Marker #27.ogg
+320,192,140513,1,0,0:0:0:100:GuitarSolo - Marker #11.ogg
+448,192,140513,1,0,0:0:0:100:Piano_Sub - Marker #24.ogg
+192,192,140593,128,0,140753:0:0:0:100:Piano_Sub - Marker #18.ogg
+320,192,140673,128,0,140833:0:0:0:100:Piano_Sub - Marker #14.ogg
+448,192,140753,128,0,140914:0:0:0:100:Piano_Sub - Marker #11.ogg
+64,192,140833,1,0,0:0:0:100:Piano_Sub - Marker #32.ogg
+192,192,140833,1,0,0:0:0:100:GuitarSolo - Marker #12.ogg
+320,192,140914,1,0,0:0:0:100:Piano_Sub - Marker #27.ogg
+64,192,140994,1,0,0:0:0:100:GuitarSolo - Marker #13.ogg
+448,192,140994,1,0,0:0:0:100:Piano_Sub - Marker #24.ogg
+192,192,141154,1,0,0:0:0:100:Piano_Sub - Marker #14.ogg
+320,192,141154,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+448,192,141154,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+64,192,141315,1,0,0:0:0:100:Piano_Sub - Marker #6.ogg
+192,192,141315,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+448,192,141315,128,0,141475:0:0:0:100:GuitarSolo - Marker #14.ogg
+320,192,141395,128,0,141555:0:0:0:100:Piano_Sub - Marker #4.ogg
+192,192,141475,128,0,141636:0:0:0:100:Piano_Sub - Marker #18.ogg
+64,192,141555,128,0,141716:0:0:0:100:Piano_Sub - Marker #16.ogg
+320,192,141636,1,0,0:0:0:100:Piano_Sub - Marker #11.ogg
+448,192,141636,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,141716,1,0,0:0:0:100:Piano_Sub - Marker #6.ogg
+64,192,141796,128,0,141876:0:0:0:100:Drum_Snare_Basic.ogg
+320,192,141796,128,0,141956:0:0:0:100:Piano_Sub - Marker #25.ogg
+448,192,141796,128,0,142037:0:0:0:100:GuitarSolo - Marker #15.ogg
+64,192,142117,128,0,142358:0:0:0:100:Drum_Kick_F.ogg
+192,192,142117,128,0,142277:0:0:0:100:Piano_Sub - Marker #24.ogg
+320,192,142117,128,0,142197:0:0:0:100:Drum_Crash - Marker #6.ogg
+192,192,142438,128,0,142518:0:0:0:100:Piano_Sub - Marker #30.ogg
+320,192,142438,128,0,142598:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,142438,128,0,142839:0:0:0:100:GuitarSolo - Marker #17.ogg
+64,192,142759,128,0,143079:0:0:0:100:Piano_Climax_071.ogg
+192,192,142759,128,0,142999:0:0:0:100:Piano_Climax_064.ogg
+320,192,142759,128,0,142919:0:0:0:100:Drum_Kick_F.ogg
+192,192,143079,128,0,143240:0:0:0:100:GuitarSolo - Marker #18.ogg
+320,192,143079,128,0,143320:0:0:0:100:Piano_Climax_071.ogg
+448,192,143079,128,0,143400:0:0:0:100:Piano_Climax_064.ogg
+64,192,143400,1,0,0:0:0:100:Piano_Climax_072.ogg
+192,192,143400,1,0,0:0:0:100:Piano_Climax_065.ogg
+192,192,143561,1,0,0:0:0:100:Piano_Climax_059.ogg
+320,192,143561,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,143721,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,143721,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+448,192,143721,1,0,0:0:0:0:
+64,192,143882,128,0,144122:0:0:0:100:Drum_Kick_F.ogg
+192,192,143882,128,0,144122:0:0:0:100:Piano_Climax_053.ogg
+320,192,143882,128,0,144122:0:0:0:100:Piano_Climax_023.ogg
+448,192,143882,128,0,144122:0:0:0:100:Piano_Climax_035.ogg
+192,192,144202,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,144202,1,0,0:0:0:0:
+64,192,144363,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,144363,1,0,0:0:0:100:Piano_Climax_025.ogg
+448,192,144363,1,0,0:0:0:100:Piano_Climax_036.ogg
+320,192,144523,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,144523,1,0,0:0:0:0:
+64,192,144684,1,0,0:0:0:100:Piano_Climax_060.ogg
+192,192,144684,1,0,0:0:0:100:Drum_Tom_High.ogg
+320,192,144764,1,0,0:0:0:100:Drum_Tom_Mid.ogg
+64,192,144844,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,144844,1,0,0:0:0:0:
+192,192,145005,128,0,145165:0:0:0:100:Drum_Snare_F.ogg
+320,192,145005,1,0,0:0:0:100:Piano_Climax_063.ogg
+64,192,145085,128,0,145245:0:0:0:100:Drum_Snare_F.ogg
+320,192,145165,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,145165,1,0,0:0:0:0:
+192,192,145245,1,0,0:0:0:0:
+64,192,145325,1,0,0:0:0:100:GuitarSolo - Marker #19.ogg
+320,192,145325,1,0,0:0:0:100:Piano_Climax_006.ogg
+448,192,145325,1,0,0:0:0:100:Piano_Climax_031.ogg
+192,192,145486,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,145486,1,0,0:0:0:0:
+64,192,145646,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,145646,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,145646,1,0,0:0:0:100:GuitarSolo - Marker #20.ogg
+64,192,145807,1,0,0:0:0:100:Piano_Climax_005.ogg
+320,192,145807,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,145887,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,145967,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+448,192,145967,1,0,0:0:0:100:GuitarSolo - Marker #21.ogg
+64,192,146128,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,146128,1,0,0:0:0:0:
+64,192,146288,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+320,192,146288,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,146288,1,0,0:0:0:100:Piano_Climax_057.ogg
+320,192,146448,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,146448,1,0,0:0:0:0:
+64,192,146609,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,146609,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+320,192,146609,1,0,0:0:0:100:Piano_Climax_050.ogg
+448,192,146609,1,0,0:0:0:100:Piano_Climax_006.ogg
+64,192,146769,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,146769,1,0,0:0:0:0:
+64,192,146930,1,0,0:0:0:100:GuitarSolo - Marker #24.ogg
+320,192,146930,1,0,0:0:0:100:Piano_Climax_047.ogg
+448,192,146930,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,147090,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,147090,1,0,0:0:0:100:Piano_Climax_006.ogg
+320,192,147170,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,147251,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+192,192,147251,1,0,0:0:0:100:GuitarSolo - Marker #25.ogg
+320,192,147411,1,0,0:0:0:100:Drum_Kick_F.ogg
+448,192,147411,1,0,0:0:0:0:
+64,192,147571,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,147571,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+448,192,147571,1,0,0:0:0:100:Piano_Climax_027.ogg
+192,192,147732,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,147732,1,0,0:0:0:0:
+64,192,147892,1,0,0:0:0:100:Piano_Sub - Marker #44.ogg
+192,192,147892,1,0,0:0:0:100:GuitarSolo - Marker #27.ogg
+320,192,147892,1,0,0:0:0:60:Drum_Tom_High.ogg
+448,192,147892,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,148053,1,0,0:0:0:100:Piano_Sub - Marker #33.ogg
+448,192,148053,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,148213,1,0,0:0:0:100:Piano_Sub - Marker #22.ogg
+320,192,148213,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+448,192,148213,1,0,0:0:0:100:Hihat Open_TypeA.ogg
+64,192,148374,1,0,0:0:0:100:Piano_Sub - Marker #15.ogg
+320,192,148374,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,148454,1,0,0:0:0:100:Piano_Sub - Marker #9.ogg
+64,192,148534,1,0,0:0:0:100:GuitarSolo - Marker #28.ogg
+320,192,148534,1,0,0:0:0:100:Piano_Sub - Marker #40.ogg
+448,192,148534,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,148694,1,0,0:0:0:100:Piano_Sub - Marker #28.ogg
+448,192,148694,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,148855,1,0,0:0:0:100:Piano_Sub - Marker #19.ogg
+192,192,148855,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,148855,1,0,0:0:0:100:Piano_Climax_036.ogg
+64,192,149015,1,0,0:0:0:100:Piano_Sub - Marker #9.ogg
+448,192,149015,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,149095,1,0,0:0:0:100:Piano_Sub - Marker #7.ogg
+64,192,149176,1,0,0:0:0:100:Piano_Sub - Marker #37.ogg
+320,192,149176,1,0,0:0:0:100:GuitarSolo - Marker #29.ogg
+448,192,149176,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,149336,1,0,0:0:0:100:Drum_Kick_F.ogg
+320,192,149336,1,0,0:0:0:100:Piano_Sub - Marker #23.ogg
+64,192,149497,1,0,0:0:0:100:Piano_Sub - Marker #40.ogg
+192,192,149497,1,0,0:0:0:100:GuitarSolo - Marker #30.ogg
+448,192,149497,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+320,192,149657,1,0,0:0:0:100:Piano_Sub - Marker #23.ogg
+448,192,149657,1,0,0:0:0:100:Drum_Kick_F.ogg
+192,192,149737,1,0,0:0:0:100:Piano_Sub - Marker #15.ogg
+64,192,149817,1,0,0:0:0:100:GuitarSolo - Marker #31.ogg
+320,192,149817,1,0,0:0:0:60:Drum_Crash - Marker #5.ogg
+448,192,149817,1,0,0:0:0:100:Piano_Sub - Marker #43.ogg
+64,192,149978,1,0,0:0:0:100:Piano_Sub - Marker #23.ogg
+192,192,149978,1,0,0:0:0:100:Drum_Kick_F.ogg
+64,192,150138,128,0,150379:0:0:0:100:Cluster_Spicatto_4.ogg
+192,192,150138,1,0,0:0:0:100:Drum_Crash - Marker #6.ogg
+448,192,150138,128,0,150379:0:0:0:100:GuitarSolo - Marker #32.ogg
+320,192,150299,1,0,0:0:0:100:Drum_Snare_Basic.ogg
+192,192,150379,1,0,0:0:0:100:Piano_Sub - Marker #15.ogg
+64,192,150459,128,0,150539:0:0:0:100:Piano_Small - Marker #175.ogg
+320,192,150459,128,0,150620:0:0:0:100:Drum_Kick_F.ogg
+448,192,150459,128,0,150539:0:0:0:60:Drum_Crash - Marker #5.ogg
+192,192,150539,128,0,150700:0:0:0:100:Drum_Kick_F.ogg
+64,192,150620,128,0,150700:0:0:0:100:Drum_Kick_F.ogg
+448,192,150620,128,0,150700:0:0:0:100:Drum_Snare_Basic.ogg
+320,192,150700,128,0,150780:0:0:0:100:Drum_Kick_F.ogg
+64,192,150780,128,0,150860:0:0:0:100:Drum_Kick_F.ogg
+192,192,150780,128,0,150940:0:0:0:60:Drum_Crash - Marker #5.ogg
+448,192,150780,128,0,150860:0:0:0:100:FX_Sleigh_TypeB.ogg
+320,192,150860,128,0,151021:0:0:0:100:Drum_Kick_F.ogg
+64,192,150940,128,0,151021:0:0:0:100:Drum_Kick_F.ogg
+448,192,150940,128,0,151021:0:0:0:100:Piano_Sub - Marker #54.ogg
+192,192,151021,128,0,151101:0:0:0:100:Drum_Kick_F.ogg
+64,192,151101,128,0,151181:0:0:0:100:Drum_Kick_F.ogg
+320,192,151101,128,0,151261:0:0:0:60:Drum_Crash - Marker #5.ogg
+448,192,151101,128,0,151181:0:0:0:100:Piano_Sub - Marker #50.ogg
+192,192,151181,128,0,151341:0:0:0:100:Drum_Kick_F.ogg
+64,192,151261,128,0,151341:0:0:0:100:Drum_Snare_Basic.ogg
+448,192,151261,128,0,151341:0:0:0:100:Drum_Kick_F.ogg
+320,192,151341,128,0,151422:0:0:0:100:Drum_Kick_F.ogg
+64,192,151422,128,0,151502:0:0:0:60:Drum_Crash - Marker #5.ogg
+192,192,151422,128,0,151582:0:0:0:100:Drum_Kick_F.ogg
+448,192,151422,128,0,151502:0:0:0:100:FX_Sleigh_TypeB.ogg
+320,192,151502,128,0,151662:0:0:0:100:Drum_Kick_F.ogg
+64,192,151582,128,0,151662:0:0:0:100:Piano_Sub - Marker #58.ogg
+448,192,151582,128,0,151662:0:0:0:100:Drum_Kick_F.ogg
+192,192,151662,128,0,151743:0:0:0:100:Piano_Sub - Marker #38.ogg
+64,192,151743,128,0,151823:0:0:0:100:Drum_Kick_F.ogg
+320,192,151743,128,0,151903:0:0:0:60:Drum_Crash - Marker #5.ogg
+448,192,151743,128,0,151823:0:0:0:100:Piano_Sub - Marker #34.ogg
+192,192,151823,128,0,151983:0:0:0:100:Drum_Kick_F.ogg
+64,192,151903,128,0,151983:0:0:0:100:Drum_Kick_F.ogg
+448,192,151903,128,0,151983:0:0:0:100:Drum_Snare_Basic.ogg
+320,192,151983,128,0,152063:0:0:0:100:Drum_Kick_F.ogg
+64,192,152063,128,0,152144:0:0:0:100:Drum_Kick_F.ogg
+192,192,152063,128,0,152224:0:0:0:60:Drum_Crash - Marker #5.ogg
+448,192,152063,128,0,152144:0:0:0:100:FX_Sleigh_TypeB.ogg
+320,192,152144,128,0,152304:0:0:0:100:Drum_Kick_F.ogg
+64,192,152224,128,0,152304:0:0:0:100:Drum_Kick_F.ogg
+448,192,152224,128,0,152304:0:0:0:100:Piano_Sub - Marker #65.ogg
+192,192,152304,128,0,152384:0:0:0:100:Drum_Kick_F.ogg
+64,192,152384,128,0,152464:0:0:0:100:Piano_Sub - Marker #62.ogg
+320,192,152384,128,0,152545:0:0:0:100:Piano_Sub - Marker #49.ogg
+448,192,152384,128,0,152464:0:0:0:60:Drum_Crash - Marker #5.ogg
+192,192,152464,128,0,152625:0:0:0:100:Drum_Kick_F.ogg
+64,192,152545,128,0,152625:0:0:0:100:Drum_Kick_F.ogg
+448,192,152545,128,0,152625:0:0:0:100:Drum_Snare_Basic.ogg
+320,192,152625,128,0,152705:0:0:0:100:Drum_Kick_F.ogg
+64,192,152705,128,0,152785:0:0:0:100:Drum_Kick_F.ogg
+192,192,152705,128,0,152866:0:0:0:60:Drum_Crash - Marker #5.ogg
+448,192,152705,128,0,152785:0:0:0:100:FX_Sleigh_TypeB.ogg
+320,192,152785,128,0,152946:0:0:0:100:Drum_Kick_F.ogg
+64,192,152866,128,0,152946:0:0:0:100:Drum_Kick_F.ogg
+448,192,152866,128,0,152946:0:0:0:100:Drum_Snare_Basic.ogg
+192,192,152946,128,0,153026:0:0:0:100:Drum_Kick_F.ogg
+64,192,153026,1,0,0:0:0:100:Piano_Small - Marker #211.ogg
+448,192,153026,128,0,153106:0:0:0:100:Drum_Kick_FF.ogg
+320,192,153079,128,0,153160:0:0:0:100:Piano_Small - Marker #208.ogg
+192,192,153133,128,0,153213:0:0:0:100:Piano_Small - Marker #205.ogg
+64,192,153186,128,0,153267:0:0:0:100:Piano_Small - Marker #203.ogg
+448,192,153240,1,0,0:0:0:100:Piano_Small - Marker #178.ogg
+320,192,153293,1,0,0:0:0:100:Piano_Small - Marker #164.ogg
+64,192,153347,128,0,153427:0:0:0:100:Crash_Vengeance_L.ogg
+192,192,153347,128,0,153427:0:0:0:100:Drum_Kick_FF.ogg
+320,192,153400,128,0,153481:0:0:0:100:Piano_Small - Marker #129.ogg
+448,192,153454,128,0,153534:0:0:0:100:Piano_Small - Marker #98.ogg
+64,192,153507,1,0,0:0:0:100:Piano_Small - Marker #78.ogg
+192,192,153561,1,0,0:0:0:100:Piano_Small - Marker #52.ogg
+320,192,153614,1,0,0:0:0:100:Piano_Small - Marker #45.ogg
+64,192,153668,128,0,153748:0:0:0:100:Piano_Small - Marker #204.ogg
+448,192,153668,1,0,0:0:0:100:Drum_Crash - Marker #4.ogg
+192,192,153721,128,0,153801:0:0:0:100:Piano_Small - Marker #199.ogg
+320,192,153775,128,0,153855:0:0:0:100:Piano_Small - Marker #185.ogg
+448,192,153828,128,0,153908:0:0:0:100:Piano_Small - Marker #144.ogg
+64,192,153882,1,0,0:0:0:100:Piano_Small - Marker #129.ogg
+192,192,153935,1,0,0:0:0:100:Piano_Small - Marker #98.ogg
+320,192,153989,128,0,154069:0:0:0:100:Crash_Vengeance_L.ogg
+448,192,153989,128,0,154069:0:0:0:100:Drum_Kick_FF.ogg
+192,192,154042,128,0,154122:0:0:0:100:Piano_Small - Marker #52.ogg
+64,192,154095,128,0,154176:0:0:0:100:Piano_Small - Marker #45.ogg
+448,192,154149,1,0,0:0:0:100:Piano_Small - Marker #31.ogg
+320,192,154202,1,0,0:0:0:100:Piano_Small - Marker #23.ogg
+192,192,154256,1,0,0:0:0:100:Piano_Small - Marker #10.ogg
+64,192,154310,128,0,157520:0:0:0:100:Colossus_Bells - Marker #5.ogg
+320,192,154310,1,0,0:0:0:100:Crash_Vengeance_M.ogg
+448,192,154310,128,0,157520:0:0:0:100:Piano_Small - Marker #1.ogg
+192,192,154477,1,0,0:0:0:0:
+320,192,154577,1,0,0:0:0:0:
+192,192,154686,1,0,0:0:0:0:
+320,192,154786,1,0,0:0:0:0:
+192,192,154886,1,0,0:0:0:0:
+320,192,155012,1,0,0:0:0:0:
+192,192,155112,1,0,0:0:0:0:
+320,192,155213,1,0,0:0:0:0:
+192,192,155338,1,0,0:0:0:0:
+320,192,155438,1,0,0:0:0:0:
+192,192,155539,1,0,0:0:0:0:
+320,192,155647,1,0,0:0:0:0:
+192,192,155748,1,0,0:0:0:0:
+320,192,155865,1,0,0:0:0:0:
+192,192,155965,1,0,0:0:0:0:
+320,192,156082,1,0,0:0:0:0:
+192,192,156182,1,0,0:0:0:0:
+320,192,156291,1,0,0:0:0:0:
+192,192,156391,1,0,0:0:0:0:
+320,192,156492,1,0,0:0:0:0:
+192,192,156617,1,0,0:0:0:0:
+320,192,156718,1,0,0:0:0:0:
+192,192,156818,1,0,0:0:0:0:
+64,192,159126,1,0,0:0:0:100:Piano_Outro - Marker #22.ogg
+192,192,159126,1,0,0:0:0:100:Piano_Outro - Marker #20.ogg
+320,192,159126,1,0,0:0:0:100:Piano_Outro - Marker #17.ogg
+448,192,159163,1,0,0:0:0:100:Piano_Outro - Marker #12.ogg
+64,192,159802,1,0,0:0:0:100:Piano_Outro - Marker #23.ogg
+448,192,159802,1,0,0:0:0:100:Piano_Outro - Marker #18.ogg
+320,192,159847,1,0,0:0:0:100:Piano_Outro - Marker #5.ogg
+192,192,159892,1,0,0:0:0:100:Piano_Outro - Marker #11.ogg
+64,192,160302,1,0,0:0:0:100:Piano_Outro - Marker #14.ogg
+448,192,160347,1,0,0:0:0:100:Piano_Outro - Marker #24.ogg
+320,192,160791,1,0,0:0:0:100:Piano_Outro - Marker #21.ogg
+192,192,161189,1,0,0:0:0:100:Piano_Outro - Marker #19.ogg
+64,192,161601,1,0,0:0:0:100:Piano_Outro - Marker #16.ogg
+448,192,161893,1,0,0:0:0:100:Piano_Outro - Marker #15.ogg
+192,192,162143,1,0,0:0:0:100:Piano_Outro - Marker #13.ogg
+320,192,162413,1,0,0:0:0:100:Piano_Outro - Marker #10.ogg
+448,192,162673,1,0,0:0:0:100:Piano_Outro - Marker #8.ogg
+64,192,162945,1,0,0:0:0:100:Piano_Outro - Marker #6.ogg
+320,192,163230,1,0,0:0:0:100:Piano_Outro - Marker #4.ogg
+192,192,163486,1,0,0:0:0:100:Piano_Outro - Marker #2.ogg
+64,192,164158,1,0,0:0:0:30:Piano_Small - Marker #100.ogg
+192,192,164313,1,0,0:0:0:100:Piano_Outro - Marker #2.ogg
+320,192,164348,1,0,0:0:0:100:Piano_Outro - Marker #7.ogg
+448,192,164383,1,0,0:0:0:100:Piano_Outro - Marker #9.ogg
