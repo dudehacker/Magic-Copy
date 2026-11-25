@@ -311,12 +311,15 @@ public class OsuUtils {
     public static File getOsuFile(String path) {
         File f = null;
         FileFilter filter = new FileNameExtensionFilter("OSU file", "osu");
-        final JFileChooser jFileChooser1 = new javax.swing.JFileChooser(path);
+        String chooserPath = path != null && new File(path).isDirectory() ? path : System.getProperty("user.home");
+        final JFileChooser jFileChooser1 = new javax.swing.JFileChooser(chooserPath);
         jFileChooser1.addChoosableFileFilter(filter);
         jFileChooser1.setFileFilter(filter);
         // Open details
         Action details = jFileChooser1.getActionMap().get("viewTypeDetails");
-        details.actionPerformed(null);
+        if (details != null) {
+            details.actionPerformed(null);
+        }
         int returnVal = jFileChooser1.showOpenDialog(null);
         if (returnVal == JFileChooser.APPROVE_OPTION) {
             f = jFileChooser1.getSelectedFile();
