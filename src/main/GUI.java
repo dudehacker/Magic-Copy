@@ -94,7 +94,7 @@ public class GUI extends JFrame {
         btnCopy.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
 
-                if (inputFile.equals(outputFile)) {
+                if (inputFile != null && inputFile.equals(outputFile)) {
                     JOptionPane.showMessageDialog(null, "Source can't be same as Target!");
                 } else if (inputFile == null) {
                     JOptionPane.showMessageDialog(null, "Please select a Source file!");
@@ -154,7 +154,7 @@ public class GUI extends JFrame {
         InputStream input = null;
 
         try {
-            String propertyPath = path + "\\" + propertyName;
+            String propertyPath = new File(path, propertyName).getPath();
             File f = new File(propertyPath);
             if (f.exists() && f.isFile()) {
                 input = new FileInputStream(propertyPath);
@@ -180,7 +180,7 @@ public class GUI extends JFrame {
         Properties prop = new Properties();
         OutputStream output = null;
         try {
-            String propertyPath = path + "\\" + propertyName;
+            String propertyPath = new File(path, propertyName).getPath();
             File f = new File(propertyPath);
             if (!f.exists()) {
                 f.createNewFile();
@@ -208,12 +208,15 @@ public class GUI extends JFrame {
     private File getOsuFile() {
         File f = null;
         FileFilter filter = new FileNameExtensionFilter("OSU file", "osu");
-        final JFileChooser jFileChooser1 = new javax.swing.JFileChooser(defaultPath);
+        String chooserPath = new File(defaultPath).isDirectory() ? defaultPath : System.getProperty("user.home");
+        final JFileChooser jFileChooser1 = new javax.swing.JFileChooser(chooserPath);
         jFileChooser1.addChoosableFileFilter(filter);
         jFileChooser1.setFileFilter(filter);
         // Open details
         Action details = jFileChooser1.getActionMap().get("viewTypeDetails");
-        details.actionPerformed(null);
+        if (details != null) {
+            details.actionPerformed(null);
+        }
         int returnVal = jFileChooser1.showOpenDialog(null);
         if (returnVal == JFileChooser.APPROVE_OPTION) {
             f = jFileChooser1.getSelectedFile();
